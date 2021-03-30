@@ -1,36 +1,63 @@
 {
   "env": {
-    "browser": true,
-    "es2020": true,
-    "jest": true,
-    "node": true
+      "browser": true,
+      "es2021": true,
+      "node": true,
+      "jest": true
   },
   "settings": {
     "react": {
       "version": "detect"
+    },
+    "import/resolver": {
+      "typescript": {},
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
     }
   },
   "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended"
+      "plugin:react/recommended",
+      "airbnb",
+      "plugin:@typescript-eslint/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
-    },
-    "ecmaVersion": 11,
-    "sourceType": "module"
+      "ecmaFeatures": {
+          "jsx": true
+      },
+      "ecmaVersion": 12,
+      "sourceType": "module"
   },
-  "plugins": ["react", "react-hooks", "@typescript-eslint"],
+  "plugins": [
+      "react",
+      "@typescript-eslint",
+      "prettier",
+      "react-hooks"
+  ],
   "rules": {
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn",
-    "react/prop-types": "off",
-    "react/react-in-jsx-scope": "off",
-    "@typescript-eslint/explicit-module-boundary-types": "off"
+      "prettier/prettier": "error",
+      "space-before-function-paren": "off",
+      "arrow-parens": "off",
+      "react/prop-types": "off",
+      "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+      "react/react-in-jsx-scope": "off",
+      "react/jsx-props-no-spreading": "off",
+      "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn",
+      "@typescript-eslint/explicit-module-boundary-types": "off",
+      "implicit-arrow-linebreak": "off",
+      "import/prefer-default-export": "off",
+      "import/extensions": [
+        "error",
+        "ignorePackages",
+        {
+          "js": "never",
+          "jsx": "never",
+          "ts": "never",
+          "tsx": "never"
+        }
+     ]
   }
 }
