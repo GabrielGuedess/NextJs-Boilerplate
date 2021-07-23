@@ -32,6 +32,12 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    
+    
+    &::before,
+    &::after {
+      box-sizing: inherit;
+    }
   }
   html {
     font-size: 62.5%;
