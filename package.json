@@ -14,6 +14,12 @@
     "build-storybook": "build-storybook -s ./public",
     "postinstall": "husky install"
   },
+  "husky": {
+    "hooks": {
+    "prepare-commit-msg":"exec < /dev/tty && git cz --hook || true",
+    "commit-msg":"commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "lint-staged": {
     "src/**/*": [
       "yarn lint --fix",
@@ -30,6 +36,8 @@
   "devDependencies": {
     "@babel/core": "^7.13.10",
     "@babel/preset-typescript": "^7.13.0",
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
     "@storybook/addon-essentials": "6.1.21",
     "@storybook/react": "6.1.21",
     "@testing-library/jest-dom": "^5.11.9",
@@ -42,6 +50,8 @@
     "@typescript-eslint/parser": "^4.19.0",
     "babel-loader": "^8.2.2",
     "babel-plugin-styled-components": "^1.12.0",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "3.3.0",
     "eslint": "^7.23.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.1.0",
@@ -59,5 +69,10 @@
     "prettier": "^2.2.1",
     "storybook-addon-next-router": "^2.0.4",
     "typescript": "^4.2.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
