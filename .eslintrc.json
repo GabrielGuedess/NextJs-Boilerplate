@@ -51,7 +51,7 @@
     "implicit-arrow-linebreak": "off",
     "import/prefer-default-export": "off",
     "@typescript-eslint/no-non-null-assertion": "off",
-
+    "react/function-component-definition": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
@@ -70,7 +70,10 @@
         "groups": [
           "/^next/",
           "/^react/",
+          "/^@testing-library/",
           "/^components/",
+          "/^styled-components/",
+          "/^styles/",
           "module",
           ["parent", "sibling", "index"]
         ],
