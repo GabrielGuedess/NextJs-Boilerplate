@@ -29,6 +29,9 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
+# swc
+.swc
+
 # sw stuff
 public/sw.js
 public/workbox-*.js
