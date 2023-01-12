@@ -1,5 +1,5 @@
 name: Chromatic
-on: [pull_request, push]
+on: [pull_request_target, push]
 
 jobs:
   chromatic-deployment:
