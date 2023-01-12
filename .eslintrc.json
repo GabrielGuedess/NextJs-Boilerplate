@@ -19,7 +19,8 @@
   "extends": [
     "plugin:react/recommended",
     "airbnb",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "next"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -34,24 +35,29 @@
     "@typescript-eslint",
     "prettier",
     "react-hooks",
-    "import-helpers"
+    "import-helpers",
+    "@next/eslint-plugin-next"
   ],
   "rules": {
     "prettier/prettier": "error",
     "space-before-function-paren": "off",
     "arrow-parens": "off",
     "react/prop-types": "off",
-    "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
     "react/react-in-jsx-scope": "off",
     "react/jsx-props-no-spreading": "off",
-    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
     "react-hooks/rules-of-hooks": "error",
+    "import/no-anonymous-default-export": "off",
     "react-hooks/exhaustive-deps": "warn",
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "implicit-arrow-linebreak": "off",
     "import/prefer-default-export": "off",
     "@typescript-eslint/no-non-null-assertion": "off",
     "react/function-component-definition": "off",
+    "react/jsx-filename-extension": [
+      "error",
+      { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
+    ],
     "import/extensions": [
       "error",
       "ignorePackages",
@@ -62,7 +68,6 @@
         "tsx": "never"
       }
     ],
-
     "import-helpers/order-imports": [
       "warn",
       {
@@ -71,6 +76,7 @@
           "/^next/",
           "/^react/",
           "/^@testing-library/",
+          "/storybook/",
           "/^components/",
           "/^styled-components/",
           "/^styles/",

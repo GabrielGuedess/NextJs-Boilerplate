@@ -1,2 +1,4 @@
 !.storybook
 !.jest
+plopfile.ts
+next-seo.config.js
