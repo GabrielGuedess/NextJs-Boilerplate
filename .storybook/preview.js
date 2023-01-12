@@ -1,11 +1,11 @@
 import { RouterContext } from 'next/dist/shared/lib/router-context';
 
+import { themes } from '@storybook/theming';
+
 import { ThemeProvider } from 'styled-components';
 
 import GlobalStyles from 'styles/global';
 import theme from 'styles/theme';
-
-import { themes } from '@storybook/theming';
 
 export const parameters = {
   nextRouter: {
