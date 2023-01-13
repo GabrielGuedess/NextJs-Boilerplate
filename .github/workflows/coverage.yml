@@ -1,4 +1,4 @@
-name: CI
+name: Codecov
 on: [pull_request]
 
 jobs:
@@ -27,14 +27,8 @@ jobs:
       - name: Install dependencies
         run: yarn
 
-      - name: Linting
-        run: yarn lint
-
       - name: Test
         run: yarn test
 
-      - name: Storybook
-        run: yarn build-storybook
-
-      - name: Build
-        run: yarn build
+      - name: Codecov
+        uses: codecov/codecov-action@v3
