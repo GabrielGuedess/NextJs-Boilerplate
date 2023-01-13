@@ -39,7 +39,7 @@
     "styled-components": "5.3.6"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.4.1",
+    "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.0",
     "@next/eslint-plugin-next": "^13.1.1",
     "@storybook/addon-a11y": "^6.5.15",
