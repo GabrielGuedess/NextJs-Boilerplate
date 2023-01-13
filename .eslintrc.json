@@ -35,8 +35,7 @@
     "@typescript-eslint",
     "prettier",
     "react-hooks",
-    "import-helpers",
-    "@next/eslint-plugin-next"
+    "import-helpers"
   ],
   "rules": {
     "prettier/prettier": "error",
