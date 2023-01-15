@@ -1,51 +1,31 @@
 import { createGlobalStyle } from 'styled-components';
 
-const GlobalStyles = createGlobalStyle`
-    @font-face {
-      font-family: 'Poppins';
-      font-style: normal;
-      font-weight: 300;
-      font-display: swap;
-      src: local(''),
-          url('/fonts/poppins-v15-latin-300.woff2') format('woff2'),
-    }
-    @font-face {
-      font-family: 'Poppins';
-      font-style: normal;
-      font-weight: 400;
-      font-display: swap;
-      src: local(''),
-          url('/fonts/poppins-v15-latin-regular.woff2') format('woff2'),
-    }
-    @font-face {
-      font-family: 'Poppins';
-      font-style: normal;
-      font-weight: 600;
-      font-display: swap;
-      src: local(''),
-          url('/fonts/poppins-v15-latin-600.woff2') format('woff2'),
-    }
+import { Poppins } from '@next/font/google';
 
+const poppins = Poppins({
+  weight: ['300', '400', '500'],
+  display: 'swap',
+  subsets: ['latin'],
+});
+
+export const GlobalStyles = createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    
-    
-    &::before,
-    &::after {
+
+    :is(::before, ::after) {
       box-sizing: inherit;
     }
   }
+
   html {
     font-size: 62.5%;
   }
 
   body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: ${poppins.style.fontFamily};
   }
 `;
-
-export default GlobalStyles;
