@@ -35,6 +35,7 @@
     "@typescript-eslint",
     "prettier",
     "react-hooks",
+    "import",
     "import-helpers"
   ],
   "rules": {
