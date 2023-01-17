@@ -4,7 +4,7 @@ import { themes } from '@storybook/theming';
 
 import { ThemeProvider } from 'styled-components';
 
-import GlobalStyles from 'styles/global';
+import { GlobalStyles } from 'styles/global';
 import theme from 'styles/theme';
 
 export const parameters = {
@@ -14,6 +14,9 @@ export const parameters = {
   darkMode: {
     dark: { ...themes.dark, appBg: '#2F2F2F' },
     light: { ...themes.normal, appBg: '#FFFFFF' },
+  },
+  docs: {
+    theme: themes.dark,
   },
 };
 
