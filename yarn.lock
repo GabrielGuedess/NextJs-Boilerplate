@@ -3049,7 +3049,7 @@
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
 
-"@storybook/theming@7.0.0-beta.29", "@storybook/theming@^7.0.0-beta.28":
+"@storybook/theming@^7.0.0-beta.29":
   version "7.0.0-beta.29"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.0.0-beta.29.tgz#d3ee295c2e11eb1075533a04d4ffdaefe73a8d1e"
   integrity sha512-TF9HxhKR5UA0MrPh+NNtvTiIttYbWgCKYJze89jxFXtNdA1U7/QZm4NDXfI7Eqz2XLRlNue71c5KexBR8R26DQ==
