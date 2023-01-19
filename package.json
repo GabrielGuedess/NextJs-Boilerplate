@@ -55,7 +55,7 @@
     "@storybook/theming": "^7.0.0-beta.29",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
-    "@types/jest": "^29.2.5",
+    "@types/jest": "^29.2.6",
     "@types/node": "^18.11.18",
     "@types/react": "^18.0.26",
     "@types/styled-components": "^5.1.26",
