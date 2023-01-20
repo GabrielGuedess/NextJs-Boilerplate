@@ -1,13 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports['<Main /> should render the heading correctly 1'] = `
+exports[`<Main /> should render the heading correctly 1`] = `
 .c0 {
-  background-color: #06092b;
-  color: #fff;
-  width: 100%;
-  height: 100%;
-  padding: 3rem;
-  text-align: center;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -23,6 +17,12 @@ exports['<Main /> should render the heading correctly 1'] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+  color: #fff;
+  text-align: center;
+  background-color: #06092b;
 }
 
 .c1 {
@@ -31,8 +31,8 @@ exports['<Main /> should render the heading correctly 1'] = `
 }
 
 .c2 {
-  font-size: 2.5rem;
   margin-bottom: 1rem;
+  font-size: 2.5rem;
 }
 
 .c3 {
@@ -41,8 +41,8 @@ exports['<Main /> should render the heading correctly 1'] = `
 }
 
 .c4 {
-  margin-top: 3rem;
   width: min(30rem,100%);
+  margin-top: 3rem;
 }
 
 <main

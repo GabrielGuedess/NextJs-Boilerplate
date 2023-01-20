@@ -1,0 +1,46 @@
+{
+  "extends": [
+    "stylelint-config-recommended",
+    "stylelint-config-styled-components",
+    "stylelint-config-prettier",
+    "stylelint-config-clean-order"
+  ],
+  "customSyntax": "@stylelint/postcss-css-in-js",
+  "plugins": ["stylelint-order"],
+  "rules": {
+    "rule-empty-line-before": ["always", { "except": "first-nested" }],
+    "at-rule-empty-line-before": "always",
+    "color-hex-case": "lower",
+    "color-no-invalid-hex": true,
+    "shorthand-property-no-redundant-values": true,
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": ["extends"]
+      }
+    ],
+    "block-no-empty": [
+      true,
+      {
+        "ignore": ["comments"]
+      }
+    ],
+    "unit-allowed-list": ["em", "rem", "%", "px", "s", "deg", "vh", "ms"],
+    "order/order": [
+      [
+        "declarations",
+        "rules",
+        "at-rules",
+        {
+          "type": "at-rule",
+          "name": "keyframes"
+        },
+        {
+          "type": "at-rule",
+          "name": "media"
+        }
+      ],
+      { "severity": "error" }
+    ]
+  }
+}

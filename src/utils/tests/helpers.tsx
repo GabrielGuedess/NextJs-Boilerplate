@@ -1,4 +1,4 @@
-import { render, RenderResult } from '@testing-library/react';
+import { RenderResult, render } from '@testing-library/react';
 
 import { ThemeProvider } from 'styled-components';
 

@@ -3,7 +3,8 @@
     "browser": true,
     "es2021": true,
     "node": true,
-    "jest": true
+    "jest": true,
+    "jest/globals": true
   },
   "settings": {
     "react": {
@@ -20,6 +21,12 @@
     "plugin:react/recommended",
     "airbnb",
     "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:styled-components-a11y/recommended",
+    "plugin:storybook/recommended",
+    "plugin:jest/recommended",
+    "plugin:jest/style",
+    "stylelint",
     "next"
   ],
   "parser": "@typescript-eslint/parser",
@@ -28,18 +35,33 @@
       "jsx": true
     },
     "ecmaVersion": 12,
-    "sourceType": "module"
+    "sourceType": "module",
+    "tsconfigRootDir": ".",
+    "project": ["./tsconfig.json"]
   },
   "plugins": [
     "react",
     "@typescript-eslint",
     "prettier",
     "react-hooks",
+    "styled-components-a11y",
     "import",
+    "jest",
     "import-helpers"
   ],
   "rules": {
     "prettier/prettier": "error",
+    "node/no-missing-import": "off",
+    "sort-imports": "off",
+    "node/no-unpublished-import": "off",
+    "no-undef": "off",
+    "node/no-unsupported-features/es-syntax": "off",
+    "node/no-extraneous-import": "off",
+    "jest/no-disabled-tests": "warn",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/prefer-to-have-length": "warn",
+    "jest/valid-expect": "error",
     "space-before-function-paren": "off",
     "arrow-parens": "off",
     "react/prop-types": "off",

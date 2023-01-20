@@ -32,6 +32,9 @@ yarn-error.log*
 # swc
 .swc
 
+# tsc
+tsconfig.tsbuildinfo
+
 # sw stuff
 public/sw.js
 public/workbox-*.js
