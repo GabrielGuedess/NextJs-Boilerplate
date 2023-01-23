@@ -21,7 +21,6 @@
     "plugin:react/recommended",
     "airbnb",
     "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "plugin:styled-components-a11y/recommended",
     "plugin:storybook/recommended",
     "plugin:jest/recommended",
@@ -35,9 +34,7 @@
       "jsx": true
     },
     "ecmaVersion": 12,
-    "sourceType": "module",
-    "tsconfigRootDir": ".",
-    "project": ["./tsconfig.json"]
+    "sourceType": "module"
   },
   "plugins": [
     "react",
