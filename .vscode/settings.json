@@ -1,6 +1,4 @@
 {
-  "editor.formatOnSave": false,
-
   "stylelint.validate": ["postcss", "typescript", "typescriptreact", "js"],
 
   "editor.codeActionsOnSave": {
