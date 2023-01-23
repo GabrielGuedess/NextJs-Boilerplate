@@ -98,7 +98,7 @@
     "postcss-scss": "^4.0.6",
     "postcss-syntax": "^0.36.2",
     "prettier": "^2.8.3",
-    "storybook": "7.0.0-beta.30",
+    "storybook": "7.0.0-beta.31",
     "storybook-addon-designs": "^6.3.1",
     "storybook-addon-pseudo-states": "^2.0.0-next.0",
     "storybook-dark-mode": "^2.0.5",
