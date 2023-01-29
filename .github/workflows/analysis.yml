@@ -1,5 +1,10 @@
 name: 'Next.js Bundle Analysis'
-on: [pull_request]
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
 
 defaults:
   run:
@@ -46,6 +51,7 @@ jobs:
         with:
           workflow: nextjs_bundle_analysis.yml
           branch: ${{ github.event.pull_request.base.ref }}
+          pr: ${{github.event.pull_request.number}}
           path: .next/analyze/base
           search_artifacts: true
 
