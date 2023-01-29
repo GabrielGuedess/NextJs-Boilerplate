@@ -15,7 +15,7 @@ export const Main = ({ title, description }: MainProps) => (
     <S.Description>{description}</S.Description>
     <S.Illustration
       src="/img/hero-illustration.svg"
-      alt="Um desenvolvedor de frente para uma tela com código."
+      alt="Um desenvolvedor de frente para uma tela com código. TEST"
     />
   </S.Wrapper>
 );

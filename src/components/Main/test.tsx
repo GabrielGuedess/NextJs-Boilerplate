@@ -7,7 +7,7 @@ describe('<Main />', () => {
     const { container } = render(
       <Main
         title="React Avançado"
-        description="TypeScript, ReactJS, NextJS e Styled Components"
+        description="Um desenvolvedor de frente para uma tela com código. TEST"
       />,
     );
 
@@ -22,7 +22,7 @@ describe('<Main />', () => {
     const { container } = render(
       <Main
         title="React Avançado"
-        description="TypeScript, ReactJS, NextJS e Styled Components"
+        description="Um desenvolvedor de frente para uma tela com código. TEST"
       />,
     );
 
