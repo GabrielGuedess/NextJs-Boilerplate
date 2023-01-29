@@ -1,13 +1,21 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
+/* eslint-disable @typescript-eslint/no-var-requires */
+/** @type {import('next').NextConfig} */
+
 const withPWA = require('next-pwa')({
   dest: 'public',
   disable: !(process.env.NODE_ENV === 'production'),
 });
 
-module.exports = withPWA({
-  swcMinify: true,
-  reactStrictMode: true,
-  compiler: {
-    styledComponents: true,
-  },
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
+  enabled: process.env.ANALYZE === 'true',
 });
+
+module.exports = withBundleAnalyzer(
+  withPWA({
+    swcMinify: true,
+    reactStrictMode: true,
+    compiler: {
+      styledComponents: true,
+    },
+  }),
+);
