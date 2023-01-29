@@ -49,7 +49,8 @@ jobs:
         uses: dawidd6/action-download-artifact@v2
         if: success() && github.event.number
         with:
-          workflow: nextjs_bundle_analysis.yml
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          workflow: analysis.yml
           branch: ${{ github.event.pull_request.base.ref }}
           path: .next/analyze/base
           search_artifacts: true
