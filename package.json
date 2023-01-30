@@ -7,6 +7,7 @@
     "build": "next build",
     "build:analyzer": "ANALYZE=true next build",
     "start": "next start",
+    "find-deadcode": "ts-prune -p tsconfig.json -e",
     "typecheck": "tsc --noEmit",
     "lint": "eslint src --max-warnings=0",
     "lint:css": "stylelint src --max-warnings=0",
@@ -31,6 +32,7 @@
   "lint-staged": {
     "src/**/*.{ts,tsx}": [
       "bash -c tsc --noEmit",
+      "yarn find-deadcode",
       "yarn lint --fix",
       "yarn lint:css --fix",
       "yarn test --findRelatedTests --bail --passWithNoTests"
@@ -120,6 +122,7 @@
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-order": "^6.0.1",
     "ts-node": "^10.9.1",
+    "ts-prune": "^0.10.3",
     "typescript": "^4.9.4"
   }
 }

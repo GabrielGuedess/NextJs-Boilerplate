@@ -30,6 +30,9 @@ jobs:
       - name: Typecheck
         run: yarn typecheck
 
+      - name: Find unused exports
+        run: yarn find-deadcode
+
       - name: Linting
         run: yarn lint
 

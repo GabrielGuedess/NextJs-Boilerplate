@@ -1,10 +1,12 @@
-import { render, screen } from '@testing-library/react';
+import { screen } from '@testing-library/react';
+
+import { renderWithTheme } from 'utils/tests/helpers';
 
 import { Main } from '.';
 
 describe('<Main />', () => {
   it('should render the heading correctly', () => {
-    const { container } = render(
+    const { container } = renderWithTheme(
       <Main
         title="React Avançado"
         description="TypeScript, ReactJS, NextJS e Styled Components"
@@ -19,7 +21,7 @@ describe('<Main />', () => {
   });
 
   it('should render the colors correctly', () => {
-    const { container } = render(
+    const { container } = renderWithTheme(
       <Main
         title="React Avançado"
         description="TypeScript, ReactJS, NextJS e Styled Components"
