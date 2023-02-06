@@ -2419,21 +2419,21 @@
     lodash.union "^4.6.0"
     lodash.values "^4.3.0"
 
-"@storybook/addon-a11y@^7.0.0-beta.40":
-  version "7.0.0-beta.40"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-7.0.0-beta.40.tgz#8b59bc22c80b4ec754e0d0241984dc82d4b8d92f"
-  integrity sha512-9SzL/z0VybOduN7qnokEFI2mnUUbcfu5qmv7WHzgzQh19xag8N+vxky12sL3TfhVbRMC1izc3CEok+BypT8mWw==
+"@storybook/addon-a11y@^7.0.0-beta.43":
+  version "7.0.0-beta.43"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-7.0.0-beta.43.tgz#7dc90699881f2e092da031e8628b104ab0706898"
+  integrity sha512-+xb5mMOMPDaSKsrfISGkZGe/zsYtctOKq9wam+hGhxFpTu3qcmgG0i5Ysz67ujuCtpa18sGrgTkilDs33SC5RA==
   dependencies:
-    "@storybook/addon-highlight" "7.0.0-beta.40"
-    "@storybook/channels" "7.0.0-beta.40"
-    "@storybook/client-logger" "7.0.0-beta.40"
-    "@storybook/components" "7.0.0-beta.40"
-    "@storybook/core-events" "7.0.0-beta.40"
+    "@storybook/addon-highlight" "7.0.0-beta.43"
+    "@storybook/channels" "7.0.0-beta.43"
+    "@storybook/client-logger" "7.0.0-beta.43"
+    "@storybook/components" "7.0.0-beta.43"
+    "@storybook/core-events" "7.0.0-beta.43"
     "@storybook/global" "^5.0.0"
-    "@storybook/manager-api" "7.0.0-beta.40"
-    "@storybook/preview-api" "7.0.0-beta.40"
-    "@storybook/theming" "7.0.0-beta.40"
-    "@storybook/types" "7.0.0-beta.40"
+    "@storybook/manager-api" "7.0.0-beta.43"
+    "@storybook/preview-api" "7.0.0-beta.43"
+    "@storybook/theming" "7.0.0-beta.43"
+    "@storybook/types" "7.0.0-beta.43"
     axe-core "^4.2.0"
     lodash "^4.17.21"
     react-resize-detector "^7.1.2"
@@ -2547,6 +2547,15 @@
     "@storybook/core-events" "7.0.0-beta.40"
     "@storybook/global" "^5.0.0"
     "@storybook/preview-api" "7.0.0-beta.40"
+
+"@storybook/addon-highlight@7.0.0-beta.43":
+  version "7.0.0-beta.43"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-highlight/-/addon-highlight-7.0.0-beta.43.tgz#3b0bcbfed3f44a40498edadf71115aadf919d586"
+  integrity sha512-XMFTqqJbDDPU3E9TAihMKJQTTV5q7yAUjWHkTlUJyG8sefgl8zyaPZ4yd7INN+ZznbtThySzz10gPR921ny0Zg==
+  dependencies:
+    "@storybook/core-events" "7.0.0-beta.43"
+    "@storybook/global" "^5.0.0"
+    "@storybook/preview-api" "7.0.0-beta.43"
 
 "@storybook/addon-interactions@^7.0.0-beta.40":
   version "7.0.0-beta.40"
