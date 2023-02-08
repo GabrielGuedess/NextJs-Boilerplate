@@ -2657,7 +2657,7 @@
     "@storybook/preview-api" "7.0.0-beta.43"
     "@storybook/theming" "7.0.0-beta.43"
 
-"@storybook/addon-viewport@7.0.0-beta.43", "@storybook/addon-viewport@^7.0.0-beta.43":
+"@storybook/addon-viewport@7.0.0-beta.43":
   version "7.0.0-beta.43"
   resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-7.0.0-beta.43.tgz#897a464367db795cbe5ec9e3b06cc633d6e6a303"
   integrity sha512-XhiS3o6M4DTkPfetad+HqSw1wZzs+69YY3WWChuQ5px3NsJ8Lp77ew0wYfQwRf8WdrhnUtx1GRKEnU0XW4dHDw==
@@ -2669,6 +2669,21 @@
     "@storybook/manager-api" "7.0.0-beta.43"
     "@storybook/preview-api" "7.0.0-beta.43"
     "@storybook/theming" "7.0.0-beta.43"
+    memoizerific "^1.11.3"
+    prop-types "^15.7.2"
+
+"@storybook/addon-viewport@^7.0.0-beta.44":
+  version "7.0.0-beta.44"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-7.0.0-beta.44.tgz#d0665277cd744da333f6b3662aa89444fae10a40"
+  integrity sha512-1DmyVK+nwwQkz8iNXgrWa5MeqMt+YccV46LMAzIg1o+XXFDvfAY/N4YrZUXUM3DfIeOdZ2GkfyUwf7upuEipSw==
+  dependencies:
+    "@storybook/client-logger" "7.0.0-beta.44"
+    "@storybook/components" "7.0.0-beta.44"
+    "@storybook/core-events" "7.0.0-beta.44"
+    "@storybook/global" "^5.0.0"
+    "@storybook/manager-api" "7.0.0-beta.44"
+    "@storybook/preview-api" "7.0.0-beta.44"
+    "@storybook/theming" "7.0.0-beta.44"
     memoizerific "^1.11.3"
     prop-types "^15.7.2"
 
