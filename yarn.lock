@@ -2635,7 +2635,7 @@
     "@storybook/preview-api" "7.0.0-beta.44"
     "@storybook/theming" "7.0.0-beta.44"
 
-"@storybook/addon-viewport@7.0.0-beta.44", "@storybook/addon-viewport@^7.0.0-beta.44":
+"@storybook/addon-viewport@7.0.0-beta.44":
   version "7.0.0-beta.44"
   resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-7.0.0-beta.44.tgz#d0665277cd744da333f6b3662aa89444fae10a40"
   integrity sha512-1DmyVK+nwwQkz8iNXgrWa5MeqMt+YccV46LMAzIg1o+XXFDvfAY/N4YrZUXUM3DfIeOdZ2GkfyUwf7upuEipSw==
@@ -2647,6 +2647,21 @@
     "@storybook/manager-api" "7.0.0-beta.44"
     "@storybook/preview-api" "7.0.0-beta.44"
     "@storybook/theming" "7.0.0-beta.44"
+    memoizerific "^1.11.3"
+    prop-types "^15.7.2"
+
+"@storybook/addon-viewport@^7.0.0-beta.45":
+  version "7.0.0-beta.45"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-7.0.0-beta.45.tgz#c71b10e9c8de69e2ac3e4dfeb1dd7608230941ee"
+  integrity sha512-cL/90Xk+FF0+Vje9SK8BhOntdlahTHsZULqGs30b6VgYRMiH1VDghA2kcGJKxTiwIdKlogZ/usKoFUxmD8VECQ==
+  dependencies:
+    "@storybook/client-logger" "7.0.0-beta.45"
+    "@storybook/components" "7.0.0-beta.45"
+    "@storybook/core-events" "7.0.0-beta.45"
+    "@storybook/global" "^5.0.0"
+    "@storybook/manager-api" "7.0.0-beta.45"
+    "@storybook/preview-api" "7.0.0-beta.45"
+    "@storybook/theming" "7.0.0-beta.45"
     memoizerific "^1.11.3"
     prop-types "^15.7.2"
 
@@ -2819,6 +2834,18 @@
     qs "^6.10.0"
     telejson "^7.0.3"
 
+"@storybook/channel-postmessage@7.0.0-beta.45":
+  version "7.0.0-beta.45"
+  resolved "https://registry.yarnpkg.com/@storybook/channel-postmessage/-/channel-postmessage-7.0.0-beta.45.tgz#c308f14fcb6d8cdce7b8f629a5283c533ce948b3"
+  integrity sha512-K2QLwE7eqpUqoRpbvSHJHDA1I0/aAnv8ZQSZ6j7JGGRmRMUeZkWbQGwnhZp6rxboXNxQuich/ZtZ0erVQPbMqw==
+  dependencies:
+    "@storybook/channels" "7.0.0-beta.45"
+    "@storybook/client-logger" "7.0.0-beta.45"
+    "@storybook/core-events" "7.0.0-beta.45"
+    "@storybook/global" "^5.0.0"
+    qs "^6.10.0"
+    telejson "^7.0.3"
+
 "@storybook/channel-websocket@7.0.0-beta.44":
   version "7.0.0-beta.44"
   resolved "https://registry.yarnpkg.com/@storybook/channel-websocket/-/channel-websocket-7.0.0-beta.44.tgz#2ad36221f0e2a2642d41094a706c9b2e4f117c29"
@@ -2842,6 +2869,11 @@
   version "7.0.0-beta.44"
   resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-7.0.0-beta.44.tgz#3e3d99871a8c8b95eb83b0e9c449426a10f948aa"
   integrity sha512-znidW6GcVe4EGVxO/Zx69NdFQh6P4v1k/xnQeGMQw41U0hbdkK8rGj9VvujYRif6A/+IaY49BMuiMHfm4DGVdw==
+
+"@storybook/channels@7.0.0-beta.45":
+  version "7.0.0-beta.45"
+  resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-7.0.0-beta.45.tgz#0404ba15437e2cb17dde2ea51fa17a218e597970"
+  integrity sha512-wu497OYFmeD+0WQKxAMieaD1SfohvKa+IOocnNRQKGxbYWcKjjnKhoxN7JRoc6xG+GFS+x3Y48CiedtW0x0aqw==
 
 "@storybook/cli@7.0.0-beta.44":
   version "7.0.0-beta.44"
@@ -2907,6 +2939,13 @@
   dependencies:
     "@storybook/global" "^5.0.0"
 
+"@storybook/client-logger@7.0.0-beta.45":
+  version "7.0.0-beta.45"
+  resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-7.0.0-beta.45.tgz#1624d510baf8cb8478cf1abbe6b38a9d03af8e05"
+  integrity sha512-9qNiKOcCam8b3csgRbA8REiyuE9+lNQAeWZLogAbAjaXJMM9Vanc4ir2rQuxOVgWxd0Ansi1LtgteqFlNCMXaQ==
+  dependencies:
+    "@storybook/global" "^5.0.0"
+
 "@storybook/codemod@7.0.0-beta.44":
   version "7.0.0-beta.44"
   resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-7.0.0-beta.44.tgz#675f9e01b4a98a23000b37e9f8a53e4e1ef7497e"
@@ -2937,6 +2976,20 @@
     "@storybook/global" "^5.0.0"
     "@storybook/theming" "7.0.0-beta.44"
     "@storybook/types" "7.0.0-beta.44"
+    memoizerific "^1.11.3"
+    use-resize-observer "^9.1.0"
+    util-deprecate "^1.0.2"
+
+"@storybook/components@7.0.0-beta.45":
+  version "7.0.0-beta.45"
+  resolved "https://registry.yarnpkg.com/@storybook/components/-/components-7.0.0-beta.45.tgz#d70d120c93e984b2587c1c727bff17d90c27d949"
+  integrity sha512-+7opTaYdl3hkkYZ+mcicFLo7PI2Abs5gvYSSxjGhBWL4cb8H385Fj6R1mNcDKGqSyppxsfaJ4dI8MBjL/8PRmQ==
+  dependencies:
+    "@storybook/client-logger" "7.0.0-beta.45"
+    "@storybook/csf" next
+    "@storybook/global" "^5.0.0"
+    "@storybook/theming" "7.0.0-beta.45"
+    "@storybook/types" "7.0.0-beta.45"
     memoizerific "^1.11.3"
     use-resize-observer "^9.1.0"
     util-deprecate "^1.0.2"
@@ -3004,6 +3057,11 @@
   version "7.0.0-beta.44"
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-7.0.0-beta.44.tgz#06b8f72402e35b615b635d0726b3b7d8c5a5ff46"
   integrity sha512-A+fukiYDXWXe9K+Dgd9R71tDJQZMVUifqJs3ypIi1d5nQ2atLWkrKKlRrfDiqNljjPAQAtp69s5xX6H2Nb/ziQ==
+
+"@storybook/core-events@7.0.0-beta.45":
+  version "7.0.0-beta.45"
+  resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-7.0.0-beta.45.tgz#61bbdf6486c0f9917dcd5b3d2d590310192ccf14"
+  integrity sha512-nS1MX1fGHkMdAkbmRZrsU5RV1G3y/43YqJ51L6D2KmUkCam8oC2br0EgGoKsHtzcdgdsbElCATqa9XqtxVFbDg==
 
 "@storybook/core-server@7.0.0-beta.44":
   version "7.0.0-beta.44"
@@ -3163,6 +3221,27 @@
     telejson "^7.0.3"
     ts-dedent "^2.0.0"
 
+"@storybook/manager-api@7.0.0-beta.45":
+  version "7.0.0-beta.45"
+  resolved "https://registry.yarnpkg.com/@storybook/manager-api/-/manager-api-7.0.0-beta.45.tgz#d8f0ccdbf91375be49bcddad6a182dea476d928f"
+  integrity sha512-hG5mcD+a+8/q6VZ5HX5rZjhHO1hwBVv5L8V7Jlu1YbfmeUo+kM9Sb763bpKxo2OwUC0iwaYglHDUL0urFgknUg==
+  dependencies:
+    "@storybook/channels" "7.0.0-beta.45"
+    "@storybook/client-logger" "7.0.0-beta.45"
+    "@storybook/core-events" "7.0.0-beta.45"
+    "@storybook/csf" next
+    "@storybook/global" "^5.0.0"
+    "@storybook/router" "7.0.0-beta.45"
+    "@storybook/theming" "7.0.0-beta.45"
+    "@storybook/types" "7.0.0-beta.45"
+    dequal "^2.0.2"
+    lodash "^4.17.21"
+    memoizerific "^1.11.3"
+    semver "^7.3.7"
+    store2 "^2.14.2"
+    telejson "^7.0.3"
+    ts-dedent "^2.0.0"
+
 "@storybook/manager@7.0.0-beta.44":
   version "7.0.0-beta.44"
   resolved "https://registry.yarnpkg.com/@storybook/manager/-/manager-7.0.0-beta.44.tgz#1e87d78b34b581f3cc975c3bef92eee7db67d1bb"
@@ -3258,6 +3337,28 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
+"@storybook/preview-api@7.0.0-beta.45":
+  version "7.0.0-beta.45"
+  resolved "https://registry.yarnpkg.com/@storybook/preview-api/-/preview-api-7.0.0-beta.45.tgz#d278b029a9f1c4eaa9cd5bedf786733659833580"
+  integrity sha512-GBVqxeRFK4oQc17J+QV92+w3NuFbENRCo8xkybf7uUhzz9+72Znj89jjg/hbf86B5UBs2uen2GGciaNckyQmJg==
+  dependencies:
+    "@storybook/channel-postmessage" "7.0.0-beta.45"
+    "@storybook/channels" "7.0.0-beta.45"
+    "@storybook/client-logger" "7.0.0-beta.45"
+    "@storybook/core-events" "7.0.0-beta.45"
+    "@storybook/csf" next
+    "@storybook/global" "^5.0.0"
+    "@storybook/types" "7.0.0-beta.45"
+    "@types/qs" "^6.9.5"
+    dequal "^2.0.2"
+    lodash "^4.17.21"
+    memoizerific "^1.11.3"
+    qs "^6.10.0"
+    slash "^3.0.0"
+    synchronous-promise "^2.0.15"
+    ts-dedent "^2.0.0"
+    util-deprecate "^1.0.2"
+
 "@storybook/preview@7.0.0-beta.44":
   version "7.0.0-beta.44"
   resolved "https://registry.yarnpkg.com/@storybook/preview/-/preview-7.0.0-beta.44.tgz#0a97a70e61a69fb3ef2858841f7568d8757cd57b"
@@ -3322,6 +3423,15 @@
     memoizerific "^1.11.3"
     qs "^6.10.0"
 
+"@storybook/router@7.0.0-beta.45":
+  version "7.0.0-beta.45"
+  resolved "https://registry.yarnpkg.com/@storybook/router/-/router-7.0.0-beta.45.tgz#83d23a971fe047569eaca269758c5fe4cc3f8ed8"
+  integrity sha512-WRDlAMD2SQ2qX7TCNVuDQVSq4cvrjvNoFPxvtDLM7GjhnVk2+4Yw2AlKaRYed65ItzkvHMvBg/wXM5GpgdRvfQ==
+  dependencies:
+    "@storybook/client-logger" "7.0.0-beta.45"
+    memoizerific "^1.11.3"
+    qs "^6.10.0"
+
 "@storybook/semver@^7.3.2":
   version "7.3.2"
   resolved "https://registry.yarnpkg.com/@storybook/semver/-/semver-7.3.2.tgz#f3b9c44a1c9a0b933c04e66d0048fcf2fa10dac0"
@@ -3363,13 +3473,23 @@
     memoizerific "^1.11.3"
     regenerator-runtime "^0.13.7"
 
-"@storybook/theming@7.0.0-beta.44", "@storybook/theming@^7.0.0-beta.29":
+"@storybook/theming@7.0.0-beta.44":
   version "7.0.0-beta.44"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.0.0-beta.44.tgz#bf16a1a6847ff765ebf080dc8f138dfe6aa830ba"
   integrity sha512-XLIPx97mzNDilS+cyD+HFycea6oMZPwaMGOSgCA8pJZkNoChRihCG7Tew5Gu+LoRDfgZQ6Dm0qGxJmzG3Zz/tQ==
   dependencies:
     "@emotion/use-insertion-effect-with-fallbacks" "^1.0.0"
     "@storybook/client-logger" "7.0.0-beta.44"
+    "@storybook/global" "^5.0.0"
+    memoizerific "^1.11.3"
+
+"@storybook/theming@7.0.0-beta.45", "@storybook/theming@^7.0.0-beta.29":
+  version "7.0.0-beta.45"
+  resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.0.0-beta.45.tgz#11e47d451e62e69a408902cea546d24630120972"
+  integrity sha512-jMtXy5jhU/dy02vzXbyJ1jbqdTzleydXQ+/rtzWuaMr4k/Sv+XzvPqOIkGoSAxdOuuxns95mZWIIq/s8JeZukg==
+  dependencies:
+    "@emotion/use-insertion-effect-with-fallbacks" "^1.0.0"
+    "@storybook/client-logger" "7.0.0-beta.45"
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
 
@@ -3380,6 +3500,18 @@
   dependencies:
     "@babel/core" "^7.12.10"
     "@storybook/channels" "7.0.0-beta.44"
+    "@types/babel__core" "^7.0.0"
+    "@types/express" "^4.7.0"
+    express "^4.17.3"
+    file-system-cache "^2.0.0"
+
+"@storybook/types@7.0.0-beta.45":
+  version "7.0.0-beta.45"
+  resolved "https://registry.yarnpkg.com/@storybook/types/-/types-7.0.0-beta.45.tgz#cac1a6f6396673d4b2530e1e3da2f66b93455efc"
+  integrity sha512-DGiw1lhOQ/Zy7TM7qsboR3Htu0FaMYEk3bSxLFMQgHZmf+n5z6ZPiNYTLQVrZ41BahfSCZMIRJDLQjJAQtPsdg==
+  dependencies:
+    "@babel/core" "^7.12.10"
+    "@storybook/channels" "7.0.0-beta.45"
     "@types/babel__core" "^7.0.0"
     "@types/express" "^4.7.0"
     express "^4.17.3"
