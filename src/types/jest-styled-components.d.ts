@@ -2,7 +2,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @typescript-eslint/ban-types */
-import { NewPlugin, Plugin } from 'pretty-format';
+import { type NewPlugin, type Plugin } from 'pretty-format';
 
 declare global {
   namespace jest {

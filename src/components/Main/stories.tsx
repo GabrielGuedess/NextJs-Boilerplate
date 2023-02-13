@@ -1,6 +1,6 @@
-import { StoryFn, Meta } from '@storybook/react';
+import { type StoryFn, type Meta } from '@storybook/react';
 
-import { Main, MainProps } from '.';
+import { type MainProps, Main } from '.';
 
 export default {
   title: 'Main',

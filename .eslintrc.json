@@ -10,6 +10,9 @@
     "react": {
       "version": "detect"
     },
+    "jest": {
+      "version": "detect"
+    },
     "import/resolver": {
       "typescript": {},
       "node": {
@@ -36,6 +39,7 @@
     "plugin:jest/style",
     "plugin:jest/recommended",
     "plugin:react/recommended",
+    "plugin:unicorn/recommended",
     "plugin:storybook/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:styled-components-a11y/recommended"
@@ -47,6 +51,7 @@
     "prettier",
     "react-hooks",
     "import-helpers",
+    "jest-formatting",
     "@typescript-eslint",
     "styled-components-a11y"
   ],
@@ -68,7 +73,8 @@
       "files": ["**.d.ts"],
       "rules": {
         "@typescript-eslint/naming-convention": "off",
-        "@typescript-eslint/no-empty-interface": "off"
+        "@typescript-eslint/no-empty-interface": "off",
+        "unicorn/filename-case": ["error", { "case": "kebabCase" }]
       }
     }
   ],
@@ -79,6 +85,8 @@
     "jest/no-identical-title": "error",
     "import/no-default-export": "error",
     "react-hooks/rules-of-hooks": "error",
+    "jest-formatting/padding-around-test-blocks": "error",
+    "jest-formatting/padding-around-describe-blocks": "error",
     "jest/no-disabled-tests": "warn",
     "jest/prefer-to-have-length": "warn",
     "react-hooks/exhaustive-deps": "warn",
@@ -88,7 +96,36 @@
     "node/no-unpublished-import": "off",
     "react/jsx-props-no-spreading": "off",
     "import/prefer-default-export": "off",
+    "import/no-duplicates": ["error", { "prefer-inline": true }],
+    "arrow-body-style": ["error", "as-needed"],
     "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "import/consistent-type-specifier-style": ["error", "prefer-inline"],
+    "@typescript-eslint/consistent-type-imports": [
+      "error",
+      { "prefer": "type-imports" }
+    ],
+    "unicorn/prevent-abbreviations": [
+      "error",
+      {
+        "replacements": {
+          "props": {
+            "properties": false
+          },
+          "args": {
+            "arguments": false
+          }
+        }
+      }
+    ],
+    "unicorn/filename-case": [
+      "error",
+      {
+        "cases": {
+          "camelCase": true,
+          "pascalCase": true
+        }
+      }
+    ],
     "@typescript-eslint/naming-convention": [
       "error",
       {
