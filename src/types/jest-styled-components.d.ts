@@ -1,3 +1,4 @@
+/* eslint-disable node/no-extraneous-import */
 /* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @typescript-eslint/ban-types */

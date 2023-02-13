@@ -1,9 +1,9 @@
 {
   "env": {
-    "browser": true,
-    "es2021": true,
     "node": true,
     "jest": true,
+    "es2021": true,
+    "browser": true,
     "jest/globals": true
   },
   "settings": {
@@ -17,73 +17,115 @@
       }
     }
   },
-  "extends": [
-    "plugin:react/recommended",
-    "airbnb",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:styled-components-a11y/recommended",
-    "plugin:storybook/recommended",
-    "plugin:jest/recommended",
-    "plugin:jest/style",
-    "stylelint",
-    "next"
-  ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
     },
-    "ecmaVersion": 12,
+    "ecmaVersion": 13,
     "sourceType": "module"
   },
+  "globals": {
+    "JSX": "readonly",
+    "React": "readonly"
+  },
+  "extends": [
+    "next",
+    "airbnb",
+    "stylelint",
+    "plugin:jest/style",
+    "plugin:jest/recommended",
+    "plugin:react/recommended",
+    "plugin:storybook/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:styled-components-a11y/recommended"
+  ],
   "plugins": [
+    "jest",
     "react",
-    "@typescript-eslint",
+    "import",
     "prettier",
     "react-hooks",
-    "styled-components-a11y",
-    "import",
-    "jest",
-    "import-helpers"
+    "import-helpers",
+    "@typescript-eslint",
+    "styled-components-a11y"
+  ],
+  "overrides": [
+    {
+      "files": ["src/pages/*", "src/pages/api/*", "**/stories.tsx"],
+      "rules": {
+        "import/no-default-export": "off"
+      }
+    },
+    {
+      "files": ["**.js"],
+      "rules": {
+        "no-undef": "off",
+        "@typescript-eslint/no-var-requires": "off"
+      }
+    },
+    {
+      "files": ["**.d.ts"],
+      "rules": {
+        "@typescript-eslint/naming-convention": "off",
+        "@typescript-eslint/no-empty-interface": "off"
+      }
+    }
   ],
   "rules": {
     "prettier/prettier": "error",
-    "node/no-missing-import": "off",
-    "sort-imports": "off",
-    "node/no-unpublished-import": "off",
-    "no-undef": "off",
-    "node/no-unsupported-features/es-syntax": "off",
-    "node/no-extraneous-import": "off",
-    "jest/no-disabled-tests": "warn",
+    "jest/valid-expect": "error",
     "jest/no-focused-tests": "error",
     "jest/no-identical-title": "error",
-    "jest/prefer-to-have-length": "warn",
-    "jest/valid-expect": "error",
-    "space-before-function-paren": "off",
-    "arrow-parens": "off",
-    "react/prop-types": "off",
-    "react/react-in-jsx-scope": "off",
-    "react/jsx-props-no-spreading": "off",
-    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "import/no-default-export": "error",
     "react-hooks/rules-of-hooks": "error",
-    "import/no-anonymous-default-export": "off",
+    "jest/no-disabled-tests": "warn",
+    "jest/prefer-to-have-length": "warn",
     "react-hooks/exhaustive-deps": "warn",
-    "@typescript-eslint/explicit-module-boundary-types": "off",
-    "implicit-arrow-linebreak": "off",
+    "sort-imports": "off",
+    "react/jsx-no-undef": "off",
+    "node/no-missing-import": "off",
+    "node/no-unpublished-import": "off",
+    "react/jsx-props-no-spreading": "off",
     "import/prefer-default-export": "off",
-    "@typescript-eslint/no-non-null-assertion": "off",
-    "react/function-component-definition": "off",
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        "selector": "interface",
+        "format": ["PascalCase"],
+        "custom": {
+          "regex": "^I[A-Z]",
+          "match": true
+        }
+      },
+      {
+        "selector": "typeAlias",
+        "format": ["PascalCase"],
+        "custom": {
+          "regex": "[A-Z]*Props$",
+          "match": true
+        }
+      }
+    ],
+    "react/function-component-definition": [
+      "error",
+      {
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
+      }
+    ],
     "react/jsx-filename-extension": [
       "error",
-      { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
+      { "extensions": [".js", ".ts", ".jsx", ".tsx"] }
     ],
     "import/extensions": [
       "error",
       "ignorePackages",
       {
         "js": "never",
-        "jsx": "never",
         "ts": "never",
+        "jsx": "never",
         "tsx": "never"
       }
     ],
@@ -93,13 +135,22 @@
         "newlinesBetween": "always",
         "groups": [
           "/^next/",
+          "/^@next/",
           "/^react/",
           "/^@testing-library/",
-          "/storybook/",
-          "/^components/",
+          "/^storybook/",
+          "/^@storybook/",
           "/^styled-components/",
-          "/^styles/",
           "module",
+          "/^hooks/",
+          "/^contexts/",
+          "/^components/",
+          "/^services/",
+          "/^lib/",
+          "/^dtos/",
+          "/^utils/",
+          "/^assets/",
+          "/^styles/",
           ["parent", "sibling", "index"]
         ],
         "alphabetize": { "order": "asc", "ignoreCase": true }

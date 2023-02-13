@@ -1,6 +1,6 @@
-import { createGlobalStyle } from 'styled-components';
-
 import { Poppins } from '@next/font/google';
+
+import { createGlobalStyle } from 'styled-components';
 
 const poppins = Poppins({
   weight: ['300', '400', '500'],
