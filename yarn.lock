@@ -14312,10 +14312,10 @@ stylelint-use-nesting@^4.0.0:
   resolved "https://registry.yarnpkg.com/stylelint-use-nesting/-/stylelint-use-nesting-4.0.0.tgz#6641f3acb3875a0d70efe46df9b9f20e47993bf0"
   integrity sha512-v1DG1GsV2Ojy8y/yoWZGLxeZSLNenrpEGtFY6qq921G8ABni9XbBJRbD9jDQAsPPhOnLz7Cy9B2DfNk05IOKIw==
 
-stylelint-z-index-value-constraint@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/stylelint-z-index-value-constraint/-/stylelint-z-index-value-constraint-1.2.0.tgz#802c301f804200fa741319af453e18a12a57cdb7"
-  integrity sha512-S/pb1by5M9vCJQOEqUmtJR0llFP/H4sZHj0r1QUxc9+1sEn7VoTFR8fewUHvgz+IreZxz+hQHZ4J91cw+5Dsuw==
+stylelint-z-index-value-constraint@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/stylelint-z-index-value-constraint/-/stylelint-z-index-value-constraint-1.3.0.tgz#dc070abd4cc635aa3b249b925a4aa51bedba8f2d"
+  integrity sha512-KS1/YPx01uD4dqQmmdDdPSgdsDEdgPMPhfAIgOmnK7dAo1q/9HincEG2iU/lrWbzvIWyHHdo3ZkhKeex0GAlaQ==
 
 stylelint@^15.0.0:
   version "15.0.0"
