@@ -3166,18 +3166,6 @@
     "@storybook/csf-tools" "7.0.0-beta.46"
     unplugin "^0.10.2"
 
-"@storybook/csf-tools@7.0.0-beta.38":
-  version "7.0.0-beta.38"
-  resolved "https://registry.yarnpkg.com/@storybook/csf-tools/-/csf-tools-7.0.0-beta.38.tgz#88cf6a6975cf739d678d03b78b691539fc36b9c2"
-  integrity sha512-qx1RIcfx8ofshqadJTGd2SgM12F08NJhNJeNLW4WTU5+rv2rmZ/OfagUJDNBoeS9OOfveoxJSWAcCbE4ks1fOA==
-  dependencies:
-    "@babel/types" "^7.20.2"
-    "@storybook/csf" next
-    "@storybook/types" "7.0.0-beta.38"
-    fs-extra "^11.1.0"
-    recast "^0.23.1"
-    ts-dedent "^2.0.0"
-
 "@storybook/csf-tools@7.0.0-beta.46":
   version "7.0.0-beta.46"
   resolved "https://registry.yarnpkg.com/@storybook/csf-tools/-/csf-tools-7.0.0-beta.46.tgz#0a91e0b5235f0b990dd1472455e23e40da800306"
@@ -12044,11 +12032,6 @@ postcss-selector-parser@^6.0.10, postcss-selector-parser@^6.0.11, postcss-select
     cssesc "^3.0.0"
     util-deprecate "^1.0.2"
 
-postcss-sorting@^7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/postcss-sorting/-/postcss-sorting-7.0.1.tgz#923b5268451cf2d93ebf8835e17a6537757049a5"
-  integrity sha512-iLBFYz6VRYyLJEJsBJ8M3TCqNcckVzz4wFounSc5Oez35ogE/X+aoC5fFu103Ot7NyvjU3/xqIXn93Gp3kJk4g==
-
 postcss-sorting@^8.0.1:
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/postcss-sorting/-/postcss-sorting-8.0.1.tgz#d03852914979ac0a1ef3ca6e517bf4b53c045f35"
@@ -12073,7 +12056,7 @@ postcss@8.4.14:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-postcss@^8.2.14, postcss@^8.3.11, postcss@^8.4.14, postcss@^8.4.19, postcss@^8.4.21:
+postcss@^8.2.14, postcss@^8.4.14, postcss@^8.4.19, postcss@^8.4.21:
   version "8.4.21"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.21.tgz#c639b719a57efc3187b13a1d765675485f4134f4"
   integrity sha512-tP7u/Sn/dVxK2NnruI4H9BG+x+Wxz6oeZ1cJ8P6G/PZY0IKk4k/63TDsQf2kQq3+qoJeLm2kIBUNlZe3zgb4Zg==
@@ -13800,12 +13783,12 @@ styled-jsx@5.1.1:
   dependencies:
     client-only "0.0.1"
 
-stylelint-config-clean-order@^2.3.1:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/stylelint-config-clean-order/-/stylelint-config-clean-order-2.3.1.tgz#237d1a7211a948132ae306c6e798931c3915a987"
-  integrity sha512-4pja7gI5cQ+U92RDQcivGhx7dLn1lTWZ8Wc46od6YBrWPAG8Kas8hHCtGIG3F0k5/1LHtbCzKaOQ0depnp6HlQ==
+stylelint-config-clean-order@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-clean-order/-/stylelint-config-clean-order-4.0.0.tgz#95833d37f7628e2866e4a4a34eed6476e5ebdaeb"
+  integrity sha512-c+bNVJHfGk4c1ZteHFUkQU9wzEmXE6luFGseXFL0gwMylR1/CvPZgF/gG3X5cTKwaT6fMelmqL5gWA5PBTr8BA==
   dependencies:
-    stylelint-order "^5.0.0"
+    stylelint-order "^6.0.2"
 
 stylelint-config-prettier@^9.0.5:
   version "9.0.5"
@@ -13829,14 +13812,6 @@ stylelint-group-selectors@^1.0.9:
   dependencies:
     md5 "2.3.0"
     postcss "^8.4.14"
-
-stylelint-order@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-5.0.0.tgz#abd20f6b85ac640774cbe40e70d3fe9c6fdf4400"
-  integrity sha512-OWQ7pmicXufDw5BlRqzdz3fkGKJPgLyDwD1rFY3AIEfIH/LQY38Vu/85v8/up0I+VPiuGRwbc2Hg3zLAsJaiyw==
-  dependencies:
-    postcss "^8.3.11"
-    postcss-sorting "^7.0.1"
 
 stylelint-order@^6.0.2:
   version "6.0.2"
