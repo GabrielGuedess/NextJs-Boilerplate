@@ -2604,19 +2604,19 @@
     polished "^4.2.2"
     ts-dedent "^2.2.0"
 
-"@storybook/addon-links@^7.0.0-beta.38":
-  version "7.0.0-beta.46"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-7.0.0-beta.46.tgz#ed186666a17b61f1fe5dc3ea5726fe3892c55595"
-  integrity sha512-m5WZ/AVzkb4sHvu/25CQ4EjlHTr+T9enh5cHZD9c5frEpFX4gwOczcYirMKFzEI93dDkv6LX1Yo51hOOpJrhrg==
+"@storybook/addon-links@^7.0.0-beta.47":
+  version "7.0.0-beta.47"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-7.0.0-beta.47.tgz#c054352c51066c319c24a4ea9cfc6cbcb3e25f06"
+  integrity sha512-vxEn63vHL50dddamayJFcwgjjbIQOSbbs+/KLrtC7BUtlaLy2KZmVvP0Hv5MGQQcJqbTfSvMXd6WNi46pS99dA==
   dependencies:
-    "@storybook/client-logger" "7.0.0-beta.46"
-    "@storybook/core-events" "7.0.0-beta.46"
+    "@storybook/client-logger" "7.0.0-beta.47"
+    "@storybook/core-events" "7.0.0-beta.47"
     "@storybook/csf" next
     "@storybook/global" "^5.0.0"
-    "@storybook/manager-api" "7.0.0-beta.46"
-    "@storybook/preview-api" "7.0.0-beta.46"
-    "@storybook/router" "7.0.0-beta.46"
-    "@storybook/types" "7.0.0-beta.46"
+    "@storybook/manager-api" "7.0.0-beta.47"
+    "@storybook/preview-api" "7.0.0-beta.47"
+    "@storybook/router" "7.0.0-beta.47"
+    "@storybook/types" "7.0.0-beta.47"
     prop-types "^15.7.2"
     ts-dedent "^2.0.0"
 
