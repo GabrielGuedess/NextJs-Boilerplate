@@ -2687,7 +2687,7 @@
     "@storybook/types" "7.0.0-beta.48"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-toolbars@7.0.0-beta.48", "@storybook/addon-toolbars@^7.0.0-beta.38":
+"@storybook/addon-toolbars@7.0.0-beta.48":
   version "7.0.0-beta.48"
   resolved "https://registry.yarnpkg.com/@storybook/addon-toolbars/-/addon-toolbars-7.0.0-beta.48.tgz#ca0db2b41a11ff761346fb60ee0426ee5c13733e"
   integrity sha512-bn2/EBDrkaZzVIy6DMrq9TiQfnwLkyRHiUPHrk+2MWPpqyMW2jcl6mUaAs+Kx4ok0IRvUeKdqD7bJEro0NHZow==
@@ -2697,6 +2697,17 @@
     "@storybook/manager-api" "7.0.0-beta.48"
     "@storybook/preview-api" "7.0.0-beta.48"
     "@storybook/theming" "7.0.0-beta.48"
+
+"@storybook/addon-toolbars@^7.0.0-beta.49":
+  version "7.0.0-beta.49"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-toolbars/-/addon-toolbars-7.0.0-beta.49.tgz#ebf21b2092bf962719efe4da78bc3ac385fe9e32"
+  integrity sha512-YgVjTumbIV2reSV9v8YzJ2vQlhbuYpd1mLnVLjRJI/WjmkYc2Sa7bzMgB1Pp1MXoTmUTaMj1jXrMj1JlfkA6Iw==
+  dependencies:
+    "@storybook/client-logger" "7.0.0-beta.49"
+    "@storybook/components" "7.0.0-beta.49"
+    "@storybook/manager-api" "7.0.0-beta.49"
+    "@storybook/preview-api" "7.0.0-beta.49"
+    "@storybook/theming" "7.0.0-beta.49"
 
 "@storybook/addon-viewport@7.0.0-beta.48", "@storybook/addon-viewport@^7.0.0-beta.47":
   version "7.0.0-beta.48"
@@ -3140,6 +3151,20 @@
     "@storybook/global" "^5.0.0"
     "@storybook/theming" "7.0.0-beta.48"
     "@storybook/types" "7.0.0-beta.48"
+    memoizerific "^1.11.3"
+    use-resize-observer "^9.1.0"
+    util-deprecate "^1.0.2"
+
+"@storybook/components@7.0.0-beta.49":
+  version "7.0.0-beta.49"
+  resolved "https://registry.yarnpkg.com/@storybook/components/-/components-7.0.0-beta.49.tgz#dcfc33543a25d89933bbd7912190c75b6e7167fc"
+  integrity sha512-0eWcdu+zT+sJQhd1rLQfPETOLMyjri9cVpdpr4W+tzpM/7W29y2ZxenE9xn38I0vfbk1RW78oatz89F/U0xsOA==
+  dependencies:
+    "@storybook/client-logger" "7.0.0-beta.49"
+    "@storybook/csf" next
+    "@storybook/global" "^5.0.0"
+    "@storybook/theming" "7.0.0-beta.49"
+    "@storybook/types" "7.0.0-beta.49"
     memoizerific "^1.11.3"
     use-resize-observer "^9.1.0"
     util-deprecate "^1.0.2"
@@ -3985,7 +4010,7 @@
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
 
-"@storybook/theming@7.0.0-beta.47", "@storybook/theming@^7.0.0-beta.38":
+"@storybook/theming@7.0.0-beta.47":
   version "7.0.0-beta.47"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.0.0-beta.47.tgz#ea0819fc0b632ec2d254f5ba228791336a8e619d"
   integrity sha512-ZKJObS4Gl0yMQWAefkEd8cNPQSCJzmBBzwwfVV8OmQB9yPk6iJHqkonxuzpTFSU1Yza3vSe53lOGuciZ/3FrhA==
@@ -4005,7 +4030,7 @@
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
 
-"@storybook/theming@7.0.0-beta.49":
+"@storybook/theming@7.0.0-beta.49", "@storybook/theming@^7.0.0-beta.38":
   version "7.0.0-beta.49"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.0.0-beta.49.tgz#31ce71b3a8e329ae7f9c18c0537bb839d9a2d34e"
   integrity sha512-0thTAQVMNUcdkpGPbPBIwOL+r/e5ffHCyj85xWlPZ39HNXJMtILLnvrUVLmuGDHUaMC5KLWWZiSJTa0WgEtaFw==
