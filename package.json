@@ -69,7 +69,7 @@
     "@storybook/addon-toolbars": "^7.0.0-beta.38",
     "@storybook/addon-viewport": "^7.0.0-beta.47",
     "@storybook/nextjs": "7.0.0-beta.38",
-    "@storybook/react": "7.0.0-beta.49",
+    "@storybook/react": "7.0.0-beta.50",
     "@storybook/theming": "^7.0.0-beta.38",
     "@stylelint/postcss-css-in-js": "^0.38.0",
     "@testing-library/jest-dom": "^5.16.5",
