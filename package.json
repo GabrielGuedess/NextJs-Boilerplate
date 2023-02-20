@@ -117,7 +117,7 @@
     "storybook-addon-designs": "^6.3.1",
     "storybook-addon-pseudo-states": "^2.0.0-next.0",
     "storybook-dark-mode": "^2.1.0",
-    "stylelint": "^15.1.0",
+    "stylelint": "^15.2.0",
     "stylelint-config-clean-order": "^5.0.0",
     "stylelint-config-prettier": "^9.0.5",
     "stylelint-config-recommended": "^10.0.1",
