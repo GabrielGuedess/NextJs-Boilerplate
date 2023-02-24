@@ -1819,10 +1819,10 @@
     "@types/mdx" "^2.0.0"
     "@types/react" ">=16"
 
-"@next/bundle-analyzer@^13.1.6":
-  version "13.1.6"
-  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-13.1.6.tgz#36ff2f9c4b19aa75cd589ee080b1e2edb24f1192"
-  integrity sha512-rJS9CtLoGT58mL+v2ISKANosFFWP/0YKYByHQ3vTaZrbQP8b1rYRxd2QVMJmnSXaFkiP9URt1XJ6OdGyVq5b6g==
+"@next/bundle-analyzer@^13.2.1":
+  version "13.2.1"
+  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-13.2.1.tgz#a80bf24adef2380233c9e3cd9f5c77849c851b36"
+  integrity sha512-ex5CyyqWfBaDE0eguyhWlWZAsg2n9zN1c/YK4FNui7C/cKnjib5FcZeVNeKU9PfSYXDDT9onIhWkhsMNQwIGVg==
   dependencies:
     webpack-bundle-analyzer "4.7.0"
 
@@ -3170,20 +3170,6 @@
     use-resize-observer "^9.1.0"
     util-deprecate "^1.0.2"
 
-"@storybook/components@7.0.0-beta.53":
-  version "7.0.0-beta.53"
-  resolved "https://registry.yarnpkg.com/@storybook/components/-/components-7.0.0-beta.53.tgz#3ed051cd3503e8f98e588a8134c646f670713b8d"
-  integrity sha512-jIKKwtgPKr0BRL5X7lG3KTAPTBtFbiOpjyHfUPBW/KmggBCvyM5vtP1IIDM5XUoxHJSHLrIFYj3jvtbYGkBAWw==
-  dependencies:
-    "@storybook/client-logger" "7.0.0-beta.53"
-    "@storybook/csf" next
-    "@storybook/global" "^5.0.0"
-    "@storybook/theming" "7.0.0-beta.53"
-    "@storybook/types" "7.0.0-beta.53"
-    memoizerific "^1.11.3"
-    use-resize-observer "^9.1.0"
-    util-deprecate "^1.0.2"
-
 "@storybook/components@^6.5.14":
   version "6.5.16"
   resolved "https://registry.yarnpkg.com/@storybook/components/-/components-6.5.16.tgz#f8dc51213bc08fe32154be964e1e8b0e2f670ed6"
@@ -3250,32 +3236,6 @@
   dependencies:
     "@storybook/node-logger" "7.0.0-beta.48"
     "@storybook/types" "7.0.0-beta.48"
-    "@types/node" "^16.0.0"
-    "@types/pretty-hrtime" "^1.0.0"
-    chalk "^4.1.0"
-    esbuild "^0.16.4"
-    esbuild-register "^3.3.3"
-    file-system-cache "^2.0.0"
-    find-up "^5.0.0"
-    fs-extra "^11.1.0"
-    glob "^8.1.0"
-    glob-promise "^6.0.2"
-    handlebars "^4.7.7"
-    lazy-universal-dotenv "^4.0.0"
-    picomatch "^2.3.0"
-    pkg-dir "^5.0.0"
-    pretty-hrtime "^1.0.3"
-    resolve-from "^5.0.0"
-    slash "^3.0.0"
-    ts-dedent "^2.0.0"
-
-"@storybook/core-common@7.0.0-beta.53":
-  version "7.0.0-beta.53"
-  resolved "https://registry.yarnpkg.com/@storybook/core-common/-/core-common-7.0.0-beta.53.tgz#4f33c9bd91783e371d61bd08789f29f77ff7f270"
-  integrity sha512-IcJfoN+ghmnNfN2/RP8zxxkzmbCW5fjB5XKMW6+UyQ0uGIsCAkTieOdU+SBv13jFZIQ/Cs0v7lpuHusFE2ID2w==
-  dependencies:
-    "@storybook/node-logger" "7.0.0-beta.53"
-    "@storybook/types" "7.0.0-beta.53"
     "@types/node" "^16.0.0"
     "@types/pretty-hrtime" "^1.0.0"
     chalk "^4.1.0"
@@ -3672,16 +3632,6 @@
   version "7.0.0-beta.48"
   resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-7.0.0-beta.48.tgz#24c37300a977eb5fb052d27a993c98962b03eb85"
   integrity sha512-/6Yk6vaugabbSMxpjK77d5p0RYDOcw17sN5pF9T8TEprHCpfBJtfnrTTmg7hw9qq8iHPTGz/AUNkqBO33BTPXQ==
-  dependencies:
-    "@types/npmlog" "^4.1.2"
-    chalk "^4.1.0"
-    npmlog "^5.0.1"
-    pretty-hrtime "^1.0.3"
-
-"@storybook/node-logger@7.0.0-beta.53":
-  version "7.0.0-beta.53"
-  resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-7.0.0-beta.53.tgz#949543d5c1839038d2f2adf3ee58c17f1cc6282a"
-  integrity sha512-Zjhf74WWcFwmdVZhejss8cueZFe0ih4vzsNQJ97niBBph/5apcdTmVdBgCC2sZt3vfkH3wBwdTSF+rLZ8VBZMg==
   dependencies:
     "@types/npmlog" "^4.1.2"
     chalk "^4.1.0"
