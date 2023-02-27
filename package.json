@@ -47,7 +47,7 @@
   },
   "dependencies": {
     "@next/bundle-analyzer": "^13.2.1",
-    "@next/font": "^13.1.6",
+    "@next/font": "^13.2.1",
     "next": "13.2.1",
     "next-pwa": "^5.6.0",
     "next-seo": "^5.15.0",
