@@ -2758,16 +2758,16 @@
     "@storybook/preview-api" "7.0.0-beta.48"
     "@storybook/theming" "7.0.0-beta.48"
 
-"@storybook/addon-toolbars@^7.0.0-beta.54":
-  version "7.0.0-beta.54"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-toolbars/-/addon-toolbars-7.0.0-beta.54.tgz#35632894dbd27ed2eaeeae8c33ef968374d0279e"
-  integrity sha512-g/sknphJdv31C+8pqniUrruMxRLMdoNLNS3hiuZOGiRkSM2Lu7S9OxL2oY7IMK+cnnZ4NNQ8oEqzlXRspuxoEA==
+"@storybook/addon-toolbars@^7.0.0-beta.55":
+  version "7.0.0-beta.55"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-toolbars/-/addon-toolbars-7.0.0-beta.55.tgz#b892f5ff96b47b82407e9daa49a78efb16b1cfff"
+  integrity sha512-pdiqe+oDH9/GmLFi+IaYuZ1eO634sM9ZgpWl//YOjy1GwIBKOaxS4t6TPad+9KjtloSUr/S9JBYj+dn1/mo3lA==
   dependencies:
-    "@storybook/client-logger" "7.0.0-beta.54"
-    "@storybook/components" "7.0.0-beta.54"
-    "@storybook/manager-api" "7.0.0-beta.54"
-    "@storybook/preview-api" "7.0.0-beta.54"
-    "@storybook/theming" "7.0.0-beta.54"
+    "@storybook/client-logger" "7.0.0-beta.55"
+    "@storybook/components" "7.0.0-beta.55"
+    "@storybook/manager-api" "7.0.0-beta.55"
+    "@storybook/preview-api" "7.0.0-beta.55"
+    "@storybook/theming" "7.0.0-beta.55"
 
 "@storybook/addon-viewport@7.0.0-beta.48":
   version "7.0.0-beta.48"
@@ -4080,7 +4080,7 @@
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
 
-"@storybook/theming@7.0.0-beta.54", "@storybook/theming@^7.0.0-beta.38":
+"@storybook/theming@7.0.0-beta.54":
   version "7.0.0-beta.54"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.0.0-beta.54.tgz#9d9ab5cc355658737758df994b8cf71f0f593559"
   integrity sha512-1e8AaSDH3WiURrul4Gam5AYVoBX5JovMzCW/jk2QtNE9bdWlwQHQGnwmGPTK0U1RDgT014nHm7TAvON2Xaa3Yg==
@@ -4090,7 +4090,7 @@
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
 
-"@storybook/theming@7.0.0-beta.55":
+"@storybook/theming@7.0.0-beta.55", "@storybook/theming@^7.0.0-beta.38":
   version "7.0.0-beta.55"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.0.0-beta.55.tgz#64113578c456e0d00a38048f5d898a53604c0542"
   integrity sha512-/1RsGzAmhuo7jEBjh0cb8aTH0cbKvGwnleLaFNjCE7R70axJU0OwAK9h6+aCak3nhAI2hquTG1ZZWJRHrVYVlg==
