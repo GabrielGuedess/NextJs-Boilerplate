@@ -3430,6 +3430,13 @@
   dependencies:
     "@storybook/global" "^5.0.0"
 
+"@storybook/client-logger@7.0.0-beta.61":
+  version "7.0.0-beta.61"
+  resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-7.0.0-beta.61.tgz#2a263f54fdce65353bc1e32559c48fe6366b075c"
+  integrity sha512-uvH7oPEeQXFV3IThHkV3UbkPXnCUKE+Kk0SV9zMJe2DK3eC/K/8g3TqafOXOSS6LOWuZojm6Bk/Kmpn7ZpxcSw==
+  dependencies:
+    "@storybook/global" "^5.0.0"
+
 "@storybook/codemod@7.0.0-beta.59":
   version "7.0.0-beta.59"
   resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-7.0.0-beta.59.tgz#6d9bff7f4f065767ceea1c9f5814f088ef500104"
@@ -4290,13 +4297,23 @@
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
 
-"@storybook/theming@7.0.0-beta.60", "@storybook/theming@^7.0.0-beta.38":
+"@storybook/theming@7.0.0-beta.60":
   version "7.0.0-beta.60"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.0.0-beta.60.tgz#5c40f09b49262b1ffd4b5b29cd0751ce563c9e21"
   integrity sha512-BBaHioOI+eO+D0tUGKkqM+5jd/4yWANy+NIlaIg0dxkF1094amn19ziwH0Bx43NIdkdlpFwFDMdcNvOamTpHbw==
   dependencies:
     "@emotion/use-insertion-effect-with-fallbacks" "^1.0.0"
     "@storybook/client-logger" "7.0.0-beta.60"
+    "@storybook/global" "^5.0.0"
+    memoizerific "^1.11.3"
+
+"@storybook/theming@^7.0.0-beta.61":
+  version "7.0.0-beta.61"
+  resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.0.0-beta.61.tgz#1a279f9c9b2e8fb7eebc90fadcbd2941fd05b96e"
+  integrity sha512-mlz6h6w17xPxfZGT2nyjjdsgPScCJr6icz3GjGysgUCA5kUfxGxC4duFXl0tFlQ1VKivBZyG8v6sV96VFLOqvA==
+  dependencies:
+    "@emotion/use-insertion-effect-with-fallbacks" "^1.0.0"
+    "@storybook/client-logger" "7.0.0-beta.61"
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
 
