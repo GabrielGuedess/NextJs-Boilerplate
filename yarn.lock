@@ -3626,32 +3626,6 @@
     slash "^3.0.0"
     ts-dedent "^2.0.0"
 
-"@storybook/core-common@7.0.0-beta.60":
-  version "7.0.0-beta.60"
-  resolved "https://registry.yarnpkg.com/@storybook/core-common/-/core-common-7.0.0-beta.60.tgz#d0faa2c35903d74d0bd4bb557232ef5a6d5dc223"
-  integrity sha512-zq1esbHbckwzzwcLUjT0Dvfp8cbpaEWFJDtFJ8cDcR/aYuC+TXDLQmrCN95RfZcZ2He8jPuUSoBaHp89q2QfDw==
-  dependencies:
-    "@storybook/node-logger" "7.0.0-beta.60"
-    "@storybook/types" "7.0.0-beta.60"
-    "@types/node" "^16.0.0"
-    "@types/pretty-hrtime" "^1.0.0"
-    chalk "^4.1.0"
-    esbuild "^0.16.4"
-    esbuild-register "^3.3.3"
-    file-system-cache "^2.0.0"
-    find-up "^5.0.0"
-    fs-extra "^11.1.0"
-    glob "^8.1.0"
-    glob-promise "^6.0.2"
-    handlebars "^4.7.7"
-    lazy-universal-dotenv "^4.0.0"
-    picomatch "^2.3.0"
-    pkg-dir "^5.0.0"
-    pretty-hrtime "^1.0.3"
-    resolve-from "^5.0.0"
-    slash "^3.0.0"
-    ts-dedent "^2.0.0"
-
 "@storybook/core-common@7.0.0-beta.61":
   version "7.0.0-beta.61"
   resolved "https://registry.yarnpkg.com/@storybook/core-common/-/core-common-7.0.0-beta.61.tgz#a598270fea8a191f8b6a166bb124625a89e3c496"
@@ -4059,16 +4033,6 @@
   version "7.0.0-beta.59"
   resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-7.0.0-beta.59.tgz#c67215d915db52a1c927cbaeb900c2801f58b44e"
   integrity sha512-DJOtqed/iL/Mpbci3ZwDmZwvnheqZzSOmrk2YsKmJagnQzS0A9+ZZg7tu/eFuvBnILmhVDzFBOloD8hXRSOC7w==
-  dependencies:
-    "@types/npmlog" "^4.1.2"
-    chalk "^4.1.0"
-    npmlog "^5.0.1"
-    pretty-hrtime "^1.0.3"
-
-"@storybook/node-logger@7.0.0-beta.60":
-  version "7.0.0-beta.60"
-  resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-7.0.0-beta.60.tgz#8e615a5b8122cb3f93f9888fbd0fefdce589904e"
-  integrity sha512-8Z9xE9Hy2Tls3ffQo4ldrFQaE/Gt1/26FK7xlxefO5HNWsLlkZsfbGrxlxIHwI8OfwV+YFHXeSm1F1vDv1pzTg==
   dependencies:
     "@types/npmlog" "^4.1.2"
     chalk "^4.1.0"
@@ -8029,10 +7993,10 @@ eslint-config-next@^13.2.3:
     eslint-plugin-react "^7.31.7"
     eslint-plugin-react-hooks "^4.5.0"
 
-eslint-config-prettier@^8.6.0:
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.6.0.tgz#dec1d29ab728f4fa63061774e1672ac4e363d207"
-  integrity sha512-bAF0eLpLVqP5oEVUFKpMA+NnRFICwn9X8B5jrR9FcqnYBuPbqWEjTEspPWMj5ye6czoSLDweCzSo3Ko7gGrZaA==
+eslint-config-prettier@^8.6.0, eslint-config-prettier@^8.7.0:
+  version "8.7.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.7.0.tgz#f1cc58a8afebc50980bd53475451df146c13182d"
+  integrity sha512-HHVXLSlVUhMSmyW4ZzEuvjpwqamgmlfkutD53cYXLikh4pt/modINRcCIApJ84czDxM4GZInwUrromsDdTImTA==
 
 eslint-config-stylelint@^18.0.0:
   version "18.0.0"
