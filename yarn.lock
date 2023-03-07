@@ -3469,6 +3469,13 @@
   dependencies:
     "@storybook/global" "^5.0.0"
 
+"@storybook/client-logger@7.0.0-beta.62":
+  version "7.0.0-beta.62"
+  resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-7.0.0-beta.62.tgz#c39b84eba62cb880ca38500a52f80c8267aeddee"
+  integrity sha512-Frp6aqRgFbqyT5LzBSjuxx6rzZeGmDcGRJkIy8BSccmkRx+PQs0sJlkRfDk08u9pseaEpOJZPAvD1SuGUowO6g==
+  dependencies:
+    "@storybook/global" "^5.0.0"
+
 "@storybook/codemod@7.0.0-beta.59":
   version "7.0.0-beta.59"
   resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-7.0.0-beta.59.tgz#6d9bff7f4f065767ceea1c9f5814f088ef500104"
@@ -3607,32 +3614,6 @@
   dependencies:
     "@storybook/node-logger" "7.0.0-beta.59"
     "@storybook/types" "7.0.0-beta.59"
-    "@types/node" "^16.0.0"
-    "@types/pretty-hrtime" "^1.0.0"
-    chalk "^4.1.0"
-    esbuild "^0.16.4"
-    esbuild-register "^3.3.3"
-    file-system-cache "^2.0.0"
-    find-up "^5.0.0"
-    fs-extra "^11.1.0"
-    glob "^8.1.0"
-    glob-promise "^6.0.2"
-    handlebars "^4.7.7"
-    lazy-universal-dotenv "^4.0.0"
-    picomatch "^2.3.0"
-    pkg-dir "^5.0.0"
-    pretty-hrtime "^1.0.3"
-    resolve-from "^5.0.0"
-    slash "^3.0.0"
-    ts-dedent "^2.0.0"
-
-"@storybook/core-common@7.0.0-beta.60":
-  version "7.0.0-beta.60"
-  resolved "https://registry.yarnpkg.com/@storybook/core-common/-/core-common-7.0.0-beta.60.tgz#d0faa2c35903d74d0bd4bb557232ef5a6d5dc223"
-  integrity sha512-zq1esbHbckwzzwcLUjT0Dvfp8cbpaEWFJDtFJ8cDcR/aYuC+TXDLQmrCN95RfZcZ2He8jPuUSoBaHp89q2QfDw==
-  dependencies:
-    "@storybook/node-logger" "7.0.0-beta.60"
-    "@storybook/types" "7.0.0-beta.60"
     "@types/node" "^16.0.0"
     "@types/pretty-hrtime" "^1.0.0"
     chalk "^4.1.0"
@@ -4065,16 +4046,6 @@
     npmlog "^5.0.1"
     pretty-hrtime "^1.0.3"
 
-"@storybook/node-logger@7.0.0-beta.60":
-  version "7.0.0-beta.60"
-  resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-7.0.0-beta.60.tgz#8e615a5b8122cb3f93f9888fbd0fefdce589904e"
-  integrity sha512-8Z9xE9Hy2Tls3ffQo4ldrFQaE/Gt1/26FK7xlxefO5HNWsLlkZsfbGrxlxIHwI8OfwV+YFHXeSm1F1vDv1pzTg==
-  dependencies:
-    "@types/npmlog" "^4.1.2"
-    chalk "^4.1.0"
-    npmlog "^5.0.1"
-    pretty-hrtime "^1.0.3"
-
 "@storybook/node-logger@7.0.0-beta.61":
   version "7.0.0-beta.61"
   resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-7.0.0-beta.61.tgz#d1b044698c0ee4cbb93a182c2921206ff0c45b73"
@@ -4446,13 +4417,23 @@
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
 
-"@storybook/theming@7.0.0-beta.61", "@storybook/theming@^7.0.0-beta.38":
+"@storybook/theming@7.0.0-beta.61":
   version "7.0.0-beta.61"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.0.0-beta.61.tgz#1a279f9c9b2e8fb7eebc90fadcbd2941fd05b96e"
   integrity sha512-mlz6h6w17xPxfZGT2nyjjdsgPScCJr6icz3GjGysgUCA5kUfxGxC4duFXl0tFlQ1VKivBZyG8v6sV96VFLOqvA==
   dependencies:
     "@emotion/use-insertion-effect-with-fallbacks" "^1.0.0"
     "@storybook/client-logger" "7.0.0-beta.61"
+    "@storybook/global" "^5.0.0"
+    memoizerific "^1.11.3"
+
+"@storybook/theming@^7.0.0-beta.62":
+  version "7.0.0-beta.62"
+  resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.0.0-beta.62.tgz#d352fcb7423407b49b58de29b3e62ee8c1b2cd09"
+  integrity sha512-aHH6Aqt4BifegojoKczSandUCHruuUJb9I7iZOAf40RpXNubpuKDDmUC6Za98WqxPFBMCwZ6eWxPxHLnj7yFUg==
+  dependencies:
+    "@emotion/use-insertion-effect-with-fallbacks" "^1.0.0"
+    "@storybook/client-logger" "7.0.0-beta.62"
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
 
