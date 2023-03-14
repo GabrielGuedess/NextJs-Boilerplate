@@ -3433,14 +3433,6 @@
     regenerator-runtime "^0.13.7"
     util-deprecate "^1.0.2"
 
-"@storybook/core-client@7.0.0-rc.1":
-  version "7.0.0-rc.1"
-  resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.0.0-rc.1.tgz#36691891c7963bb0b0ae23da159ee7b6ecfa7f77"
-  integrity sha512-1m+s5Tw/DVcw6f8kWKkg8/y96neFzvuC6Xwc+J8UAe+gO0WswiyjOoDpQSipclgMAL2HkPdvUv3SlWQeizPmog==
-  dependencies:
-    "@storybook/client-logger" "7.0.0-rc.1"
-    "@storybook/preview-api" "7.0.0-rc.1"
-
 "@storybook/core-client@7.0.0-rc.3":
   version "7.0.0-rc.3"
   resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.0.0-rc.3.tgz#f17040189102c98aa3b485e99a9b6c15c6869f1f"
@@ -3679,19 +3671,6 @@
   version "0.0.1-next.6"
   resolved "https://registry.yarnpkg.com/@storybook/docs-mdx/-/docs-mdx-0.0.1-next.6.tgz#8fa2d0e30e7487101e7e286e593323b1ce750699"
   integrity sha512-DjoSIXADmLJtdroXAjUotFiZlcZ2usWhqrS7aeOtZs0DVR0Ws5WQjnwtpDUXt8gryTSd+OZJ0cNsDcqg4JDEvQ==
-
-"@storybook/docs-tools@7.0.0-rc.1":
-  version "7.0.0-rc.1"
-  resolved "https://registry.yarnpkg.com/@storybook/docs-tools/-/docs-tools-7.0.0-rc.1.tgz#dd5859878837812e21d26ac60c2b80b99cc3de1d"
-  integrity sha512-lzxEYrdkL3TQZk7+1IpIlMicCOxF+2Vnn8vz9m9zQhkx/sqgGuHMzZdukaV6SPkXFqr8PljW+r+qPLLD+PHRwA==
-  dependencies:
-    "@babel/core" "^7.12.10"
-    "@storybook/core-common" "7.0.0-rc.1"
-    "@storybook/preview-api" "7.0.0-rc.1"
-    "@storybook/types" "7.0.0-rc.1"
-    "@types/doctrine" "^0.0.3"
-    doctrine "^3.0.0"
-    lodash "^4.17.21"
 
 "@storybook/docs-tools@7.0.0-rc.3":
   version "7.0.0-rc.3"
@@ -4000,42 +3979,10 @@
     react-docgen-typescript "^2.2.2"
     tslib "^2.0.0"
 
-"@storybook/react-dom-shim@7.0.0-rc.1":
-  version "7.0.0-rc.1"
-  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-7.0.0-rc.1.tgz#0df20e3047d4f84d3e2431a1c23b3f5b5160063d"
-  integrity sha512-Vc778SXbtSdJQ0bF78ZUBk0aBj2lyStbAB94+cXq3eZrkp9F3gMEK8Cfgot1kVhz62/Zi/yYxBXaFwWrRlpriQ==
-
 "@storybook/react-dom-shim@7.0.0-rc.3":
   version "7.0.0-rc.3"
   resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-7.0.0-rc.3.tgz#d9d75f0b2d94000999d64c47f5f1940fc839ff26"
   integrity sha512-3rQsOPwNlHyV93311GaGP28BFobEaNfw+djxDBxocNrL07xvY3u/XE6bShKOJ6R28ATaGwXUxmj2Cwtd2GxASg==
-
-"@storybook/react@7.0.0-rc.1":
-  version "7.0.0-rc.1"
-  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-7.0.0-rc.1.tgz#c42b201733faa5dcbd297344fec4b359aa13dd97"
-  integrity sha512-4gP74wOpftw229Yu0TYcG4ED8gpQNYYlt3dsGh5pbHfgQVGjCaSt9PKEK86rH2j1AZEwKLrlIdfzLE4SZvBqOw==
-  dependencies:
-    "@storybook/client-logger" "7.0.0-rc.1"
-    "@storybook/core-client" "7.0.0-rc.1"
-    "@storybook/docs-tools" "7.0.0-rc.1"
-    "@storybook/global" "^5.0.0"
-    "@storybook/preview-api" "7.0.0-rc.1"
-    "@storybook/react-dom-shim" "7.0.0-rc.1"
-    "@storybook/types" "7.0.0-rc.1"
-    "@types/escodegen" "^0.0.6"
-    "@types/estree" "^0.0.51"
-    "@types/node" "^16.0.0"
-    acorn "^7.4.1"
-    acorn-jsx "^5.3.1"
-    acorn-walk "^7.2.0"
-    escodegen "^2.0.0"
-    html-tags "^3.1.0"
-    lodash "^4.17.21"
-    prop-types "^15.7.2"
-    react-element-to-jsx-string "^15.0.0"
-    ts-dedent "^2.0.0"
-    type-fest "^2.19.0"
-    util-deprecate "^1.0.2"
 
 "@storybook/react@7.0.0-rc.3":
   version "7.0.0-rc.3"
