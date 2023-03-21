@@ -3269,32 +3269,6 @@
     "@storybook/client-logger" "7.0.0-rc.5"
     "@storybook/preview-api" "7.0.0-rc.5"
 
-"@storybook/core-common@7.0.0-rc.1":
-  version "7.0.0-rc.1"
-  resolved "https://registry.yarnpkg.com/@storybook/core-common/-/core-common-7.0.0-rc.1.tgz#8e96165d8f31d574ea66653e693a1a33e1610577"
-  integrity sha512-nYgbUD2ziq6b29rh1FOu42/VtxWBl9lmfYsaqbuH94bHqvHTsOsv9AsWaZoFmMU4Sg0K4KpW9O6kbJoZgj4j2g==
-  dependencies:
-    "@storybook/node-logger" "7.0.0-rc.1"
-    "@storybook/types" "7.0.0-rc.1"
-    "@types/node" "^16.0.0"
-    "@types/pretty-hrtime" "^1.0.0"
-    chalk "^4.1.0"
-    esbuild "^0.16.4"
-    esbuild-register "^3.3.3"
-    file-system-cache "^2.0.0"
-    find-up "^5.0.0"
-    fs-extra "^11.1.0"
-    glob "^8.1.0"
-    glob-promise "^6.0.2"
-    handlebars "^4.7.7"
-    lazy-universal-dotenv "^4.0.0"
-    picomatch "^2.3.0"
-    pkg-dir "^5.0.0"
-    pretty-hrtime "^1.0.3"
-    resolve-from "^5.0.0"
-    slash "^3.0.0"
-    ts-dedent "^2.0.0"
-
 "@storybook/core-common@7.0.0-rc.3":
   version "7.0.0-rc.3"
   resolved "https://registry.yarnpkg.com/@storybook/core-common/-/core-common-7.0.0-rc.3.tgz#8cb88aea3c1d488285031fcfc470847b13284f64"
@@ -3708,16 +3682,6 @@
     ts-dedent "^2.0.0"
     tsconfig-paths "^4.0.0"
     tsconfig-paths-webpack-plugin "^3.5.2"
-
-"@storybook/node-logger@7.0.0-rc.1":
-  version "7.0.0-rc.1"
-  resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-7.0.0-rc.1.tgz#849573ab8a7cdb47866934403d8c42c317a3cd4f"
-  integrity sha512-I9EnR4JT2ROKx7Aa2nSMoZxwi5kPg21GFCjt6Xo3SHFIzoSaeFNAV0tCZobE5aBOZuNEAwLbwKqvgd7gh19Iig==
-  dependencies:
-    "@types/npmlog" "^4.1.2"
-    chalk "^4.1.0"
-    npmlog "^5.0.1"
-    pretty-hrtime "^1.0.3"
 
 "@storybook/node-logger@7.0.0-rc.3":
   version "7.0.0-rc.3"
@@ -6133,10 +6097,10 @@ chownr@^2.0.0:
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-2.0.0.tgz#15bfbe53d2eab4cf70f18a8cd68ebe5b3cb1dece"
   integrity sha512-bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==
 
-chromatic@^6.17.1:
-  version "6.17.1"
-  resolved "https://registry.yarnpkg.com/chromatic/-/chromatic-6.17.1.tgz#6327fa9df683232bbb09a0f318ea656cc3c3ca8a"
-  integrity sha512-CKCIV+QiNsQUHaZu2uQkm9A140Fd9sPgf61IsbJCwPspb97tHxs6hbqzf1QjaJJL37G6UqR3u12bzPld7JB96w==
+chromatic@^6.17.2:
+  version "6.17.2"
+  resolved "https://registry.yarnpkg.com/chromatic/-/chromatic-6.17.2.tgz#ae303ffe38e2852a854aae3f5898dc42945babee"
+  integrity sha512-rtrkywh1CuDDuuiRWXpdiX38aEGN3sGCATsgdh3X/EUBjQjgQtEbSzcMusC3cqz3K9dFKcWwKpFm3jaw9gNymA==
   dependencies:
     "@discoveryjs/json-ext" "^0.5.7"
     "@types/webpack-env" "^1.17.0"
