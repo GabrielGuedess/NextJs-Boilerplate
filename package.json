@@ -62,7 +62,7 @@
     "@next/eslint-plugin-next": "^13.2.4",
     "@semantic-release/changelog": "^6.0.2",
     "@semantic-release/git": "^10.0.1",
-    "@storybook/addon-a11y": "^7.0.0-rc.1",
+    "@storybook/addon-a11y": "^7.0.0-rc.5",
     "@storybook/addon-essentials": "7.0.0-rc.5",
     "@storybook/addon-interactions": "^7.0.0-rc.5",
     "@storybook/addon-links": "^7.0.0-beta.51",
