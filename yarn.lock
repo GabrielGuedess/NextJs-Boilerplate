@@ -2802,7 +2802,7 @@
     "@storybook/types" "7.0.0-rc.5"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-toolbars@7.0.0-rc.5", "@storybook/addon-toolbars@^7.0.0-rc.1":
+"@storybook/addon-toolbars@7.0.0-rc.5":
   version "7.0.0-rc.5"
   resolved "https://registry.yarnpkg.com/@storybook/addon-toolbars/-/addon-toolbars-7.0.0-rc.5.tgz#fd60b1f3a6334d1a6a0bec98671591a14194d480"
   integrity sha512-GErLxEBVh3HaQEvUNmKlNDcNuEYpGNVT1Nr1Tsc4J8EKG1ivEfQfVu6/5fduPZE8Vt1IUAzrVEp9NYzSELH49Q==
@@ -2812,6 +2812,17 @@
     "@storybook/manager-api" "7.0.0-rc.5"
     "@storybook/preview-api" "7.0.0-rc.5"
     "@storybook/theming" "7.0.0-rc.5"
+
+"@storybook/addon-toolbars@^7.0.0-rc.6":
+  version "7.0.0-rc.6"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-toolbars/-/addon-toolbars-7.0.0-rc.6.tgz#047aaeeb7bfe5f26c0efc29aa760a8ee9bb80263"
+  integrity sha512-BqaHm1ZVy3DSZ9tGYHE2fwUXxsJmelB0yR+Fgze9hfff2j+fIwwVQ8GHMYfUuTwEZSL3I3qDnwtQCW+OBdpRkg==
+  dependencies:
+    "@storybook/client-logger" "7.0.0-rc.6"
+    "@storybook/components" "7.0.0-rc.6"
+    "@storybook/manager-api" "7.0.0-rc.6"
+    "@storybook/preview-api" "7.0.0-rc.6"
+    "@storybook/theming" "7.0.0-rc.6"
 
 "@storybook/addon-viewport@7.0.0-rc.5", "@storybook/addon-viewport@^7.0.0-rc.5":
   version "7.0.0-rc.5"
@@ -3960,7 +3971,7 @@
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
 
-"@storybook/theming@7.0.0-rc.5", "@storybook/theming@^7.0.0-beta.62":
+"@storybook/theming@7.0.0-rc.5":
   version "7.0.0-rc.5"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.0.0-rc.5.tgz#978515acf9c6e826383d72a0c50715895de6147a"
   integrity sha512-OzwybDA2+4FWg85tcTNQkVI0JnHkwCRG9HM1qx9hOZJHNRfxmJFjJePOnBoXM6CjVlz0S1PJUwCmMHNH8OTvEw==
@@ -3970,7 +3981,7 @@
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
 
-"@storybook/theming@7.0.0-rc.6":
+"@storybook/theming@7.0.0-rc.6", "@storybook/theming@^7.0.0-beta.62":
   version "7.0.0-rc.6"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.0.0-rc.6.tgz#35e9b973890bdf88c648ee9cd42f2a294548ed3f"
   integrity sha512-/pBo3xJ/PxC01WgBd7WutNTprKWXaCS+Ei+NuTLOJQGTwCaTtyd2dI5i0t9UZFB8FBRo8pcrmwjos9ZuQrekKg==
