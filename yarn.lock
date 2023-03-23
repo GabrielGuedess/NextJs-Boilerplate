@@ -2813,7 +2813,7 @@
     "@storybook/preview-api" "7.0.0-rc.5"
     "@storybook/theming" "7.0.0-rc.5"
 
-"@storybook/addon-viewport@7.0.0-rc.5", "@storybook/addon-viewport@^7.0.0-rc.5":
+"@storybook/addon-viewport@7.0.0-rc.5":
   version "7.0.0-rc.5"
   resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-7.0.0-rc.5.tgz#f4c410c8b68e6fe9608f08ed44e8762106f933e4"
   integrity sha512-EzjGyi0s6VvwZvCuN6E8zgc6RcIOUz85G1Zt5U59as4GwhvezwiJdM9IjtX0/I17hdKS7vL36Gli67PJZKb/Bw==
@@ -2825,6 +2825,21 @@
     "@storybook/manager-api" "7.0.0-rc.5"
     "@storybook/preview-api" "7.0.0-rc.5"
     "@storybook/theming" "7.0.0-rc.5"
+    memoizerific "^1.11.3"
+    prop-types "^15.7.2"
+
+"@storybook/addon-viewport@^7.0.0-rc.6":
+  version "7.0.0-rc.6"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-7.0.0-rc.6.tgz#f4374deb33737fea32b5896cbbf9c3af85de2b02"
+  integrity sha512-P7/hCMypT/mzO0NVzUImI9NBFMshM8ClukovteeM5pI01hSRAlOjXirCCVYQJbena3BpL+unwMt57QfxHy/S8g==
+  dependencies:
+    "@storybook/client-logger" "7.0.0-rc.6"
+    "@storybook/components" "7.0.0-rc.6"
+    "@storybook/core-events" "7.0.0-rc.6"
+    "@storybook/global" "^5.0.0"
+    "@storybook/manager-api" "7.0.0-rc.6"
+    "@storybook/preview-api" "7.0.0-rc.6"
+    "@storybook/theming" "7.0.0-rc.6"
     memoizerific "^1.11.3"
     prop-types "^15.7.2"
 
@@ -3960,7 +3975,7 @@
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
 
-"@storybook/theming@7.0.0-rc.5", "@storybook/theming@^7.0.0-beta.62":
+"@storybook/theming@7.0.0-rc.5":
   version "7.0.0-rc.5"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.0.0-rc.5.tgz#978515acf9c6e826383d72a0c50715895de6147a"
   integrity sha512-OzwybDA2+4FWg85tcTNQkVI0JnHkwCRG9HM1qx9hOZJHNRfxmJFjJePOnBoXM6CjVlz0S1PJUwCmMHNH8OTvEw==
@@ -3970,7 +3985,7 @@
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
 
-"@storybook/theming@7.0.0-rc.6":
+"@storybook/theming@7.0.0-rc.6", "@storybook/theming@^7.0.0-beta.62":
   version "7.0.0-rc.6"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.0.0-rc.6.tgz#35e9b973890bdf88c648ee9cd42f2a294548ed3f"
   integrity sha512-/pBo3xJ/PxC01WgBd7WutNTprKWXaCS+Ei+NuTLOJQGTwCaTtyd2dI5i0t9UZFB8FBRo8pcrmwjos9ZuQrekKg==
