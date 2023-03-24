@@ -66,7 +66,7 @@
     "@storybook/addon-essentials": "7.0.0-rc.5",
     "@storybook/addon-interactions": "^7.0.0-rc.5",
     "@storybook/addon-links": "^7.0.0-beta.51",
-    "@storybook/addon-toolbars": "^7.0.0-rc.1",
+    "@storybook/addon-toolbars": "^7.0.0-rc.7",
     "@storybook/addon-viewport": "^7.0.0-rc.5",
     "@storybook/nextjs": "7.0.0-rc.6",
     "@storybook/react": "7.0.0-rc.5",
