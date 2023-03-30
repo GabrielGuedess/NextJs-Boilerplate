@@ -2911,7 +2911,7 @@
     "@storybook/types" "7.0.0-rc.7"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-toolbars@7.0.0-rc.7", "@storybook/addon-toolbars@^7.0.0-rc.1":
+"@storybook/addon-toolbars@7.0.0-rc.7":
   version "7.0.0-rc.7"
   resolved "https://registry.yarnpkg.com/@storybook/addon-toolbars/-/addon-toolbars-7.0.0-rc.7.tgz#9d62ba41ac148bb81969e13eb110563e8f750c31"
   integrity sha512-9uxU6RV3xCiIDQndRJtlpNnR9AiBgSpHp+NZ8sGoMcel7I4LGJQw7RQ2KLKujD4yoM1pJoK2MkY1fT4N3V7msQ==
@@ -2921,6 +2921,17 @@
     "@storybook/manager-api" "7.0.0-rc.7"
     "@storybook/preview-api" "7.0.0-rc.7"
     "@storybook/theming" "7.0.0-rc.7"
+
+"@storybook/addon-toolbars@^7.0.0-rc.10":
+  version "7.0.0-rc.10"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-toolbars/-/addon-toolbars-7.0.0-rc.10.tgz#39cf01529dfb5bfb6639b4e55304b0e4dc454a27"
+  integrity sha512-zpCFJKO5TOfEcVPRWj9oyftgsONJltFndLVtuWwVGaILcL0bGSahFtVhtwen3geCm+mi3AISgmsbCz5ABbsPyg==
+  dependencies:
+    "@storybook/client-logger" "7.0.0-rc.10"
+    "@storybook/components" "7.0.0-rc.10"
+    "@storybook/manager-api" "7.0.0-rc.10"
+    "@storybook/preview-api" "7.0.0-rc.10"
+    "@storybook/theming" "7.0.0-rc.10"
 
 "@storybook/addon-viewport@7.0.0-rc.7":
   version "7.0.0-rc.7"
