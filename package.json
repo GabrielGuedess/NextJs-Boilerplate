@@ -68,7 +68,7 @@
     "@storybook/addon-links": "^7.0.0-beta.51",
     "@storybook/addon-toolbars": "^7.0.0-rc.10",
     "@storybook/addon-viewport": "^7.0.0-rc.8",
-    "@storybook/nextjs": "7.0.0-rc.6",
+    "@storybook/nextjs": "7.0.0-rc.10",
     "@storybook/react": "7.0.0-rc.10",
     "@storybook/theming": "^7.0.0-rc.9",
     "@stylelint/postcss-css-in-js": "^0.38.0",
