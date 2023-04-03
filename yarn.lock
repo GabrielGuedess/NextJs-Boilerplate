@@ -2688,21 +2688,21 @@
     lodash.union "^4.6.0"
     lodash.values "^4.3.0"
 
-"@storybook/addon-a11y@^7.0.0-rc.10":
-  version "7.0.0-rc.10"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-7.0.0-rc.10.tgz#1e37a64938a9493809ab0a96e8b7520c7913ce47"
-  integrity sha512-TB/+p45weSPHhjI7maLu+11wp4Pv2EFR7UI5e/Y4l2Kaazpzhb5PFABJ8ytmiwaP84387Gpq5qqLqApKdV7T1g==
+"@storybook/addon-a11y@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-7.0.0.tgz#965e969bd3bc2e9bfd56bdd2ad62e085d59db548"
+  integrity sha512-5ib65vwWYHS3OyTBuFr5BpVLt37aMY69FClZpcXo8EnZhBxurZ2XEcEZDCTEdNKh4n438fQGTD5fr+zd/dzK6w==
   dependencies:
-    "@storybook/addon-highlight" "7.0.0-rc.10"
-    "@storybook/channels" "7.0.0-rc.10"
-    "@storybook/client-logger" "7.0.0-rc.10"
-    "@storybook/components" "7.0.0-rc.10"
-    "@storybook/core-events" "7.0.0-rc.10"
+    "@storybook/addon-highlight" "7.0.0"
+    "@storybook/channels" "7.0.0"
+    "@storybook/client-logger" "7.0.0"
+    "@storybook/components" "7.0.0"
+    "@storybook/core-events" "7.0.0"
     "@storybook/global" "^5.0.0"
-    "@storybook/manager-api" "7.0.0-rc.10"
-    "@storybook/preview-api" "7.0.0-rc.10"
-    "@storybook/theming" "7.0.0-rc.10"
-    "@storybook/types" "7.0.0-rc.10"
+    "@storybook/manager-api" "7.0.0"
+    "@storybook/preview-api" "7.0.0"
+    "@storybook/theming" "7.0.0"
+    "@storybook/types" "7.0.0"
     axe-core "^4.2.0"
     lodash "^4.17.21"
     react-resize-detector "^7.1.2"
@@ -2831,14 +2831,14 @@
     "@storybook/preview-api" "7.0.0-rc.7"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-highlight@7.0.0-rc.10":
-  version "7.0.0-rc.10"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-highlight/-/addon-highlight-7.0.0-rc.10.tgz#bd127d57d1bb8c13f12d2dbc525d3973973d9d59"
-  integrity sha512-AvCElbBqs2nS6W5wh79zkeRINEAL3LH3RFcT3oLFwSR5sI3NiWAuADN37XK+HN2RGf6E6Z7/ue3EcqELZAgCLw==
+"@storybook/addon-highlight@7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-highlight/-/addon-highlight-7.0.0.tgz#89845f0aaccaf9ea12439e0b5496c83f3d0b7ce9"
+  integrity sha512-lBrsf/NKGPwQU5oXpEevgYiCKPHw7dugjRAkFd62NWX3/bLGNRIBgqj3odx9f86nRBrzUHGvXs7r5NzoC5arNQ==
   dependencies:
-    "@storybook/core-events" "7.0.0-rc.10"
+    "@storybook/core-events" "7.0.0"
     "@storybook/global" "^5.0.0"
-    "@storybook/preview-api" "7.0.0-rc.10"
+    "@storybook/preview-api" "7.0.0"
 
 "@storybook/addon-highlight@7.0.0-rc.7":
   version "7.0.0-rc.7"
