@@ -3447,13 +3447,13 @@
     regenerator-runtime "^0.13.7"
     util-deprecate "^1.0.2"
 
-"@storybook/core-client@7.0.0-rc.10":
-  version "7.0.0-rc.10"
-  resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.0.0-rc.10.tgz#c934cb3d5eafccc61ac113b22272b6e260438e70"
-  integrity sha512-Z1zhznMt0NA9PNvBB/JplGAubZp3OszVseIYKj52WmPJHhD/VSlrCMGh9AVkSUsVunF4ciK92GvyMBPuYE/5LA==
+"@storybook/core-client@7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.0.0.tgz#94e212ad05b2255e49f56f82104ec7701ad8233d"
+  integrity sha512-TK+VhLEryroXpp+A1BBfyW/0nFMwNtE64tQ6+R3zpd3QScZQsT19GolSIYudTHKhkFxaxEfgbG6R1S+7j75I2g==
   dependencies:
-    "@storybook/client-logger" "7.0.0-rc.10"
-    "@storybook/preview-api" "7.0.0-rc.10"
+    "@storybook/client-logger" "7.0.0"
+    "@storybook/preview-api" "7.0.0"
 
 "@storybook/core-client@7.0.0-rc.6":
   version "7.0.0-rc.6"
@@ -3463,13 +3463,13 @@
     "@storybook/client-logger" "7.0.0-rc.6"
     "@storybook/preview-api" "7.0.0-rc.6"
 
-"@storybook/core-common@7.0.0-rc.10":
-  version "7.0.0-rc.10"
-  resolved "https://registry.yarnpkg.com/@storybook/core-common/-/core-common-7.0.0-rc.10.tgz#4816d17f28512b369b3d51958be04e87adb5af83"
-  integrity sha512-csHdcVH7+YMj13WQ68OU6+6H9eYF9Sjhj84RDvlOuwJ0reXftf0RLFJwNrazwLPi7Wypxd0K/MhiM/mZOoY2+A==
+"@storybook/core-common@7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@storybook/core-common/-/core-common-7.0.0.tgz#59fba04114718eeab88be4b1acf272e368fcaaa5"
+  integrity sha512-KEGzsmpRj7RPUoAQ+l9MypGHAFRvFq3RtnROuwMdwc5f4Lo0eCtfLRKRK2tTFNIFSMGaebjXBqGawUsoE7awiA==
   dependencies:
-    "@storybook/node-logger" "7.0.0-rc.10"
-    "@storybook/types" "7.0.0-rc.10"
+    "@storybook/node-logger" "7.0.0"
+    "@storybook/types" "7.0.0"
     "@types/node" "^16.0.0"
     "@types/pretty-hrtime" "^1.0.0"
     chalk "^4.1.0"
@@ -3729,15 +3729,15 @@
   resolved "https://registry.yarnpkg.com/@storybook/docs-mdx/-/docs-mdx-0.0.1-next.6.tgz#8fa2d0e30e7487101e7e286e593323b1ce750699"
   integrity sha512-DjoSIXADmLJtdroXAjUotFiZlcZ2usWhqrS7aeOtZs0DVR0Ws5WQjnwtpDUXt8gryTSd+OZJ0cNsDcqg4JDEvQ==
 
-"@storybook/docs-tools@7.0.0-rc.10":
-  version "7.0.0-rc.10"
-  resolved "https://registry.yarnpkg.com/@storybook/docs-tools/-/docs-tools-7.0.0-rc.10.tgz#2906147cc09a35a2fff997bd1e4f6bd8ed9d3960"
-  integrity sha512-J8DbctJAiGjp4EpKnjyu1hvr99/H2V4KdWpLqHnIozLd4viELBaFQAuJBVE9Vub8B81vpw9s01JJEuCtEFB7rA==
+"@storybook/docs-tools@7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@storybook/docs-tools/-/docs-tools-7.0.0.tgz#f9b135fdb1e4f1a69d80db8cff524e349ed503bd"
+  integrity sha512-4a9xecYhjRAYAzbmheF2nnZst3sWe/tmlOcspky/wGU3BR1Wy3u9b45q+r3wW/Nm9C8XHt0CRmkFwQKGme14iQ==
   dependencies:
     "@babel/core" "^7.12.10"
-    "@storybook/core-common" "7.0.0-rc.10"
-    "@storybook/preview-api" "7.0.0-rc.10"
-    "@storybook/types" "7.0.0-rc.10"
+    "@storybook/core-common" "7.0.0"
+    "@storybook/preview-api" "7.0.0"
+    "@storybook/types" "7.0.0"
     "@types/doctrine" "^0.0.3"
     doctrine "^3.0.0"
     lodash "^4.17.21"
@@ -3962,10 +3962,10 @@
     tsconfig-paths "^4.0.0"
     tsconfig-paths-webpack-plugin "^3.5.2"
 
-"@storybook/node-logger@7.0.0-rc.10":
-  version "7.0.0-rc.10"
-  resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-7.0.0-rc.10.tgz#1e34ee9b808a194bbcf7c0ffb80b59a7cedf7d3e"
-  integrity sha512-C+NEudQz8t0VS5U5bOUbIXtz/FL8y2Za/qcG7hI7fa9NglQvtdBYpNzwg8M4YSOUvOoa3eEqoD26tnjAkEfEQQ==
+"@storybook/node-logger@7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-7.0.0.tgz#9d58cfb886a54d4997c7b0231bce78d8e8ab4f47"
+  integrity sha512-GjmHY9dSEFQ/BRsjhC63DsMr85Wfb/+R73ApJcGyc3sJDSfNil0JVgIsU7ZfCGV1ty0XhtvLd+jd+J1EAHi/dw==
   dependencies:
     "@types/npmlog" "^4.1.2"
     chalk "^4.1.0"
@@ -4177,10 +4177,10 @@
     react-docgen-typescript "^2.2.2"
     tslib "^2.0.0"
 
-"@storybook/react-dom-shim@7.0.0-rc.10":
-  version "7.0.0-rc.10"
-  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-7.0.0-rc.10.tgz#0fbb05091c60b0f819f28889f19e5ba9c79ef194"
-  integrity sha512-oRmjN4HLo/gumufM6xrCYMncggbsNQ2UC+0Wju2zs86v6mLmoG8CCVnTE2nyUBiy5IDZ464nBhdGYkkuUEYzrg==
+"@storybook/react-dom-shim@7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-7.0.0.tgz#9bb1e57cc60e70bb151879c1c615aca71671270f"
+  integrity sha512-oMCkYYVbDaNMolnzObYvHuWNLUGC87osJmjjT3l+zugVUETDM/oDrvbAyzDucCJDea2ZCfxQHxYkhY6R+MQxHA==
 
 "@storybook/react-dom-shim@7.0.0-rc.6":
   version "7.0.0-rc.6"
@@ -4192,18 +4192,18 @@
   resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-7.0.0-rc.7.tgz#fb34f861ad6cec42b2bc21de0b45eefd1693873c"
   integrity sha512-tPDYQZB9Rk8i2vvoWS0MEHbGjmYzymPRgTyQT4OD9MGj7o9PV9lE5qM9Bmk6PVJ+PyXZtJHAqDiWABM0OZFuxQ==
 
-"@storybook/react@7.0.0-rc.10":
-  version "7.0.0-rc.10"
-  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-7.0.0-rc.10.tgz#af90e060a166cd043f52e4089a28b51149a32c08"
-  integrity sha512-AFN4Jzyp27jhe5qnbtG45yAHq/e3bkdL9p0di2t+AdHXyse8naud2pTzD/j3bbaU23R1iDVwVPQ+X7kAktu0EA==
+"@storybook/react@7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-7.0.0.tgz#b409d926eb9c2e5a8f6400bb0c97d03055360cad"
+  integrity sha512-JvLpm9DsDdVPEfg0I5O7so9PgRJa4eqJH5bZLgdtUXyzLWj6d0woa1uz/BqDHEXk5AveNipmTcqxTOZ0SWw2jw==
   dependencies:
-    "@storybook/client-logger" "7.0.0-rc.10"
-    "@storybook/core-client" "7.0.0-rc.10"
-    "@storybook/docs-tools" "7.0.0-rc.10"
+    "@storybook/client-logger" "7.0.0"
+    "@storybook/core-client" "7.0.0"
+    "@storybook/docs-tools" "7.0.0"
     "@storybook/global" "^5.0.0"
-    "@storybook/preview-api" "7.0.0-rc.10"
-    "@storybook/react-dom-shim" "7.0.0-rc.10"
-    "@storybook/types" "7.0.0-rc.10"
+    "@storybook/preview-api" "7.0.0"
+    "@storybook/react-dom-shim" "7.0.0"
+    "@storybook/types" "7.0.0"
     "@types/escodegen" "^0.0.6"
     "@types/estree" "^0.0.51"
     "@types/node" "^16.0.0"
