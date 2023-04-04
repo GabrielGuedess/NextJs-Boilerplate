@@ -70,7 +70,7 @@
     "@storybook/addon-viewport": "^7.0.0",
     "@storybook/nextjs": "7.0.0-rc.6",
     "@storybook/react": "7.0.0",
-    "@storybook/theming": "^7.0.0-rc.9",
+    "@storybook/theming": "^7.0.2",
     "@stylelint/postcss-css-in-js": "^0.38.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
