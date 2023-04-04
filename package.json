@@ -67,7 +67,7 @@
     "@storybook/addon-interactions": "^7.0.2",
     "@storybook/addon-links": "^7.0.0-beta.51",
     "@storybook/addon-toolbars": "^7.0.0-rc.10",
-    "@storybook/addon-viewport": "^7.0.0",
+    "@storybook/addon-viewport": "^7.0.2",
     "@storybook/nextjs": "7.0.0-rc.6",
     "@storybook/react": "7.0.0",
     "@storybook/theming": "^7.0.2",
