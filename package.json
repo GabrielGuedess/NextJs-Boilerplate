@@ -113,7 +113,7 @@
     "prettier-plugin-packagejson": "^2.4.3",
     "semantic-release": "^21.0.1",
     "sort-package-json": "^2.4.1",
-    "storybook": "7.0.0-rc.8",
+    "storybook": "7.0.2",
     "storybook-addon-designs": "^6.3.1",
     "storybook-addon-pseudo-states": "^2.0.0-next.0",
     "storybook-dark-mode": "^2.1.1",
