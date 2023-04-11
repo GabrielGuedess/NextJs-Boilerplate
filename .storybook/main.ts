@@ -1,4 +1,6 @@
-module.exports = {
+import { type StorybookConfig } from '@storybook/nextjs';
+
+const storybookConfig: StorybookConfig = {
   stories: ['../src/components/**/stories.tsx'],
   addons: [
     '@storybook/addon-essentials',
@@ -21,11 +23,13 @@ module.exports = {
   },
   webpackFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
-      config.base = '/NextJs-Boilerplate/';
+      config.output!.publicPath = '/NextJs-Boilerplate/';
     }
 
-    config.resolve.modules.push(`${process.cwd()}/src`);
+    config.resolve?.modules?.push(`${process.cwd()}/src`);
 
     return config;
   },
 };
+
+export default storybookConfig;
