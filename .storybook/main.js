@@ -1,5 +1,5 @@
 module.exports = {
-  stories: ['../src/components/**/stories.tsx'],
+  stories: ['../src/components/**/stories.tsx', '../src/styles/**/stories.mdx'],
   addons: [
     '@storybook/addon-essentials',
     '@storybook/addon-interactions',
@@ -19,7 +19,11 @@ module.exports = {
     name: '@storybook/nextjs',
     options: {},
   },
-  webpackFinal: config => {
+  webpackFinal: (config, { configType }) => {
+    if (configType === 'PRODUCTION') {
+      config.base = '/NextJs-Boilerplate/';
+    }
+
     config.resolve.modules.push(`${process.cwd()}/src`);
 
     return config;

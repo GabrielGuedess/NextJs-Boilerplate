@@ -76,11 +76,21 @@
       }
     },
     {
+      "files": [".storybook/**"],
+      "rules": {
+        "no-param-reassign": "off"
+      }
+    },
+    {
       "files": ["spec.ts", "spec.tsx", "test.ts", "test.tsx"],
       "rules": {
         "unicorn/prefer-module": "off",
         "@typescript-eslint/no-var-requires": "off"
       }
+    },
+    {
+      "files": "*.mdx",
+      "extends": "plugin:mdx/recommended"
     },
     {
       "files": ["**.d.ts"],
