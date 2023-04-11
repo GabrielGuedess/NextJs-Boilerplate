@@ -13,7 +13,7 @@ const storybookConfig: StorybookConfig = {
     'storybook-addon-designs',
     'storybook-dark-mode',
   ],
-  staticDirs: ['../public'],
+  staticDirs: [{ from: '../public', to: '/NextJs-Boilerplate' }],
   docs: {
     autodocs: true,
   },
