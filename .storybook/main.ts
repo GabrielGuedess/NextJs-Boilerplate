@@ -23,7 +23,7 @@ const storybookConfig: StorybookConfig = {
   },
   webpackFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
-      config.output!.publicPath = '/NextJs-Boilerplate/';
+      config.output!.publicPath = 'NextJs-Boilerplate/';
     }
 
     config.resolve?.modules?.push(`${process.cwd()}/src`);
