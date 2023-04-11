@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "build-storybook": "storybook build",
+    "build-storybook": "storybook build --preview-url=/NextJs-Boilerplate/iframe.html --force-build-preview",
     "build:analyzer": "ANALYZE=true next build",
     "chromatic": "chromatic --project-token=CHROMATIC_PROJECT_TOKEN",
     "dev": "next dev",

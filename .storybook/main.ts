@@ -13,7 +13,7 @@ const storybookConfig: StorybookConfig = {
     'storybook-addon-designs',
     'storybook-dark-mode',
   ],
-  staticDirs: [{ from: '../public', to: '/NextJs-Boilerplate' }],
+  staticDirs: ['../public'],
   docs: {
     autodocs: true,
   },
@@ -21,7 +21,11 @@ const storybookConfig: StorybookConfig = {
     name: '@storybook/nextjs',
     options: {},
   },
-  webpackFinal: config => {
+  webpackFinal: (config, { configType }) => {
+    if (configType === 'PRODUCTION') {
+      config.output!.publicPath = '/NextJs-Boilerplate/';
+    }
+
     config.resolve?.modules?.push(`${process.cwd()}/src`);
 
     return config;
