@@ -21,11 +21,7 @@ const storybookConfig: StorybookConfig = {
     name: '@storybook/nextjs',
     options: {},
   },
-  webpackFinal: (config, { configType }) => {
-    if (configType === 'PRODUCTION') {
-      config.output!.publicPath = '/NextJs-Boilerplate/';
-    }
-
+  webpackFinal: config => {
     config.resolve?.modules?.push(`${process.cwd()}/src`);
 
     return config;
