@@ -1,5 +1,5 @@
 module.exports = {
-  stories: ['../src/components/**/stories.tsx', '../src/styles/**/stories.mdx'],
+  stories: ['../src/components/**/stories.tsx'],
   addons: [
     '@storybook/addon-essentials',
     '@storybook/addon-interactions',
