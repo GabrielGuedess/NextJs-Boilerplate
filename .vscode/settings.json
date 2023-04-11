@@ -5,5 +5,42 @@
     "source.fixAll.eslint": true,
     "source.fixAll.tslint": true,
     "source.fixAll.stylelint": true
+  },
+
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+
+  "material-icon-theme.folders.associations": {
+    ".storybook": "storybook",
+    "workflows": "ci",
+    "ISSUE_TEMPLATE": "error",
+    "http": "container",
+    "modules": "components",
+    "dtos": "typescript",
+    "useCases": "controller",
+    "mappers": "meta",
+    "eslint-config": "tools",
+    "types": "typescript",
+    "ui": "container",
+    "MailProvider": "Mail",
+    "queries": "command",
+    "fragments": "mjml"
+  },
+
+  "material-icon-theme.files.associations": {
+    ".ts-prunerc": "typst",
+    ".czrc": "commitlint",
+    "prismaClient.ts": "prisma",
+    "prisma.ts": "prisma",
+    "next-seo.config.js": "next",
+    "stories.tsx": "storybook",
+    "test.tsx": "test-jsx",
+    "test.ts": "test-ts",
+    "spec.tsx": "test-jsx",
+    "spec.ts": "test-ts",
+    "mock.ts": "log",
+    "mocks.ts": "log",
+    "apollo.ts": "apollo",
+    "husky.sh": "husky"
   }
 }

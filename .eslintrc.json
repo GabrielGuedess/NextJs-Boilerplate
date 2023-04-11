@@ -57,7 +57,12 @@
   ],
   "overrides": [
     {
-      "files": ["src/pages/*", "src/pages/api/*", "**/stories.tsx"],
+      "files": [
+        "src/app/*",
+        "src/pages/*",
+        "src/pages/api/*",
+        "**/stories.tsx"
+      ],
       "rules": {
         "import/no-default-export": "off"
       }
@@ -66,6 +71,14 @@
       "files": ["**.js"],
       "rules": {
         "no-undef": "off",
+        "unicorn/prefer-module": "off",
+        "@typescript-eslint/no-var-requires": "off"
+      }
+    },
+    {
+      "files": ["spec.ts", "spec.tsx", "test.ts", "test.tsx"],
+      "rules": {
+        "unicorn/prefer-module": "off",
         "@typescript-eslint/no-var-requires": "off"
       }
     },
@@ -75,6 +88,31 @@
         "@typescript-eslint/naming-convention": "off",
         "@typescript-eslint/no-empty-interface": "off",
         "unicorn/filename-case": ["error", { "case": "kebabCase" }]
+      }
+    },
+    {
+      "files": ["src/dtos/*"],
+      "rules": {
+        "unicorn/filename-case": "off",
+        "@typescript-eslint/naming-convention": [
+          "error",
+          {
+            "selector": "interface",
+            "format": ["PascalCase"],
+            "custom": {
+              "regex": "[A-Z]*DTO$",
+              "match": true
+            }
+          },
+          {
+            "selector": "typeAlias",
+            "format": ["PascalCase"],
+            "custom": {
+              "regex": "[A-Z]*DTO$",
+              "match": true
+            }
+          }
+        ]
       }
     }
   ],
@@ -110,6 +148,9 @@
         "replacements": {
           "props": {
             "properties": false
+          },
+          "ref": {
+            "reference": false
           },
           "args": {
             "arguments": false
@@ -184,9 +225,13 @@
           "/^components/",
           "/^services/",
           "/^lib/",
+          "/^functions/",
           "/^dtos/",
+          "/^helpers/",
           "/^utils/",
           "/^assets/",
+          "/^constants/",
+          "/^storage/",
           "/^styles/",
           ["parent", "sibling", "index"]
         ],
