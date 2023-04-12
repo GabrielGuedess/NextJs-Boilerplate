@@ -3454,7 +3454,7 @@
     nanoid "^3.3.1"
     read-pkg-up "^7.0.1"
 
-"@storybook/theming@7.0.2", "@storybook/theming@^7.0.0", "@storybook/theming@^7.0.2":
+"@storybook/theming@7.0.2":
   version "7.0.2"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.0.2.tgz#a7df6c6cd5533804a9435c2be2181c7605537285"
   integrity sha512-c9sE+QAZNbopPvLiJ6BMxBERfTaq1ATyIri97FBvTucuSotNXw7X5q+ip5/nrCOPZuvK2f5wF4DRyD2HnB/rIQ==
@@ -3464,7 +3464,7 @@
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
 
-"@storybook/theming@7.0.3":
+"@storybook/theming@7.0.3", "@storybook/theming@^7.0.0", "@storybook/theming@^7.0.3":
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.0.3.tgz#dbdf06c86e4cdc06a69a2d6be34d770d87f45d4e"
   integrity sha512-WCYnariRFvi5TvXEsrX+ghk/rN3GWKzfPJ5mfoN62k53lP1lI4ctRiHHA4xZ95n4UrzHxkjDNVkPhZgAMuM/Sg==
