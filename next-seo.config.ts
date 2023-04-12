@@ -1,4 +1,6 @@
-export default {
+import { type DefaultSeoProps } from 'next-seo';
+
+const config: DefaultSeoProps = {
   openGraph: {
     type: 'website',
     locale: 'pt_BR',
@@ -12,3 +14,5 @@ export default {
     cardType: 'summary_large_image',
   },
 };
+
+export default config;

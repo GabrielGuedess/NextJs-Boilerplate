@@ -1,4 +1,3 @@
 !.storybook
 !.jest
-plopfile.ts
-next-seo.config.js
+commitlint.config.js

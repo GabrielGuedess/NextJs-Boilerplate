@@ -1,15 +1,17 @@
-/** @type {import('next').NextConfig} */
+import WithPWA from 'next-pwa';
 
-const withPWA = require('next-pwa')({
+import WithBundleAnalyzer from '@next/bundle-analyzer';
+
+const withPWA = WithPWA({
   dest: 'public',
   disable: !(process.env.NODE_ENV === 'production'),
 });
 
-const withBundleAnalyzer = require('@next/bundle-analyzer')({
+const withBundleAnalyzer = WithBundleAnalyzer({
   enabled: process.env.ANALYZE === 'true',
 });
 
-module.exports = withBundleAnalyzer(
+const nextConfig = withBundleAnalyzer(
   withPWA({
     swcMinify: true,
     reactStrictMode: true,
@@ -18,3 +20,5 @@ module.exports = withBundleAnalyzer(
     },
   }),
 );
+
+export default nextConfig;

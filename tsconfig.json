@@ -18,5 +18,14 @@
     "plugins": [{ "name": "next" }]
   },
   "exclude": ["node_modules"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"]
+  "include": [
+    "next.config.mjs",
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".storybook/**/*.tsx",
+    ".storybook/**/*.ts",
+    "generators/plopfile.mjs"
+  ]
 }

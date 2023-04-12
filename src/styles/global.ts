@@ -1,6 +1,18 @@
-import { Poppins } from '@next/font/google';
+import { Poppins } from 'next/font/google';
 
+import { type ThemeVars } from '@storybook/theming';
+
+import {
+  type GlobalStyleComponent,
+  type DefaultTheme,
+  css,
+} from 'styled-components';
 import { createGlobalStyle } from 'styled-components';
+
+type GlobalStylesProps = {
+  theme: DefaultTheme;
+  storyBackground?: ThemeVars;
+};
 
 const poppins = Poppins({
   weight: ['300', '400', '500'],
@@ -8,7 +20,10 @@ const poppins = Poppins({
   subsets: ['latin'],
 });
 
-export const GlobalStyles = createGlobalStyle`
+export const GlobalStyles: GlobalStyleComponent<
+  GlobalStylesProps,
+  DefaultTheme
+> = createGlobalStyle`
   * {
     box-sizing: border-box;
     margin: 0;
@@ -22,11 +37,18 @@ export const GlobalStyles = createGlobalStyle`
     }
   }
 
-  html {
-    font-size: 62.5%;
-  }
+  ${({ storyBackground }) => css`
+    html {
+      font-size: 62.5%;
+    }
 
-  body {
-    font-family: ${poppins.style.fontFamily};
-  }
+    body {
+      font-family: ${poppins.style.fontFamily};
+
+      ${!!storyBackground &&
+      css`
+        background: ${storyBackground.appContentBg};
+      `}
+    }
+  `}
 `;

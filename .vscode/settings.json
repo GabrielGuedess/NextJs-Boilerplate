@@ -32,7 +32,7 @@
     ".czrc": "commitlint",
     "prismaClient.ts": "prisma",
     "prisma.ts": "prisma",
-    "next-seo.config.js": "next",
+    "next-seo.config.ts": "next",
     "stories.tsx": "storybook",
     "test.tsx": "test-jsx",
     "test.ts": "test-ts",

@@ -26,7 +26,8 @@
       "jsx": true
     },
     "ecmaVersion": 13,
-    "sourceType": "module"
+    "sourceType": "module",
+    "project": ["./tsconfig.json"]
   },
   "globals": {
     "JSX": "readonly",
@@ -61,6 +62,10 @@
         "src/app/*",
         "src/pages/*",
         "src/pages/api/*",
+        "next.config.mjs",
+        "jest.config.ts",
+        "plopfile.mjs",
+        "next-seo.config.ts",
         "**/stories.tsx"
       ],
       "rules": {
@@ -80,6 +85,8 @@
       "rules": {
         "no-param-reassign": "off",
         "import/no-default-export": "off",
+        "node/no-extraneous-import": "off",
+        "import/no-extraneous-dependencies": "off",
         "@typescript-eslint/no-non-null-assertion": "off"
       }
     },
@@ -88,6 +95,12 @@
       "rules": {
         "unicorn/prefer-module": "off",
         "@typescript-eslint/no-var-requires": "off"
+      }
+    },
+    {
+      "files": "next-seo.config.ts",
+      "rules": {
+        "unicorn/filename-case": "off"
       }
     },
     {
@@ -160,6 +173,9 @@
         "replacements": {
           "props": {
             "properties": false
+          },
+          "env": {
+            "environment": false
           },
           "ref": {
             "reference": false
