@@ -2922,20 +2922,6 @@
     prettier "^2.8.0"
     recast "^0.23.1"
 
-"@storybook/components@7.0.2":
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/@storybook/components/-/components-7.0.2.tgz#3cbceb6e1525bddd855896d3268c2a1fce784535"
-  integrity sha512-Ee9pY6WlpricPUdYiyR0Ov8zgHkUt541yl1CZ6Ytaom2TA12cAnRjKewbLAgVPPhIE1LsMRhOPFYql0JMtnN4Q==
-  dependencies:
-    "@storybook/client-logger" "7.0.2"
-    "@storybook/csf" "^0.1.0"
-    "@storybook/global" "^5.0.0"
-    "@storybook/theming" "7.0.2"
-    "@storybook/types" "7.0.2"
-    memoizerific "^1.11.3"
-    use-resize-observer "^9.1.0"
-    util-deprecate "^1.0.2"
-
 "@storybook/components@7.0.3", "@storybook/components@^7.0.0":
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/@storybook/components/-/components-7.0.3.tgz#87fdf2e67d16a9de4c3e5e5f8bf69ab5d4109202"
@@ -2950,14 +2936,6 @@
     use-resize-observer "^9.1.0"
     util-deprecate "^1.0.2"
 
-"@storybook/core-client@7.0.2":
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.0.2.tgz#91112c7904a709ea4204e131a4f36e3c25872c8c"
-  integrity sha512-tr6Uv41YD2O0xiUrtgujiY1QxuznhbyUI0BRsSh49e8cx3QoW7FgPy7IVZHgb17DXKZ/wY/hgdyTTB87H6IbLA==
-  dependencies:
-    "@storybook/client-logger" "7.0.2"
-    "@storybook/preview-api" "7.0.2"
-
 "@storybook/core-client@7.0.3":
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.0.3.tgz#2b4f0d0bb2f4166f394e4ee680a486aa5bac8fb7"
@@ -2965,31 +2943,6 @@
   dependencies:
     "@storybook/client-logger" "7.0.3"
     "@storybook/preview-api" "7.0.3"
-
-"@storybook/core-common@7.0.2":
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/@storybook/core-common/-/core-common-7.0.2.tgz#ca628f2eaaf960cd6ac625f2981cabf3bef231f2"
-  integrity sha512-DayFPTCj695tnEKLuDlogclBim8mzdrbj9U1xzFm23BUReheGSGdLl2zrb3mP1l9Zj4xJ/Ctst1KN9SFbW84vw==
-  dependencies:
-    "@storybook/node-logger" "7.0.2"
-    "@storybook/types" "7.0.2"
-    "@types/node" "^16.0.0"
-    "@types/pretty-hrtime" "^1.0.0"
-    chalk "^4.1.0"
-    esbuild "^0.17.0"
-    esbuild-register "^3.4.0"
-    file-system-cache "^2.0.0"
-    find-up "^5.0.0"
-    fs-extra "^11.1.0"
-    glob "^8.1.0"
-    glob-promise "^6.0.2"
-    handlebars "^4.7.7"
-    lazy-universal-dotenv "^4.0.0"
-    picomatch "^2.3.0"
-    pkg-dir "^5.0.0"
-    pretty-hrtime "^1.0.3"
-    resolve-from "^5.0.0"
-    ts-dedent "^2.0.0"
 
 "@storybook/core-common@7.0.3":
   version "7.0.3"
@@ -3127,19 +3080,6 @@
   resolved "https://registry.yarnpkg.com/@storybook/docs-mdx/-/docs-mdx-0.1.0.tgz#33ba0e39d1461caf048b57db354b2cc410705316"
   integrity sha512-JDaBR9lwVY4eSH5W8EGHrhODjygPd6QImRbwjAuJNEnY0Vw4ie3bPkeGfnacB3OBW6u/agqPv2aRlR46JcAQLg==
 
-"@storybook/docs-tools@7.0.2":
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/@storybook/docs-tools/-/docs-tools-7.0.2.tgz#e4fecfec70b1b8c9f57fa00ffedf2a5dfd84e407"
-  integrity sha512-w4D5BURrYjLbLGG9VKAaKU2dSdukszxRE3HWkJyhQU9R1JHvS3n8ntcMqYPqRfoHCOeBLBxP0edDYcAfzGNDYQ==
-  dependencies:
-    "@babel/core" "^7.12.10"
-    "@storybook/core-common" "7.0.2"
-    "@storybook/preview-api" "7.0.2"
-    "@storybook/types" "7.0.2"
-    "@types/doctrine" "^0.0.3"
-    doctrine "^3.0.0"
-    lodash "^4.17.21"
-
 "@storybook/docs-tools@7.0.3":
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/@storybook/docs-tools/-/docs-tools-7.0.3.tgz#1f3abd76f1e96d02019c158fc78f265dba322035"
@@ -3263,16 +3203,6 @@
     tsconfig-paths "^4.0.0"
     tsconfig-paths-webpack-plugin "^3.5.2"
 
-"@storybook/node-logger@7.0.2":
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-7.0.2.tgz#696f8017017e343be8b08dcee4fde9cab068e5d9"
-  integrity sha512-UENpXxB1yDqP7JXaODJo+pbGt5y3NFBNurBr4+pI4bMAC4ARjpgRE4wp6fxUKFPu9MAR10oCdcLEHkaVUAjYRg==
-  dependencies:
-    "@types/npmlog" "^4.1.2"
-    chalk "^4.1.0"
-    npmlog "^5.0.1"
-    pretty-hrtime "^1.0.3"
-
 "@storybook/node-logger@7.0.3":
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-7.0.3.tgz#31fc36af61650183a69677fb63b39877582e3248"
@@ -3370,42 +3300,10 @@
     react-docgen-typescript "^2.2.2"
     tslib "^2.0.0"
 
-"@storybook/react-dom-shim@7.0.2":
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-7.0.2.tgz#50ca149ad76c226301d273d7870bb2f94d380ce6"
-  integrity sha512-fMl0aV7mJ3wyQKvt6z+rZuiIiSd9YinS77IJ1ETHqVZ4SxWriOS0GFKP6sZflrlpShoZBh+zl1lDPG7ZZdrQGw==
-
 "@storybook/react-dom-shim@7.0.3":
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-7.0.3.tgz#95378c0c125d2c478923ace3f5718a27adf306b6"
   integrity sha512-bwC75aEoxobex+iU1m9Wq/HHl86uRR3phZpyiJua1b2iSaKzo1FW6mH0xDrHqh+qytnU2vNfVo87JvJ8fokTAg==
-
-"@storybook/react@7.0.2":
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-7.0.2.tgz#64f13f8280275ada53684708c8e08f99512f27a7"
-  integrity sha512-2P7Oju1XKWMyn75dO0vjL4gthzBL/lLiCBRyAHKXZJ1H2eNdWjXkOOtH1HxnbRcXjWSU4tW96dqKY8m0iR9zAA==
-  dependencies:
-    "@storybook/client-logger" "7.0.2"
-    "@storybook/core-client" "7.0.2"
-    "@storybook/docs-tools" "7.0.2"
-    "@storybook/global" "^5.0.0"
-    "@storybook/preview-api" "7.0.2"
-    "@storybook/react-dom-shim" "7.0.2"
-    "@storybook/types" "7.0.2"
-    "@types/escodegen" "^0.0.6"
-    "@types/estree" "^0.0.51"
-    "@types/node" "^16.0.0"
-    acorn "^7.4.1"
-    acorn-jsx "^5.3.1"
-    acorn-walk "^7.2.0"
-    escodegen "^2.0.0"
-    html-tags "^3.1.0"
-    lodash "^4.17.21"
-    prop-types "^15.7.2"
-    react-element-to-jsx-string "^15.0.0"
-    ts-dedent "^2.0.0"
-    type-fest "^2.19.0"
-    util-deprecate "^1.0.2"
 
 "@storybook/react@7.0.3":
   version "7.0.3"
