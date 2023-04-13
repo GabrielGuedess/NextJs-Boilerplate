@@ -114,7 +114,7 @@
     "sort-package-json": "^2.4.1",
     "storybook": "7.0.3",
     "storybook-addon-designs": "^7.0.0-beta.2",
-    "storybook-addon-pseudo-states": "^2.0.0-next.3",
+    "storybook-addon-pseudo-states": "^2.0.0",
     "storybook-dark-mode": "^3.0.0",
     "stylelint": "^15.4.0",
     "stylelint-config-clean-order": "^5.0.1",
