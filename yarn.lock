@@ -2591,19 +2591,19 @@
     polished "^4.2.2"
     ts-dedent "^2.2.0"
 
-"@storybook/addon-links@^7.0.4":
-  version "7.0.4"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-7.0.4.tgz#ce66e6b38c6e2a655cffe89d33e7e9e12bc10561"
-  integrity sha512-1VyPYt6EGUmFWQzgT6eqQU2H+5pKqpe7lN9MBQvA1X0d0hCceC2/Hy+cozc36swbKnASt9F6SMvLNhgu5RVFBQ==
+"@storybook/addon-links@^7.0.5":
+  version "7.0.5"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-7.0.5.tgz#e764ddd57d44bb68309d0002de571f98ab5c7f6f"
+  integrity sha512-XltdGrWWlyW9mxeyS11Khi963ajV6B+TWUMi/U5Ka/uTHzVoB2vsB7jzkVKLc0mSR7oIkP+aZmkzaWNZZq9v1A==
   dependencies:
-    "@storybook/client-logger" "7.0.4"
-    "@storybook/core-events" "7.0.4"
+    "@storybook/client-logger" "7.0.5"
+    "@storybook/core-events" "7.0.5"
     "@storybook/csf" "^0.1.0"
     "@storybook/global" "^5.0.0"
-    "@storybook/manager-api" "7.0.4"
-    "@storybook/preview-api" "7.0.4"
-    "@storybook/router" "7.0.4"
-    "@storybook/types" "7.0.4"
+    "@storybook/manager-api" "7.0.5"
+    "@storybook/preview-api" "7.0.5"
+    "@storybook/router" "7.0.5"
+    "@storybook/types" "7.0.5"
     prop-types "^15.7.2"
     ts-dedent "^2.0.0"
 
@@ -3056,12 +3056,12 @@
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-7.0.2.tgz#5038aa5ea1e035099ed1dc48aa233e232ff882e7"
   integrity sha512-1DCHCwHRL3+rlvnVVc/BCfReP31XaT2WYgcLeGTmkX1E43Po1MkgcM7PnJPSaa9POvSqZ+6YLZv5Bs1SXbufow==
 
-"@storybook/core-events@7.0.4", "@storybook/core-events@^7.0.0":
+"@storybook/core-events@7.0.4":
   version "7.0.4"
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-7.0.4.tgz#e7a0b55c861a0126f58a520984f0ccd4ad742322"
   integrity sha512-3gYyJZdHrf69tGueN7SQCgPxnLYYow8n5BeBcBlehYAutfLOafpd36HPIXSHIvJaLDNUzGqLcFiGub04ts1pJA==
 
-"@storybook/core-events@7.0.5":
+"@storybook/core-events@7.0.5", "@storybook/core-events@^7.0.0":
   version "7.0.5"
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-7.0.5.tgz#d92490df43f3bc28bf05b3d9a69ae153aca94ecd"
   integrity sha512-bYQFZlJR3n5gFk5GVIemuL3m6aYPF6DVnzj6n9UcMZDlHcOZ2B2WbTmAUrGy0bmtj/Fd6ZJKDpBhh3cRRsYkbA==
