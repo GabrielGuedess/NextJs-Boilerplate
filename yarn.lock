@@ -2442,21 +2442,21 @@
     lodash.union "^4.6.0"
     lodash.values "^4.3.0"
 
-"@storybook/addon-a11y@^7.0.4":
-  version "7.0.4"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-7.0.4.tgz#5cab8b530f142be9361971bc5d47086687e9ecdf"
-  integrity sha512-4plAdmN2Sf0RBBq/d4jTfc2bz0A3inKKRM0VLojPprUzhOgz4wfdqYXLGaTR195a4IyNP/LPwaYzB71dUT6SAQ==
+"@storybook/addon-a11y@^7.0.5":
+  version "7.0.5"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-7.0.5.tgz#624354e0af7a8d25759dd48bf23ef1dc40799d34"
+  integrity sha512-MCEhw7AiXdYcRFRXk9ffy9AmMGDZ7FCqiOp03T74qm0VJotvdwZwMSNTRLsAOqMaF/hEK7pj7GeDaYsSKVKHPA==
   dependencies:
-    "@storybook/addon-highlight" "7.0.4"
-    "@storybook/channels" "7.0.4"
-    "@storybook/client-logger" "7.0.4"
-    "@storybook/components" "7.0.4"
-    "@storybook/core-events" "7.0.4"
+    "@storybook/addon-highlight" "7.0.5"
+    "@storybook/channels" "7.0.5"
+    "@storybook/client-logger" "7.0.5"
+    "@storybook/components" "7.0.5"
+    "@storybook/core-events" "7.0.5"
     "@storybook/global" "^5.0.0"
-    "@storybook/manager-api" "7.0.4"
-    "@storybook/preview-api" "7.0.4"
-    "@storybook/theming" "7.0.4"
-    "@storybook/types" "7.0.4"
+    "@storybook/manager-api" "7.0.5"
+    "@storybook/preview-api" "7.0.5"
+    "@storybook/theming" "7.0.5"
+    "@storybook/types" "7.0.5"
     axe-core "^4.2.0"
     lodash "^4.17.21"
     react-resize-detector "^7.1.2"
@@ -2593,6 +2593,15 @@
     "@storybook/core-events" "7.0.4"
     "@storybook/global" "^5.0.0"
     "@storybook/preview-api" "7.0.4"
+
+"@storybook/addon-highlight@7.0.5":
+  version "7.0.5"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-highlight/-/addon-highlight-7.0.5.tgz#5252d6197948ed2fc88c5c55e3453b3bd2e4469f"
+  integrity sha512-m52Yx2AfWdh+hYAHTjPPocOUd15IE5OAF2nx1rmRfp+caIwKE8UyAn2J4Tk2aVwybUM96B4Bioo8cmOj6znqPw==
+  dependencies:
+    "@storybook/core-events" "7.0.5"
+    "@storybook/global" "^5.0.0"
+    "@storybook/preview-api" "7.0.5"
 
 "@storybook/addon-interactions@^7.0.4":
   version "7.0.4"
