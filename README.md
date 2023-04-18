@@ -78,7 +78,7 @@
 
 ## About The Project
 
-### [🛠 Built With](#built-with)
+### 🛠 Built With
 
 The following tools were used in building the project:
 
@@ -102,7 +102,7 @@ The following tools were used in building the project:
 
 <!-- Storybook -->
 
-### [🌈 Storybook](#storybook)
+### 🌈 Storybook
 
 Storybook is a frontend workshop for building UI components and pages in isolation. Thousands of teams use it for UI development, testing, and documentation.
 
@@ -142,7 +142,7 @@ yarn build-storybook
 
 <!-- Lighthouse -->
 
-### [🏅 Lighthouse](#lighthouse)
+### 🏅 Lighthouse
 
 <br />
 
@@ -164,7 +164,7 @@ yarn build-storybook
 
 <!-- Codecov -->
 
-### [🔍 Codecov](#codecov)
+### 🔍 Codecov
 
 Codecov provides metrics and insights into the results of tests through code coverage reports. Coverage reports are used to determine which lines of code were tested and which lines were not tested, which may contain bugs and syntax errors.
 
@@ -180,7 +180,7 @@ Codecov provides metrics and insights into the results of tests through code cov
 
 <!-- GETTING STARTED -->
 
-## [🚀 Getting Started](#getting-started)
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -227,7 +227,7 @@ yarn dev
 
 <!-- ROADMAP -->
 
-## [🚨 Configuration](#configuration)
+## 🚨 Configuration
 
 - [ ] Cypress
   - [ ] Add `CYPRESS_PROJECT_ID` to Github.
@@ -243,7 +243,7 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 <!-- CONTRIBUTING -->
 
-## [👏 Contributing](#contributing)
+## 👏 Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -259,7 +259,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 <!-- LICENSE -->
 
-## [📄 License](#license)
+## 📄 License
 
 Distributed under the MIT License. See [MIT license](LICENSE) for more information.
 
@@ -267,7 +267,7 @@ Distributed under the MIT License. See [MIT license](LICENSE) for more informati
 
 <!-- Deploying -->
 
-## [🌐 Deploying](#deploying)
+## 🌐 Deploying
 
 <br />
 
@@ -277,7 +277,7 @@ Distributed under the MIT License. See [MIT license](LICENSE) for more informati
 
 <!-- CONTACT -->
 
-## [⭐ Contact](#contact)
+## ⭐ Contact
 
 Gabriel Guedes - [@GabrielRGuedess](https://twitter.com/GabrielRGuedess) - gabrielrguedess@gmail.com
 
