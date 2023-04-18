@@ -55,7 +55,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#🛠-built-with">Built With</a></li>
         <li><a href="#storybook">Storybook</a></li>
         <li><a href="#lighthouse">Lighthouse</a></li>
         <li><a href="#codecov">Codecov</a></li>
