@@ -15,7 +15,7 @@ describe('<Logo />', () => {
     render(<Logo hasShadow={false} />);
 
     // Assert
-    expect(screen.getByLabelText(/logo react/i)).toHaveStyleRule(
+    expect(screen.getByTestId(/logo react/i)).toHaveStyleRule(
       'display',
       'none',
       {
