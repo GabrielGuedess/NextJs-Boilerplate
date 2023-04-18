@@ -1,24 +1,16 @@
-import { Poppins } from 'next/font/google';
-
 import { type ThemeVars } from '@storybook/theming';
 
 import {
   type GlobalStyleComponent,
   type DefaultTheme,
+  createGlobalStyle,
   css,
 } from 'styled-components';
-import { createGlobalStyle } from 'styled-components';
 
 type GlobalStylesProps = {
   theme: DefaultTheme;
   storyBackground?: ThemeVars;
 };
-
-const poppins = Poppins({
-  weight: ['300', '400', '500'],
-  display: 'swap',
-  subsets: ['latin'],
-});
 
 export const GlobalStyles: GlobalStyleComponent<
   GlobalStylesProps,
@@ -37,18 +29,20 @@ export const GlobalStyles: GlobalStyleComponent<
     }
   }
 
-  ${({ storyBackground }) => css`
-    html {
-      font-size: 62.5%;
-    }
+  html {
+    font-size: 62.5%;
+  }
 
-    body {
-      font-family: ${poppins.style.fontFamily};
+  body {
+    ${({ theme, storyBackground }) => css`
+      font-family: ${theme.fonts.default};
+      color: ${theme.colors.white};
+      background: linear-gradient(to bottom, transparent, #000) #000;
 
       ${!!storyBackground &&
       css`
         background: ${storyBackground.appContentBg};
       `}
-    }
-  `}
+    `}
+  }
 `;

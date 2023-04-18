@@ -66,6 +66,8 @@
         "jest.config.ts",
         "plopfile.mjs",
         "next-seo.config.ts",
+        "commitlint.config.ts",
+        "cypress.config.ts",
         "**/stories.tsx"
       ],
       "rules": {
@@ -104,8 +106,19 @@
       }
     },
     {
-      "files": "*.mdx",
-      "extends": "plugin:mdx/recommended"
+      "files": "**/**.mdx",
+      "parser": "eslint-mdx",
+      "parserOptions": {},
+      "extends": "plugin:mdx/recommended",
+      "settings": {
+        "mdx/code-blocks": true
+      },
+      "rules": {
+        "react/self-closing-comp": "off",
+        "react/jsx-no-target-blank": "off",
+        "jsx-a11y/heading-has-content": "off",
+        "@typescript-eslint/naming-convention": "off"
+      }
     },
     {
       "files": ["**.d.ts"],
@@ -159,10 +172,10 @@
     "node/no-unpublished-import": "off",
     "react/jsx-props-no-spreading": "off",
     "import/prefer-default-export": "off",
-    "import/no-duplicates": ["error", { "prefer-inline": true }],
     "arrow-body-style": ["error", "as-needed"],
-    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "import/no-duplicates": ["error", { "prefer-inline": true }],
     "import/consistent-type-specifier-style": ["error", "prefer-inline"],
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
     "@typescript-eslint/consistent-type-imports": [
       "error",
       { "prefer": "type-imports" }
@@ -223,7 +236,7 @@
     ],
     "react/jsx-filename-extension": [
       "error",
-      { "extensions": [".js", ".ts", ".jsx", ".tsx"] }
+      { "extensions": [".js", ".ts", ".jsx", ".tsx", ".mdx"] }
     ],
     "import/extensions": [
       "error",

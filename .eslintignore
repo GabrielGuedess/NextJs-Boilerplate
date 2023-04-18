@@ -1,3 +1,4 @@
 !.storybook
 !.jest
-commitlint.config.js
+cypress.config.ts
+plopfile.mjs

@@ -1,4 +1,7 @@
-module.exports = {
+import { type UserConfig } from '@commitlint/types';
+import { RuleConfigSeverity } from '@commitlint/types';
+
+const configuration: UserConfig = {
   parserPreset: 'conventional-changelog-conventionalcommits',
   rules: {
     'body-leading-blank': [1, 'always'],
@@ -16,7 +19,7 @@ module.exports = {
     'type-case': [2, 'always', 'lower-case'],
     'type-empty': [2, 'never'],
     'type-enum': [
-      2,
+      RuleConfigSeverity.Error,
       'always',
       [
         'build',
@@ -145,3 +148,5 @@ module.exports = {
     },
   },
 };
+
+export default configuration;

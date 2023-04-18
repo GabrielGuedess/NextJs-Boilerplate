@@ -17,15 +17,14 @@
     "incremental": true,
     "plugins": [{ "name": "next" }]
   },
-  "exclude": ["node_modules"],
+  "exclude": ["node_modules", "**/**.mdx", "cypress", "cypress.config.ts"],
   "include": [
     "next.config.mjs",
     "next-env.d.ts",
     ".next/types/**/*.ts",
-    "**/*.ts",
-    "**/*.tsx",
     ".storybook/**/*.tsx",
     ".storybook/**/*.ts",
-    "generators/plopfile.mjs"
+    "**/*.ts",
+    "**/*.tsx"
   ]
 }

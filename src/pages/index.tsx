@@ -1,10 +1,5 @@
-import { Main } from 'components/Main';
+import { Main } from 'components/organisms/Main';
 
-const Home = () => (
-  <Main
-    title="React Avançado"
-    description="TypeScript, ReactJS, NextJS e Styled Components"
-  />
-);
+const Home = () => <Main />;
 
 export default Home;

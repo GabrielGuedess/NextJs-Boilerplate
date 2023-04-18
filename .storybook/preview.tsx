@@ -1,5 +1,3 @@
-import { RouterContext } from 'next/dist/shared/lib/router-context';
-
 import React from 'react';
 
 import { useDarkMode } from 'storybook-dark-mode';
@@ -16,15 +14,26 @@ import { DocumentContainer } from './components/DocumentContainer';
 
 const preview: Preview = {
   parameters: {
-    nextRouter: {
-      Provider: RouterContext.Provider,
-    },
     darkMode: {
       dark: themes.dark,
       light: themes.normal,
     },
     docs: {
       container: DocumentContainer,
+    },
+    options: {
+      storySort: {
+        method: 'alphabetical',
+        order: [
+          'Home',
+          'Tokens',
+          'Atoms',
+          'Molecules',
+          'Organisms',
+          'Templates',
+        ],
+        locales: 'en-US',
+      },
     },
     layout: 'fullscreen',
   },
@@ -34,8 +43,8 @@ const preview: Preview = {
 
       return (
         <ThemeProvider theme={theme}>
-          <GlobalStyles storyBackground={dark ? themes.dark : themes.light} />
           <Story />
+          <GlobalStyles storyBackground={dark ? themes.dark : themes.light} />
         </ThemeProvider>
       );
     },

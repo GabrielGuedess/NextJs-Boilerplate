@@ -1,4 +1,4 @@
-name: CI
+name: Cypress
 on: [pull_request]
 
 jobs:
@@ -27,23 +27,16 @@ jobs:
       - name: Install dependencies
         run: yarn
 
-      - name: Typecheck
-        run: yarn typecheck
-
-      - name: Find unused exports
-        run: yarn find-deadcode
-
-      - name: Linting
-        run: yarn lint
-
-      - name: Linting Styles
-        run: yarn lint:css
-
-      - name: Test
-        run: yarn test:ci
-
-      - name: Storybook
-        run: yarn build-storybook
-
-      - name: Build
-        run: yarn build
+      - name: Cypress run
+        uses: cypress-io/github-action@v5.6.1
+        with:
+          build: yarn build
+          start: yarn start
+          command: yarn run test:e2e:ci
+          wait-on: 'http://localhost:3000'
+          wait-on-timeout: 120
+          record: true
+        env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}

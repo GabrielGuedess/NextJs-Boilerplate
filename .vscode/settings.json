@@ -7,8 +7,20 @@
     "source.fixAll.stylelint": true
   },
 
+  "eslint.workingDirectories": [".", "./cypress"],
+
+  "eslint.validate": [
+    "mdx",
+    "markdown",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
   "typescript.tsdk": "node_modules/typescript/lib",
   "typescript.enablePromptUseWorkspaceTsdk": true,
+  "mdx.experimentalLanguageServer": true,
 
   "material-icon-theme.folders.associations": {
     ".storybook": "storybook",
@@ -38,6 +50,9 @@
     "test.ts": "test-ts",
     "spec.tsx": "test-jsx",
     "spec.ts": "test-ts",
+    "**.cy.ts": "cypress",
+    "**.cy.tsx": "cypress",
+    "types.ts": "typescript-def",
     "mock.ts": "log",
     "mocks.ts": "log",
     "apollo.ts": "apollo",
