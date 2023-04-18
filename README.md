@@ -55,7 +55,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#🛠built-with">Built With</a></li>
+        <li><a href="#built-with">Built With</a></li>
         <li><a href="#storybook">Storybook</a></li>
         <li><a href="#lighthouse">Lighthouse</a></li>
         <li><a href="#codecov">Codecov</a></li>
@@ -78,7 +78,7 @@
 
 ## About The Project
 
-### 🛠 Built With
+### [🛠 Built With](#built-with)
 
 The following tools were used in building the project:
 
@@ -102,7 +102,7 @@ The following tools were used in building the project:
 
 <!-- Storybook -->
 
-### 🌈 Storybook
+### [🌈 Storybook](#storybook)
 
 Storybook is a frontend workshop for building UI components and pages in isolation. Thousands of teams use it for UI development, testing, and documentation.
 
@@ -142,7 +142,7 @@ yarn build-storybook
 
 <!-- Lighthouse -->
 
-### 🏅 Lighthouse
+### [🏅 Lighthouse](#lighthouse)
 
 <br />
 
@@ -164,7 +164,7 @@ yarn build-storybook
 
 <!-- Codecov -->
 
-### 🔍 Codecov
+### [🔍 Codecov](#codecov)
 
 Codecov provides metrics and insights into the results of tests through code coverage reports. Coverage reports are used to determine which lines of code were tested and which lines were not tested, which may contain bugs and syntax errors.
 
@@ -180,7 +180,7 @@ Codecov provides metrics and insights into the results of tests through code cov
 
 <!-- GETTING STARTED -->
 
-## 🚀 Getting Started
+## [🚀 Getting Started](#getting-started)
 
 ### Prerequisites
 
@@ -227,7 +227,7 @@ yarn dev
 
 <!-- ROADMAP -->
 
-## 🚨 Configuration
+## [🚨 Configuration](#configuration)
 
 - [ ] Cypress
   - [ ] Add `CYPRESS_PROJECT_ID` to Github.
@@ -243,7 +243,7 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 <!-- CONTRIBUTING -->
 
-## 👏 Contributing
+## [👏 Contributing](#contributing)
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -259,7 +259,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 <!-- LICENSE -->
 
-## 📄 License
+## [📄 License](#license)
 
 Distributed under the MIT License. See [MIT license](LICENSE) for more information.
 
@@ -267,7 +267,7 @@ Distributed under the MIT License. See [MIT license](LICENSE) for more informati
 
 <!-- Deploying -->
 
-## 🌐 Deploying
+## [🌐 Deploying](#deploying)
 
 <br />
 
@@ -277,7 +277,7 @@ Distributed under the MIT License. See [MIT license](LICENSE) for more informati
 
 <!-- CONTACT -->
 
-## ⭐ Contact
+## [⭐ Contact](#contact)
 
 Gabriel Guedes - [@GabrielRGuedess](https://twitter.com/GabrielRGuedess) - gabrielrguedess@gmail.com
 
