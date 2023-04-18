@@ -137,6 +137,7 @@ exports[`<Main /> should render the main correctly 1`] = `
   data-cy="home"
 >
   <div
+    aria-label="Logo React"
     class="c1"
   >
     <div

@@ -14,6 +14,7 @@ const config: Config = {
     'src/**/*.ts(x)?',
     '!src/app/**/*.tsx',
     '!src/pages/**/*.tsx',
+    '!src/stories/**/*.ts(x)?',
     '!src/**/stories.tsx',
     '!src/styles/**/*.ts',
     '!src/utils/tests/*.ts(x)?',

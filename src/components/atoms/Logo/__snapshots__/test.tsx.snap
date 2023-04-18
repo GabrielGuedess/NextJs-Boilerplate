@@ -107,6 +107,7 @@ exports[`<Logo /> should render the logo correctly 1`] = `
 }
 
 <div
+  aria-label="Logo React"
   class="c0"
 >
   <div
