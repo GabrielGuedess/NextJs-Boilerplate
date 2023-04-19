@@ -2674,19 +2674,19 @@
     polished "^4.2.2"
     ts-dedent "^2.2.0"
 
-"@storybook/addon-links@^7.0.5":
-  version "7.0.5"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-7.0.5.tgz#e764ddd57d44bb68309d0002de571f98ab5c7f6f"
-  integrity sha512-XltdGrWWlyW9mxeyS11Khi963ajV6B+TWUMi/U5Ka/uTHzVoB2vsB7jzkVKLc0mSR7oIkP+aZmkzaWNZZq9v1A==
+"@storybook/addon-links@^7.0.6":
+  version "7.0.6"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-7.0.6.tgz#8ae4990893a823711b14c07dbd84bfc6bdd6b730"
+  integrity sha512-KgaxvlWMJoT+yV4h6yElv3uPNSD/vhpgNO/2Br6KHW0MlB1MlqbrtTH8qJ9wUesJSLiw2O3d6npnsefHTtQiGw==
   dependencies:
-    "@storybook/client-logger" "7.0.5"
-    "@storybook/core-events" "7.0.5"
+    "@storybook/client-logger" "7.0.6"
+    "@storybook/core-events" "7.0.6"
     "@storybook/csf" "^0.1.0"
     "@storybook/global" "^5.0.0"
-    "@storybook/manager-api" "7.0.5"
-    "@storybook/preview-api" "7.0.5"
-    "@storybook/router" "7.0.5"
-    "@storybook/types" "7.0.5"
+    "@storybook/manager-api" "7.0.6"
+    "@storybook/preview-api" "7.0.6"
+    "@storybook/router" "7.0.6"
+    "@storybook/types" "7.0.6"
     prop-types "^15.7.2"
     ts-dedent "^2.0.0"
 
@@ -3099,12 +3099,12 @@
     resolve-from "^5.0.0"
     ts-dedent "^2.0.0"
 
-"@storybook/core-events@7.0.5", "@storybook/core-events@^7.0.0":
+"@storybook/core-events@7.0.5":
   version "7.0.5"
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-7.0.5.tgz#d92490df43f3bc28bf05b3d9a69ae153aca94ecd"
   integrity sha512-bYQFZlJR3n5gFk5GVIemuL3m6aYPF6DVnzj6n9UcMZDlHcOZ2B2WbTmAUrGy0bmtj/Fd6ZJKDpBhh3cRRsYkbA==
 
-"@storybook/core-events@7.0.6":
+"@storybook/core-events@7.0.6", "@storybook/core-events@^7.0.0":
   version "7.0.6"
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-7.0.6.tgz#f3b4876cb9003a6bbdbd9602d017e2b37ec86f78"
   integrity sha512-kGrtjlYtjd4iTVk+Phb4CymZaVkB+MGscKAgcO8gfgJ/Q/gq8HQLVZSIzeoCDcDSHOGlBzbg2WVtdHIHhCKlOQ==
