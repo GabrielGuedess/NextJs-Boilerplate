@@ -1,6 +1,3 @@
 [build]
   publish = "storybook-static"
   command = "yarn build-storybook"
-
-[build.environment]
-  NODE_VERSION = 18
