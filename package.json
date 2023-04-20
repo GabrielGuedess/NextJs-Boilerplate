@@ -128,7 +128,7 @@
     "start-server-and-test": "^2.0.0",
     "storybook": "7.0.6",
     "storybook-addon-designs": "^7.0.0-beta.2",
-    "storybook-addon-pseudo-states": "^2.0.0",
+    "storybook-addon-pseudo-states": "^2.0.1",
     "storybook-dark-mode": "^3.0.0",
     "stylelint": "^15.5.0",
     "stylelint-config-clean-order": "^5.0.1",
