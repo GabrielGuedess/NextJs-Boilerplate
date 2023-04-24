@@ -23,7 +23,7 @@ env:
 
 on:
   schedule:
-    - cron: '55 23 * * 0'
+    - cron: '55 23 * * 1'
 
   workflow_dispatch:
     inputs:
