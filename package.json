@@ -51,7 +51,7 @@
     }
   },
   "dependencies": {
-    "@next/bundle-analyzer": "^13.3.0",
+    "@next/bundle-analyzer": "^13.3.1",
     "next": "13.3.1",
     "next-pwa": "^5.6.0",
     "next-seo": "^6.0.0",
