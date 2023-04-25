@@ -2717,7 +2717,7 @@
     "@storybook/preview-api" "7.0.7"
     "@storybook/theming" "7.0.7"
 
-"@storybook/addon-viewport@7.0.6", "@storybook/addon-viewport@^7.0.6":
+"@storybook/addon-viewport@7.0.6":
   version "7.0.6"
   resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-7.0.6.tgz#d3009f560bc629bc182a28dc0ac440e205a8850a"
   integrity sha512-5GGAJeWJEplqYAL5x7GQkXw23n2MELhO6nnCV+Jd3d9qs0Aq2VSTEsD0MGTNef/SymZjYm/iOCNOVgbqIF9t+Q==
@@ -2729,6 +2729,21 @@
     "@storybook/manager-api" "7.0.6"
     "@storybook/preview-api" "7.0.6"
     "@storybook/theming" "7.0.6"
+    memoizerific "^1.11.3"
+    prop-types "^15.7.2"
+
+"@storybook/addon-viewport@^7.0.7":
+  version "7.0.7"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-7.0.7.tgz#31f259fbbf8cb77d5c04c6ccb9f370b3e440f6a8"
+  integrity sha512-znqhd8JFEFoXcAdwYhz1CwrCpVAzhuSyUVBUNDsDs+mgBEfGth4D4abIdWWGcfP6+CmI5ebFHtk443cExZebag==
+  dependencies:
+    "@storybook/client-logger" "7.0.7"
+    "@storybook/components" "7.0.7"
+    "@storybook/core-events" "7.0.7"
+    "@storybook/global" "^5.0.0"
+    "@storybook/manager-api" "7.0.7"
+    "@storybook/preview-api" "7.0.7"
+    "@storybook/theming" "7.0.7"
     memoizerific "^1.11.3"
     prop-types "^15.7.2"
 
@@ -3084,12 +3099,12 @@
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-7.0.5.tgz#d92490df43f3bc28bf05b3d9a69ae153aca94ecd"
   integrity sha512-bYQFZlJR3n5gFk5GVIemuL3m6aYPF6DVnzj6n9UcMZDlHcOZ2B2WbTmAUrGy0bmtj/Fd6ZJKDpBhh3cRRsYkbA==
 
-"@storybook/core-events@7.0.6", "@storybook/core-events@^7.0.0":
+"@storybook/core-events@7.0.6":
   version "7.0.6"
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-7.0.6.tgz#f3b4876cb9003a6bbdbd9602d017e2b37ec86f78"
   integrity sha512-kGrtjlYtjd4iTVk+Phb4CymZaVkB+MGscKAgcO8gfgJ/Q/gq8HQLVZSIzeoCDcDSHOGlBzbg2WVtdHIHhCKlOQ==
 
-"@storybook/core-events@7.0.7":
+"@storybook/core-events@7.0.7", "@storybook/core-events@^7.0.0":
   version "7.0.7"
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-7.0.7.tgz#9acb6425d0a2a3d25becc21980c2c678c6c5548e"
   integrity sha512-XNsR2RgaL2vBwuqsu+KA1DzGmB1UFfrAhpxhmyWTKDCniwtTLlaXgfKbqwcrOrPu/o1YswgIup/9UHepRHaf4A==
