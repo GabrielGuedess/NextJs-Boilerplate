@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { withPerformance } from 'storybook-addon-performance';
 import { useDarkMode } from 'storybook-dark-mode';
 
 import { type Preview } from '@storybook/react';
@@ -48,6 +49,7 @@ const preview: Preview = {
         </ThemeProvider>
       );
     },
+    withPerformance,
   ],
 };
 

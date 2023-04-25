@@ -1,5 +1,7 @@
 import { type StorybookConfig } from '@storybook/nextjs';
 
+export const title = 'NextJs Boilerplate';
+
 const storybookConfig: StorybookConfig = {
   stories: ['../src/components/**/stories.tsx', '../src/stories/**/**.mdx'],
   addons: [
@@ -10,6 +12,7 @@ const storybookConfig: StorybookConfig = {
     '@storybook/addon-links',
     '@storybook/addon-a11y',
     'storybook-addon-pseudo-states',
+    'storybook-addon-performance',
     'storybook-addon-designs',
     'storybook-dark-mode',
   ],
