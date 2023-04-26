@@ -4031,10 +4031,10 @@
     "@types/node" "*"
     form-data "^3.0.0"
 
-"@types/node@*", "@types/node@^18.16.0":
-  version "18.16.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.16.0.tgz#4668bc392bb6938637b47e98b1f2ed5426f33316"
-  integrity sha512-BsAaKhB+7X+H4GnSjGhJG9Qi8Tw+inU9nJDwmD5CgOmBLEI6ArdhikpLX7DjbjDRDTbqZzU2LSQNZg8WGPiSZQ==
+"@types/node@*", "@types/node@^18.16.1":
+  version "18.16.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.16.1.tgz#5db121e9c5352925bb1f1b892c4ae620e3526799"
+  integrity sha512-DZxSZWXxFfOlx7k7Rv4LAyiMroaxa3Ly/7OOzZO8cBNho0YzAi4qlbrx8W27JGqG57IgR/6J7r+nOJWw6kcvZA==
 
 "@types/node@^13.7.0":
   version "13.13.52"
@@ -6237,7 +6237,7 @@ configstore@^5.0.1:
     write-file-atomic "^3.0.0"
     xdg-basedir "^4.0.0"
 
-confusing-browser-globals@^1.0.10, confusing-browser-globals@^1.0.5:
+confusing-browser-globals@^1.0.10:
   version "1.0.11"
   resolved "https://registry.yarnpkg.com/confusing-browser-globals/-/confusing-browser-globals-1.0.11.tgz#ae40e9b57cdd3915408a2805ebd3a5585608dc81"
   integrity sha512-JsPKdmh8ZkmnHxDk55FZ1TqVLvEQTvoByJZRN9jzI0UjxK/QgAmsphz7PGtqgPieQZ/CQcHWXCR7ATDNhGe+YA==
@@ -7337,15 +7337,6 @@ escodegen@^2.0.0:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-airbnb-base@^13.2.0:
-  version "13.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-airbnb-base/-/eslint-config-airbnb-base-13.2.0.tgz#f6ea81459ff4dec2dda200c35f1d8f7419d57943"
-  integrity sha512-1mg/7eoB4AUeB0X1c/ho4vb2gYkNH8Trr/EgCT/aGmKhhG+F6vF5s8+iRBlWAzFIAphxIdp3YfEKgEl0f9Xg+w==
-  dependencies:
-    confusing-browser-globals "^1.0.5"
-    object.assign "^4.1.0"
-    object.entries "^1.1.0"
-
 eslint-config-airbnb-base@^15.0.0:
   version "15.0.0"
   resolved "https://registry.yarnpkg.com/eslint-config-airbnb-base/-/eslint-config-airbnb-base-15.0.0.tgz#6b09add90ac79c2f8d723a2580e07f3925afd236"
@@ -7355,15 +7346,6 @@ eslint-config-airbnb-base@^15.0.0:
     object.assign "^4.1.2"
     object.entries "^1.1.5"
     semver "^6.3.0"
-
-eslint-config-airbnb@^17.1.0:
-  version "17.1.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-airbnb/-/eslint-config-airbnb-17.1.1.tgz#2272e0b86bb1e2b138cdf88d07a3b6f4cda3d626"
-  integrity sha512-xCu//8a/aWqagKljt+1/qAM62BYZeNq04HmdevG5yUGWpja0I/xhqd6GdLRch5oetEGFiJAnvtGuTEAese53Qg==
-  dependencies:
-    eslint-config-airbnb-base "^13.2.0"
-    object.assign "^4.1.0"
-    object.entries "^1.1.0"
 
 eslint-config-airbnb@^19.0.4:
   version "19.0.4"
@@ -7623,13 +7605,12 @@ eslint-plugin-storybook@^0.6.11:
     requireindex "^1.1.0"
     ts-dedent "^2.2.0"
 
-eslint-plugin-styled-components-a11y@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-styled-components-a11y/-/eslint-plugin-styled-components-a11y-0.1.0.tgz#3b12c4fa85797e8f3d43e5557ef6085f41cb97ed"
-  integrity sha512-n/FNF+iqVPO4ppDoW4Nw14KT9CJwOnmLOykhhKc3cWF0hclMNgBXaL562d6vw71U4U+8CRsmgh1iwWCJEVSWmA==
+eslint-plugin-styled-components-a11y@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-styled-components-a11y/-/eslint-plugin-styled-components-a11y-2.0.0.tgz#e2fe11eb27b8fb16452324ce90305903b7fd66d1"
+  integrity sha512-CsouatAt4s1dC2cloyXvJh+PiaFfsUJf5yOiX09MsDx5D5qFCYCl+ZHZ8EKqZxLUTD25j/HbhO5RlpYi3lIW+Q==
   dependencies:
     "@babel/parser" "^7.8.4"
-    eslint-config-airbnb "^17.1.0"
     eslint-plugin-jsx-a11y "^6.2.3"
 
 eslint-plugin-unicorn@^46.0.0:
@@ -12727,7 +12708,7 @@ object.defaults@^1.1.0:
     for-own "^1.0.0"
     isobject "^3.0.0"
 
-object.entries@^1.1.0, object.entries@^1.1.5, object.entries@^1.1.6:
+object.entries@^1.1.5, object.entries@^1.1.6:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/object.entries/-/object.entries-1.1.6.tgz#9737d0e5b8291edd340a3e3264bb8a3b00d5fa23"
   integrity sha512-leTPzo4Zvg3pmbQ3rDK69Rl8GQvIqMWubrkxONG9/ojtFE2rD9fjMKfSI5BxW3osRH1m6VdzmqK8oAY9aT4x5w==
