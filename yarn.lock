@@ -7502,10 +7502,10 @@ eslint-plugin-storybook@^0.6.11:
     requireindex "^1.1.0"
     ts-dedent "^2.2.0"
 
-eslint-plugin-styled-components-a11y@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-styled-components-a11y/-/eslint-plugin-styled-components-a11y-2.0.0.tgz#e2fe11eb27b8fb16452324ce90305903b7fd66d1"
-  integrity sha512-CsouatAt4s1dC2cloyXvJh+PiaFfsUJf5yOiX09MsDx5D5qFCYCl+ZHZ8EKqZxLUTD25j/HbhO5RlpYi3lIW+Q==
+eslint-plugin-styled-components-a11y@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-styled-components-a11y/-/eslint-plugin-styled-components-a11y-2.0.1.tgz#ae1a4292bfafe2b588c0bc99b8cdfc04fc2d868f"
+  integrity sha512-06cKfpNxJifxlSH4XI+ahjyieBUINLcO89i0orf93Dyo9i0xjOMYC2jrWguZlMH8qo2vIJ1AnqdNKNRE/WBcKw==
   dependencies:
     "@babel/parser" "^7.8.4"
     eslint-plugin-jsx-a11y "^6.2.3"
