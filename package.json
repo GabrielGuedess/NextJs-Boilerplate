@@ -125,7 +125,7 @@
     "postcss-syntax": "^0.36.2",
     "prettier": "^2.8.8",
     "prettier-plugin-packagejson": "^2.4.3",
-    "semantic-release": "^21.0.1",
+    "semantic-release": "^21.0.2",
     "sort-package-json": "^2.4.1",
     "start-server-and-test": "^2.0.0",
     "storybook": "7.0.7",
