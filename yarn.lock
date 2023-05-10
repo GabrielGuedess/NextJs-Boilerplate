@@ -2746,21 +2746,21 @@
     "@storybook/global" "^5.0.0"
     "@storybook/preview-api" "7.0.9"
 
-"@storybook/addon-interactions@^7.0.9":
-  version "7.0.9"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-interactions/-/addon-interactions-7.0.9.tgz#77ff0b92323ec7e552060e2210c0d16ae7146258"
-  integrity sha512-LM4qMt+PwRnip8uXxoNvBDI4X8ykFlWHxN5RW836ysMhwGXx4l00LAdGy6l6HswIwCdHlo7+u4hgdNiEh55oxg==
+"@storybook/addon-interactions@^7.0.10":
+  version "7.0.10"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-interactions/-/addon-interactions-7.0.10.tgz#a3d4671ccab376b0c4b7f56d7eaf1316388e107b"
+  integrity sha512-7hdFgoetQblwysYwRlmC5fbMVDb6lIM6le1pVEmRci6X44Gr2Xe5w2s6h5bTp4tMpNS1CFKjru9kF/TqfK46wA==
   dependencies:
-    "@storybook/client-logger" "7.0.9"
-    "@storybook/components" "7.0.9"
-    "@storybook/core-common" "7.0.9"
-    "@storybook/core-events" "7.0.9"
+    "@storybook/client-logger" "7.0.10"
+    "@storybook/components" "7.0.10"
+    "@storybook/core-common" "7.0.10"
+    "@storybook/core-events" "7.0.10"
     "@storybook/global" "^5.0.0"
-    "@storybook/instrumenter" "7.0.9"
-    "@storybook/manager-api" "7.0.9"
-    "@storybook/preview-api" "7.0.9"
-    "@storybook/theming" "7.0.9"
-    "@storybook/types" "7.0.9"
+    "@storybook/instrumenter" "7.0.10"
+    "@storybook/manager-api" "7.0.10"
+    "@storybook/preview-api" "7.0.10"
+    "@storybook/theming" "7.0.10"
+    "@storybook/types" "7.0.10"
     jest-mock "^27.0.6"
     polished "^4.2.2"
     ts-dedent "^2.2.0"
@@ -3122,6 +3122,13 @@
   dependencies:
     "@storybook/global" "^5.0.0"
 
+"@storybook/client-logger@7.0.10":
+  version "7.0.10"
+  resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-7.0.10.tgz#941f6cf54638a422732b40ec31b2414872cdf4a8"
+  integrity sha512-hb8tO+w28ErzjEw69ERMtZT81Xyg835FQjH6Y42ejoGcBA9Z0W6RZmx4RgkcIUOlYXkU6lSnNVne9gXodV4/Hw==
+  dependencies:
+    "@storybook/global" "^5.0.0"
+
 "@storybook/client-logger@7.0.7":
   version "7.0.7"
   resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-7.0.7.tgz#1f91eb2785111c94b7946bda2d32199c11045d71"
@@ -3411,16 +3418,37 @@
   resolved "https://registry.yarnpkg.com/@storybook/global/-/global-5.0.0.tgz#b793d34b94f572c1d7d9e0f44fac4e0dbc9572ed"
   integrity sha512-FcOqPAXACP0I3oJ/ws6/rrPT9WGhu915Cg8D02a9YxLo0DE9zI+a9A5gRGvmQ09fiWPukqI8ZAEoQEdWUKMQdQ==
 
-"@storybook/instrumenter@7.0.9":
-  version "7.0.9"
-  resolved "https://registry.yarnpkg.com/@storybook/instrumenter/-/instrumenter-7.0.9.tgz#6df11365c75606c4a2263526e71306577ab84ad6"
-  integrity sha512-ly/vLeQIGbcw3RLQv4vPugvlaMah7+rsYZtwN/ocseBbsDfFBqxI7NbJNBXSTo44eTTbzQUkeOZWqf6dZzRm0Q==
+"@storybook/instrumenter@7.0.10":
+  version "7.0.10"
+  resolved "https://registry.yarnpkg.com/@storybook/instrumenter/-/instrumenter-7.0.10.tgz#e44903c9ca339f3a1c855a031d9d88524442899d"
+  integrity sha512-Z+kIidnxaq3tneUnIKB2d0DCqb4lwUdOS/AC43LNvd9C6BWYgj89cIPdLDTNhOWa0ZiEju7wTS+K/3uMvcHZ4w==
   dependencies:
-    "@storybook/channels" "7.0.9"
-    "@storybook/client-logger" "7.0.9"
-    "@storybook/core-events" "7.0.9"
+    "@storybook/channels" "7.0.10"
+    "@storybook/client-logger" "7.0.10"
+    "@storybook/core-events" "7.0.10"
     "@storybook/global" "^5.0.0"
-    "@storybook/preview-api" "7.0.9"
+    "@storybook/preview-api" "7.0.10"
+
+"@storybook/manager-api@7.0.10", "@storybook/manager-api@^7.0.0-beta.12":
+  version "7.0.10"
+  resolved "https://registry.yarnpkg.com/@storybook/manager-api/-/manager-api-7.0.10.tgz#b4cdff72e2d5f153b5679531d5f8c60582cce923"
+  integrity sha512-Dik73GKUX9QCFOvukTXjZoZX0G6n/LrRMkwLggb28E9m8iFt2ivWvF9MVvyRoDffR9VP5t53+nV5fqxqpXWoQw==
+  dependencies:
+    "@storybook/channels" "7.0.10"
+    "@storybook/client-logger" "7.0.10"
+    "@storybook/core-events" "7.0.10"
+    "@storybook/csf" "^0.1.0"
+    "@storybook/global" "^5.0.0"
+    "@storybook/router" "7.0.10"
+    "@storybook/theming" "7.0.10"
+    "@storybook/types" "7.0.10"
+    dequal "^2.0.2"
+    lodash "^4.17.21"
+    memoizerific "^1.11.3"
+    semver "^7.3.7"
+    store2 "^2.14.2"
+    telejson "^7.0.3"
+    ts-dedent "^2.0.0"
 
 "@storybook/manager-api@7.0.10", "@storybook/manager-api@^7.0.0-beta.12":
   version "7.0.10"
