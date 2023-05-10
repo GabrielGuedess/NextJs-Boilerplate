@@ -3078,13 +3078,6 @@
   dependencies:
     "@storybook/global" "^5.0.0"
 
-"@storybook/client-logger@7.0.10":
-  version "7.0.10"
-  resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-7.0.10.tgz#941f6cf54638a422732b40ec31b2414872cdf4a8"
-  integrity sha512-hb8tO+w28ErzjEw69ERMtZT81Xyg835FQjH6Y42ejoGcBA9Z0W6RZmx4RgkcIUOlYXkU6lSnNVne9gXodV4/Hw==
-  dependencies:
-    "@storybook/global" "^5.0.0"
-
 "@storybook/client-logger@7.0.7":
   version "7.0.7"
   resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-7.0.7.tgz#1f91eb2785111c94b7946bda2d32199c11045d71"
@@ -3153,14 +3146,6 @@
   dependencies:
     "@storybook/client-logger" "7.0.10"
     "@storybook/preview-api" "7.0.10"
-
-"@storybook/core-client@7.0.9":
-  version "7.0.9"
-  resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.0.9.tgz#a28ab73ee8490280213492d1b8f18727405315f8"
-  integrity sha512-gBZnwh+YgFVBdwyYX4SKQyjVq56WyJU3l2s5on6im2SjxKLZXFfeOpl6XtAgbP2eIU8oaV9txY2hURsUJRkEoA==
-  dependencies:
-    "@storybook/client-logger" "7.0.9"
-    "@storybook/preview-api" "7.0.9"
 
 "@storybook/core-common@7.0.10":
   version "7.0.10"
@@ -3650,33 +3635,6 @@
     "@storybook/preview-api" "7.0.10"
     "@storybook/react-dom-shim" "7.0.10"
     "@storybook/types" "7.0.10"
-    "@types/escodegen" "^0.0.6"
-    "@types/estree" "^0.0.51"
-    "@types/node" "^16.0.0"
-    acorn "^7.4.1"
-    acorn-jsx "^5.3.1"
-    acorn-walk "^7.2.0"
-    escodegen "^2.0.0"
-    html-tags "^3.1.0"
-    lodash "^4.17.21"
-    prop-types "^15.7.2"
-    react-element-to-jsx-string "^15.0.0"
-    ts-dedent "^2.0.0"
-    type-fest "^2.19.0"
-    util-deprecate "^1.0.2"
-
-"@storybook/react@7.0.9":
-  version "7.0.9"
-  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-7.0.9.tgz#aa6fc37db38c2f835c643c284f18ffea488ed91a"
-  integrity sha512-wYrtyk6qVqgqODgBh/vWO31SrjzFER0NfnrZy6FvwR4AAHhM0u2qMs8ZXCJFXFIgwjkgGwpD9/EwjRuYHUqDTQ==
-  dependencies:
-    "@storybook/client-logger" "7.0.9"
-    "@storybook/core-client" "7.0.9"
-    "@storybook/docs-tools" "7.0.9"
-    "@storybook/global" "^5.0.0"
-    "@storybook/preview-api" "7.0.9"
-    "@storybook/react-dom-shim" "7.0.9"
-    "@storybook/types" "7.0.9"
     "@types/escodegen" "^0.0.6"
     "@types/estree" "^0.0.51"
     "@types/node" "^16.0.0"
