@@ -2585,21 +2585,21 @@
     lodash.union "^4.6.0"
     lodash.values "^4.3.0"
 
-"@storybook/addon-a11y@^7.0.9":
-  version "7.0.9"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-7.0.9.tgz#572840f671a070babf8b5b5981937fb834a36cf6"
-  integrity sha512-yfpwezX7USlyZtD1zoOYdNsLiS5XDbGC3S4rfbnRkgRzRGVnwdvoNcB3lo116wlJlJc7NturU6FtlQE1OLS4Vw==
+"@storybook/addon-a11y@^7.0.10":
+  version "7.0.10"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-7.0.10.tgz#fceae98bc39026746c062701db01a47da754a6e4"
+  integrity sha512-uzCnpn70n1El4j4SSFx23tKGr9XDeCb1eF20Fo6RTAb/rBp7xmksXR532SDkKRXwBvXcKwdJh9NICNFzzWWnqg==
   dependencies:
-    "@storybook/addon-highlight" "7.0.9"
-    "@storybook/channels" "7.0.9"
-    "@storybook/client-logger" "7.0.9"
-    "@storybook/components" "7.0.9"
-    "@storybook/core-events" "7.0.9"
+    "@storybook/addon-highlight" "7.0.10"
+    "@storybook/channels" "7.0.10"
+    "@storybook/client-logger" "7.0.10"
+    "@storybook/components" "7.0.10"
+    "@storybook/core-events" "7.0.10"
     "@storybook/global" "^5.0.0"
-    "@storybook/manager-api" "7.0.9"
-    "@storybook/preview-api" "7.0.9"
-    "@storybook/theming" "7.0.9"
-    "@storybook/types" "7.0.9"
+    "@storybook/manager-api" "7.0.10"
+    "@storybook/preview-api" "7.0.10"
+    "@storybook/theming" "7.0.10"
+    "@storybook/types" "7.0.10"
     axe-core "^4.2.0"
     lodash "^4.17.21"
     react-resize-detector "^7.1.2"
@@ -2727,6 +2727,15 @@
     "@storybook/node-logger" "7.0.9"
     "@storybook/preview-api" "7.0.9"
     ts-dedent "^2.0.0"
+
+"@storybook/addon-highlight@7.0.10":
+  version "7.0.10"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-highlight/-/addon-highlight-7.0.10.tgz#8d8c592c37c2793fe99a4e76709b5dcbafff62d2"
+  integrity sha512-TohDxElSu7JrSvhLRZAwtNk/7Ot626wvlODwklocE4kbtn1fulFoUlRta7NImBGX554LITDFRy0m4R1rRQ9OfQ==
+  dependencies:
+    "@storybook/core-events" "7.0.10"
+    "@storybook/global" "^5.0.0"
+    "@storybook/preview-api" "7.0.10"
 
 "@storybook/addon-highlight@7.0.9":
   version "7.0.9"
@@ -3098,6 +3107,13 @@
   dependencies:
     "@storybook/client-logger" "7.0.10"
     "@storybook/preview-api" "7.0.10"
+
+"@storybook/client-logger@7.0.10":
+  version "7.0.10"
+  resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-7.0.10.tgz#941f6cf54638a422732b40ec31b2414872cdf4a8"
+  integrity sha512-hb8tO+w28ErzjEw69ERMtZT81Xyg835FQjH6Y42ejoGcBA9Z0W6RZmx4RgkcIUOlYXkU6lSnNVne9gXodV4/Hw==
+  dependencies:
+    "@storybook/global" "^5.0.0"
 
 "@storybook/client-logger@7.0.10":
   version "7.0.10"
