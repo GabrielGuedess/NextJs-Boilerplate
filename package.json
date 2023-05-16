@@ -76,7 +76,7 @@
     "@storybook/addon-links": "^7.0.11",
     "@storybook/addon-toolbars": "^7.0.11",
     "@storybook/addon-viewport": "^7.0.11",
-    "@storybook/blocks": "^7.0.11",
+    "@storybook/blocks": "^7.0.12",
     "@storybook/nextjs": "7.0.11",
     "@storybook/react": "7.0.11",
     "@storybook/theming": "^7.0.11",
