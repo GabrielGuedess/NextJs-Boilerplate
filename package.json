@@ -79,7 +79,7 @@
     "@storybook/blocks": "^7.0.12",
     "@storybook/nextjs": "7.0.11",
     "@storybook/react": "7.0.11",
-    "@storybook/theming": "^7.0.11",
+    "@storybook/theming": "^7.0.12",
     "@stylelint/postcss-css-in-js": "^0.38.0",
     "@testing-library/cypress": "^9.0.0",
     "@testing-library/jest-dom": "^5.16.5",
