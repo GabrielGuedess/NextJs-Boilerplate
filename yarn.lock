@@ -2799,7 +2799,7 @@
     "@storybook/preview-api" "7.0.12"
     "@storybook/theming" "7.0.12"
 
-"@storybook/addon-viewport@7.0.11", "@storybook/addon-viewport@^7.0.11":
+"@storybook/addon-viewport@7.0.11":
   version "7.0.11"
   resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-7.0.11.tgz#7964d1fd2aab891d058013183f9a52359ef4e936"
   integrity sha512-O2Wu/jWSFDvvjP2ERc3wXbRuKvfM3Ttj8MJQZ0FphPwIxe1zSSAA5jk3mhXmEyIJfAe+upyAhV9EqIs8+L6kLg==
@@ -2811,6 +2811,21 @@
     "@storybook/manager-api" "7.0.11"
     "@storybook/preview-api" "7.0.11"
     "@storybook/theming" "7.0.11"
+    memoizerific "^1.11.3"
+    prop-types "^15.7.2"
+
+"@storybook/addon-viewport@^7.0.12":
+  version "7.0.12"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-7.0.12.tgz#c470223fb439fed039331089c9f9013e837c055e"
+  integrity sha512-pMgqtDQF8e9AErnRKbbSK9m1lcKn1dFSOkk0PgSBwIIjmha6q+GeT45EHQrQGtkLdtWT0iTktC8ivzIiGKmHkg==
+  dependencies:
+    "@storybook/client-logger" "7.0.12"
+    "@storybook/components" "7.0.12"
+    "@storybook/core-events" "7.0.12"
+    "@storybook/global" "^5.0.0"
+    "@storybook/manager-api" "7.0.12"
+    "@storybook/preview-api" "7.0.12"
+    "@storybook/theming" "7.0.12"
     memoizerific "^1.11.3"
     prop-types "^15.7.2"
 
@@ -3707,7 +3722,7 @@
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
 
-"@storybook/theming@7.0.12", "@storybook/theming@^7.0.0", "@storybook/theming@^7.0.0-beta.12", "@storybook/theming@^7.0.11":
+"@storybook/theming@7.0.12", "@storybook/theming@^7.0.0", "@storybook/theming@^7.0.0-beta.12", "@storybook/theming@^7.0.12":
   version "7.0.12"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.0.12.tgz#5583639b391e7bbb710a74bc59c94b8bbc455d88"
   integrity sha512-frBkvH7LF8j23ODaywLK4m4LLscw49oKblkZ+30QZkBAzRf2o3a/QSZW2V1zfBo7ygcXiUJ5bIjh7Y17mMJqbQ==
@@ -3724,16 +3739,6 @@
   dependencies:
     "@emotion/use-insertion-effect-with-fallbacks" "^1.0.0"
     "@storybook/client-logger" "7.0.7"
-    "@storybook/global" "^5.0.0"
-    memoizerific "^1.11.3"
-
-"@storybook/theming@^7.0.0", "@storybook/theming@^7.0.0-beta.12", "@storybook/theming@^7.0.12":
-  version "7.0.12"
-  resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.0.12.tgz#5583639b391e7bbb710a74bc59c94b8bbc455d88"
-  integrity sha512-frBkvH7LF8j23ODaywLK4m4LLscw49oKblkZ+30QZkBAzRf2o3a/QSZW2V1zfBo7ygcXiUJ5bIjh7Y17mMJqbQ==
-  dependencies:
-    "@emotion/use-insertion-effect-with-fallbacks" "^1.0.0"
-    "@storybook/client-logger" "7.0.12"
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
 
