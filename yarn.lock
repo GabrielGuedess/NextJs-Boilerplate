@@ -2894,7 +2894,7 @@
     "@storybook/client-logger" "7.0.7"
     "@storybook/manager-api" "7.0.7"
 
-"@storybook/blocks@7.0.12", "@storybook/blocks@^7.0.12":
+"@storybook/blocks@7.0.12":
   version "7.0.12"
   resolved "https://registry.yarnpkg.com/@storybook/blocks/-/blocks-7.0.12.tgz#4b92955c49f7beea58df1c0f8d3138dc54a01444"
   integrity sha512-MbJKjuTJ7xVbkUVwkEwb6vTYGrkRk4+Xtx1UGo+512o91ubqFs8hXwCHP+x/49RCIIQs5zl93Ig8fTtm+MejWw==
@@ -2910,6 +2910,34 @@
     "@storybook/preview-api" "7.0.12"
     "@storybook/theming" "7.0.12"
     "@storybook/types" "7.0.12"
+    "@types/lodash" "^4.14.167"
+    color-convert "^2.0.1"
+    dequal "^2.0.2"
+    lodash "^4.17.21"
+    markdown-to-jsx "^7.1.8"
+    memoizerific "^1.11.3"
+    polished "^4.2.2"
+    react-colorful "^5.1.2"
+    telejson "^7.0.3"
+    ts-dedent "^2.0.0"
+    util-deprecate "^1.0.2"
+
+"@storybook/blocks@^7.0.13":
+  version "7.0.13"
+  resolved "https://registry.yarnpkg.com/@storybook/blocks/-/blocks-7.0.13.tgz#9ca8f06b653e656d0c99f42c86b196ac1b85bc25"
+  integrity sha512-iUHOWVpuzhBsT2HluyK048dw2fZLKig2huDAaXWvqo7vXgcS7I2t/hWtRwKiKkCyHrVPZrqNS6pfBe2GJYBT5A==
+  dependencies:
+    "@storybook/channels" "7.0.13"
+    "@storybook/client-logger" "7.0.13"
+    "@storybook/components" "7.0.13"
+    "@storybook/core-events" "7.0.13"
+    "@storybook/csf" "^0.1.0"
+    "@storybook/docs-tools" "7.0.13"
+    "@storybook/global" "^5.0.0"
+    "@storybook/manager-api" "7.0.13"
+    "@storybook/preview-api" "7.0.13"
+    "@storybook/theming" "7.0.13"
+    "@storybook/types" "7.0.13"
     "@types/lodash" "^4.14.167"
     color-convert "^2.0.1"
     dequal "^2.0.2"
