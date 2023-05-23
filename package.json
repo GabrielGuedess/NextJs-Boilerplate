@@ -78,7 +78,7 @@
     "@storybook/addon-viewport": "^7.0.13",
     "@storybook/blocks": "^7.0.12",
     "@storybook/nextjs": "7.0.13",
-    "@storybook/react": "7.0.12",
+    "@storybook/react": "7.0.13",
     "@storybook/theming": "^7.0.13",
     "@stylelint/postcss-css-in-js": "^0.38.0",
     "@testing-library/cypress": "^9.0.0",
