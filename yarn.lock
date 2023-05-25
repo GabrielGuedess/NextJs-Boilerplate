@@ -2788,7 +2788,7 @@
     "@storybook/preview-api" "7.0.15"
     "@storybook/theming" "7.0.15"
 
-"@storybook/addon-viewport@7.0.15", "@storybook/addon-viewport@^7.0.15":
+"@storybook/addon-viewport@7.0.15":
   version "7.0.15"
   resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-7.0.15.tgz#c37c2ebf648f83168dc55ae6fd6cd08bc57abfc2"
   integrity sha512-VIOEVKlgHlbzVz00aehSgFa8rSZZDBleadyGKm+XPtuZmY5ovyCYtp1CBtslTxmzJ/U1e2I++SCqeuT4bxNarw==
@@ -2800,6 +2800,21 @@
     "@storybook/manager-api" "7.0.15"
     "@storybook/preview-api" "7.0.15"
     "@storybook/theming" "7.0.15"
+    memoizerific "^1.11.3"
+    prop-types "^15.7.2"
+
+"@storybook/addon-viewport@^7.0.17":
+  version "7.0.17"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-7.0.17.tgz#6ddc4957578b18d2c31a042ec4b9ed45839c30b2"
+  integrity sha512-ir+fPU6IRj7TRXdjQEy0b7+rCDiJPDbI0lrGxVIQM65mu8SakJhg8KRzi84Ep3e99LqGA/1gtPiNJu6tbEyBfA==
+  dependencies:
+    "@storybook/client-logger" "7.0.17"
+    "@storybook/components" "7.0.17"
+    "@storybook/core-events" "7.0.17"
+    "@storybook/global" "^5.0.0"
+    "@storybook/manager-api" "7.0.17"
+    "@storybook/preview-api" "7.0.17"
+    "@storybook/theming" "7.0.17"
     memoizerific "^1.11.3"
     prop-types "^15.7.2"
 
