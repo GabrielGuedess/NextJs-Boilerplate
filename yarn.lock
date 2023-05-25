@@ -2585,21 +2585,21 @@
     lodash.union "^4.6.0"
     lodash.values "^4.3.0"
 
-"@storybook/addon-a11y@^7.0.15":
-  version "7.0.15"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-7.0.15.tgz#ca2e073c57e59f09065829313a51797238e240e8"
-  integrity sha512-1f2pD4ySlfE/fFO7QUKVC6EDDSALo2X8xwoz2akJjYaUDGX0kCqEEduUGkRjeY5pETvW9L5iLOwAqdE1ad/zlA==
+"@storybook/addon-a11y@^7.0.17":
+  version "7.0.17"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-7.0.17.tgz#799f7ba06012e03126a9d0694b954b556d31fdf8"
+  integrity sha512-/f0+DEprFsnBgjk4j7YQZhY6ZXln+3UzOkCXbvr0ikNj7HYonnfv1eFHIhJbjIz/C10J3+igGGrbZXDVC3hbcQ==
   dependencies:
-    "@storybook/addon-highlight" "7.0.15"
-    "@storybook/channels" "7.0.15"
-    "@storybook/client-logger" "7.0.15"
-    "@storybook/components" "7.0.15"
-    "@storybook/core-events" "7.0.15"
+    "@storybook/addon-highlight" "7.0.17"
+    "@storybook/channels" "7.0.17"
+    "@storybook/client-logger" "7.0.17"
+    "@storybook/components" "7.0.17"
+    "@storybook/core-events" "7.0.17"
     "@storybook/global" "^5.0.0"
-    "@storybook/manager-api" "7.0.15"
-    "@storybook/preview-api" "7.0.15"
-    "@storybook/theming" "7.0.15"
-    "@storybook/types" "7.0.15"
+    "@storybook/manager-api" "7.0.17"
+    "@storybook/preview-api" "7.0.17"
+    "@storybook/theming" "7.0.17"
+    "@storybook/types" "7.0.17"
     axe-core "^4.2.0"
     lodash "^4.17.21"
     react-resize-detector "^7.1.2"
@@ -2714,6 +2714,15 @@
     "@storybook/core-events" "7.0.15"
     "@storybook/global" "^5.0.0"
     "@storybook/preview-api" "7.0.15"
+
+"@storybook/addon-highlight@7.0.17":
+  version "7.0.17"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-highlight/-/addon-highlight-7.0.17.tgz#366d3f4b5e310f6021c7e896efe7e7e0eaedbb6c"
+  integrity sha512-798MRDotyRaTPH+C4K6SxWAVUJ07zzGT17+d19X0D1+YMughi+6fPqx/QznH/Ox4NeUyO97CbL39OXwQeOWhMA==
+  dependencies:
+    "@storybook/core-events" "7.0.17"
+    "@storybook/global" "^5.0.0"
+    "@storybook/preview-api" "7.0.17"
 
 "@storybook/addon-interactions@^7.0.17":
   version "7.0.17"
