@@ -2765,19 +2765,19 @@
     polished "^4.2.2"
     ts-dedent "^2.2.0"
 
-"@storybook/addon-links@^7.0.17":
-  version "7.0.17"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-7.0.17.tgz#e5e2dbc61cca4f756143a22ee67cac714deaac8d"
-  integrity sha512-dVDuGwJh30S7YxgiMcLetVa4rTv2823LKJ3bfltzRNRHm7cUFSg4HPK//ymlGPSIFansjDV/EzcW0JQrdYr2lA==
+"@storybook/addon-links@^7.0.18":
+  version "7.0.18"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-7.0.18.tgz#3c7f72f1a5b241718a57132991272e0bcc2ba7f4"
+  integrity sha512-xEwflt7bp9FRoZVeqPGb6d3s2Gh+/jaSmnyIxMxrBy2oovKIqu9ptolqz1AhjFOXfaLs9c2RAmJUuFZJtETLxA==
   dependencies:
-    "@storybook/client-logger" "7.0.17"
-    "@storybook/core-events" "7.0.17"
+    "@storybook/client-logger" "7.0.18"
+    "@storybook/core-events" "7.0.18"
     "@storybook/csf" "^0.1.0"
     "@storybook/global" "^5.0.0"
-    "@storybook/manager-api" "7.0.17"
-    "@storybook/preview-api" "7.0.17"
-    "@storybook/router" "7.0.17"
-    "@storybook/types" "7.0.17"
+    "@storybook/manager-api" "7.0.18"
+    "@storybook/preview-api" "7.0.18"
+    "@storybook/router" "7.0.18"
+    "@storybook/types" "7.0.18"
     prop-types "^15.7.2"
     ts-dedent "^2.0.0"
 
@@ -3235,12 +3235,12 @@
     resolve-from "^5.0.0"
     ts-dedent "^2.0.0"
 
-"@storybook/core-events@7.0.17", "@storybook/core-events@^7.0.0":
+"@storybook/core-events@7.0.17":
   version "7.0.17"
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-7.0.17.tgz#df809d2e7cad80b4ea616c074e43d99a137d5dd4"
   integrity sha512-ZqgMe5lbTEe4Bg2A55oYTL8lCRSLuguS9+7rxOWBCwvptF6UXPSqlEj5tr2+6IDJy6WCVAqd6Q+Y/ZCfs5Bifw==
 
-"@storybook/core-events@7.0.18":
+"@storybook/core-events@7.0.18", "@storybook/core-events@^7.0.0":
   version "7.0.18"
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-7.0.18.tgz#429e0b092c645bd283adb4836ac0a945e813f085"
   integrity sha512-7gxHBQDezdKOeq/u1LL80Bwjfcwsv7XOS3yWQElcgqp+gLaYB6OwwgtkCB2yV6a6l4nep9IdPWE8G3TxIzn9xw==
