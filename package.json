@@ -128,7 +128,7 @@
     "semantic-release": "^21.0.2",
     "sort-package-json": "^2.4.1",
     "start-server-and-test": "^2.0.0",
-    "storybook": "7.0.17",
+    "storybook": "7.0.18",
     "storybook-addon-designs": "^7.0.0-beta.2",
     "storybook-addon-performance": "^0.17.1",
     "storybook-addon-pseudo-states": "^2.0.1",
