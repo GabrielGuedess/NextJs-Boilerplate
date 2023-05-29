@@ -3146,14 +3146,6 @@
     use-resize-observer "^9.1.0"
     util-deprecate "^1.0.2"
 
-"@storybook/core-client@7.0.17":
-  version "7.0.17"
-  resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.0.17.tgz#9f63bf5743f882d1c09a3cf6e888ddefd93902db"
-  integrity sha512-KiKxulFP+ln/zFgUEwb9NpPCi+PDeSCJyUS1T2qY+TYH4+c/jp/P91mrdKuF38E+NLApGT45o0K2zh5+X2M3eA==
-  dependencies:
-    "@storybook/client-logger" "7.0.17"
-    "@storybook/preview-api" "7.0.17"
-
 "@storybook/core-client@7.0.18":
   version "7.0.18"
   resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.0.18.tgz#b70b9e8f0efd2dc1eb7fd925a8615b6ef32f07aa"
@@ -3614,42 +3606,10 @@
     react-docgen-typescript "^2.2.2"
     tslib "^2.0.0"
 
-"@storybook/react-dom-shim@7.0.17":
-  version "7.0.17"
-  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-7.0.17.tgz#2f4fa3467371490842c9ff138f8a9f3b012325e6"
-  integrity sha512-/68YzMlVVX6RX2GoSO6O3U2Z7+H80MzIe/rRnD+rnvytFS/zwpV3qSgZTGooEDSbZTpqYjianTmFz+0SOK5KaA==
-
 "@storybook/react-dom-shim@7.0.18":
   version "7.0.18"
   resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-7.0.18.tgz#d2ac94c50c48b92417338823c8a7eabace308771"
   integrity sha512-O1FRypR8q1katjbznnxI+NtALd2gaWa7KnTwbIDf+ddZltXHMZ8xMiEGEtAMrfXlIuqIr9UvmLRfKZC/ysuA+g==
-
-"@storybook/react@7.0.17":
-  version "7.0.17"
-  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-7.0.17.tgz#75c0d9ae42358f4836ca6f43d381d7d6162fda73"
-  integrity sha512-SgTUwcJ2opDqfHz1lp8vO6pRMTqmzRb5wrbVQTkH4hRI1BthrUpnptR98AeDbcTzTf1FpiZXh4RWMIK8p6rHlQ==
-  dependencies:
-    "@storybook/client-logger" "7.0.17"
-    "@storybook/core-client" "7.0.17"
-    "@storybook/docs-tools" "7.0.17"
-    "@storybook/global" "^5.0.0"
-    "@storybook/preview-api" "7.0.17"
-    "@storybook/react-dom-shim" "7.0.17"
-    "@storybook/types" "7.0.17"
-    "@types/escodegen" "^0.0.6"
-    "@types/estree" "^0.0.51"
-    "@types/node" "^16.0.0"
-    acorn "^7.4.1"
-    acorn-jsx "^5.3.1"
-    acorn-walk "^7.2.0"
-    escodegen "^2.0.0"
-    html-tags "^3.1.0"
-    lodash "^4.17.21"
-    prop-types "^15.7.2"
-    react-element-to-jsx-string "^15.0.0"
-    ts-dedent "^2.0.0"
-    type-fest "^2.19.0"
-    util-deprecate "^1.0.2"
 
 "@storybook/react@7.0.18":
   version "7.0.18"
@@ -3738,7 +3698,7 @@
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
 
-"@storybook/theming@7.0.18", "@storybook/theming@^7.0.0", "@storybook/theming@^7.0.0-beta.12", "@storybook/theming@^7.0.17":
+"@storybook/theming@7.0.18", "@storybook/theming@^7.0.0", "@storybook/theming@^7.0.0-beta.12", "@storybook/theming@^7.0.18":
   version "7.0.18"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.0.18.tgz#566f5f42c9324b734f8aa9be4d16221278054734"
   integrity sha512-P1gMKa/mKQHIMq0sxBIwTzAcF6v/6hrc62YmkuV62vXu+8zNV2YWbRwywqm3Q6faZEadmb/bL9+z8whaKhCL/g==
@@ -3755,16 +3715,6 @@
   dependencies:
     "@emotion/use-insertion-effect-with-fallbacks" "^1.0.0"
     "@storybook/client-logger" "7.0.7"
-    "@storybook/global" "^5.0.0"
-    memoizerific "^1.11.3"
-
-"@storybook/theming@^7.0.0", "@storybook/theming@^7.0.0-beta.12", "@storybook/theming@^7.0.18":
-  version "7.0.18"
-  resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.0.18.tgz#566f5f42c9324b734f8aa9be4d16221278054734"
-  integrity sha512-P1gMKa/mKQHIMq0sxBIwTzAcF6v/6hrc62YmkuV62vXu+8zNV2YWbRwywqm3Q6faZEadmb/bL9+z8whaKhCL/g==
-  dependencies:
-    "@emotion/use-insertion-effect-with-fallbacks" "^1.0.0"
-    "@storybook/client-logger" "7.0.18"
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
 
