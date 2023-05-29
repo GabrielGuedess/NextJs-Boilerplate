@@ -70,7 +70,7 @@
     "@next/eslint-plugin-next": "^13.4.3",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "@storybook/addon-a11y": "^7.0.17",
+    "@storybook/addon-a11y": "^7.0.18",
     "@storybook/addon-essentials": "7.0.18",
     "@storybook/addon-interactions": "^7.0.17",
     "@storybook/addon-links": "^7.0.17",
