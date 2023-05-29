@@ -2585,21 +2585,21 @@
     lodash.union "^4.6.0"
     lodash.values "^4.3.0"
 
-"@storybook/addon-a11y@^7.0.17":
-  version "7.0.17"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-7.0.17.tgz#799f7ba06012e03126a9d0694b954b556d31fdf8"
-  integrity sha512-/f0+DEprFsnBgjk4j7YQZhY6ZXln+3UzOkCXbvr0ikNj7HYonnfv1eFHIhJbjIz/C10J3+igGGrbZXDVC3hbcQ==
+"@storybook/addon-a11y@^7.0.18":
+  version "7.0.18"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-7.0.18.tgz#7dd169e0aa719ca81a17b159394966f69d9d6b60"
+  integrity sha512-kftOzFBpg3goWbLBXDLLsJslfrKYbHs1xtFEH5/4J9NFNE8vZKbIBDQa/R3ezWheL+l2y+5qOlWoLl5z96zlWA==
   dependencies:
-    "@storybook/addon-highlight" "7.0.17"
-    "@storybook/channels" "7.0.17"
-    "@storybook/client-logger" "7.0.17"
-    "@storybook/components" "7.0.17"
-    "@storybook/core-events" "7.0.17"
+    "@storybook/addon-highlight" "7.0.18"
+    "@storybook/channels" "7.0.18"
+    "@storybook/client-logger" "7.0.18"
+    "@storybook/components" "7.0.18"
+    "@storybook/core-events" "7.0.18"
     "@storybook/global" "^5.0.0"
-    "@storybook/manager-api" "7.0.17"
-    "@storybook/preview-api" "7.0.17"
-    "@storybook/theming" "7.0.17"
-    "@storybook/types" "7.0.17"
+    "@storybook/manager-api" "7.0.18"
+    "@storybook/preview-api" "7.0.18"
+    "@storybook/theming" "7.0.18"
+    "@storybook/types" "7.0.18"
     axe-core "^4.2.0"
     lodash "^4.17.21"
     react-resize-detector "^7.1.2"
@@ -2727,15 +2727,6 @@
     "@storybook/node-logger" "7.0.18"
     "@storybook/preview-api" "7.0.18"
     ts-dedent "^2.0.0"
-
-"@storybook/addon-highlight@7.0.17":
-  version "7.0.17"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-highlight/-/addon-highlight-7.0.17.tgz#366d3f4b5e310f6021c7e896efe7e7e0eaedbb6c"
-  integrity sha512-798MRDotyRaTPH+C4K6SxWAVUJ07zzGT17+d19X0D1+YMughi+6fPqx/QznH/Ox4NeUyO97CbL39OXwQeOWhMA==
-  dependencies:
-    "@storybook/core-events" "7.0.17"
-    "@storybook/global" "^5.0.0"
-    "@storybook/preview-api" "7.0.17"
 
 "@storybook/addon-highlight@7.0.18":
   version "7.0.18"
@@ -3149,7 +3140,7 @@
     prettier "^2.8.0"
     recast "^0.23.1"
 
-"@storybook/components@7.0.17", "@storybook/components@^7.0.0":
+"@storybook/components@7.0.17":
   version "7.0.17"
   resolved "https://registry.yarnpkg.com/@storybook/components/-/components-7.0.17.tgz#4127c420f0fb52c4e0f65ffe1d2191c5aa2b99b2"
   integrity sha512-JIDKVg+NuJSmsTbbU2k5hyqd6JjOZ9I/c0rQsrO55bMPHeocwpX9rkXvjTn89iyKpAbjIo6zhCko2pUakopY6Q==
@@ -3163,7 +3154,7 @@
     use-resize-observer "^9.1.0"
     util-deprecate "^1.0.2"
 
-"@storybook/components@7.0.18":
+"@storybook/components@7.0.18", "@storybook/components@^7.0.0":
   version "7.0.18"
   resolved "https://registry.yarnpkg.com/@storybook/components/-/components-7.0.18.tgz#74ab115342e576b7644c83667a9daef5758fc3c8"
   integrity sha512-Jn1CbF9UAKt8BVaZtuhmthpcZ02VMaCFXR0ISfDXCpiMKnylmpP0+WfXcoKLzz6yS+EW8EW5S9+Qq8xgQY8H7A==
@@ -3235,12 +3226,12 @@
     resolve-from "^5.0.0"
     ts-dedent "^2.0.0"
 
-"@storybook/core-events@7.0.17", "@storybook/core-events@^7.0.0":
+"@storybook/core-events@7.0.17":
   version "7.0.17"
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-7.0.17.tgz#df809d2e7cad80b4ea616c074e43d99a137d5dd4"
   integrity sha512-ZqgMe5lbTEe4Bg2A55oYTL8lCRSLuguS9+7rxOWBCwvptF6UXPSqlEj5tr2+6IDJy6WCVAqd6Q+Y/ZCfs5Bifw==
 
-"@storybook/core-events@7.0.18":
+"@storybook/core-events@7.0.18", "@storybook/core-events@^7.0.0":
   version "7.0.18"
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-7.0.18.tgz#429e0b092c645bd283adb4836ac0a945e813f085"
   integrity sha512-7gxHBQDezdKOeq/u1LL80Bwjfcwsv7XOS3yWQElcgqp+gLaYB6OwwgtkCB2yV6a6l4nep9IdPWE8G3TxIzn9xw==
@@ -3734,7 +3725,7 @@
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
 
-"@storybook/theming@7.0.18":
+"@storybook/theming@7.0.18", "@storybook/theming@^7.0.0", "@storybook/theming@^7.0.0-beta.12", "@storybook/theming@^7.0.17":
   version "7.0.18"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.0.18.tgz#566f5f42c9324b734f8aa9be4d16221278054734"
   integrity sha512-P1gMKa/mKQHIMq0sxBIwTzAcF6v/6hrc62YmkuV62vXu+8zNV2YWbRwywqm3Q6faZEadmb/bL9+z8whaKhCL/g==
