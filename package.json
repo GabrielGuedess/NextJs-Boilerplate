@@ -63,7 +63,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.5",
-    "@commitlint/config-conventional": "^17.6.3",
+    "@commitlint/config-conventional": "^17.6.5",
     "@commitlint/types": "^17.4.4",
     "@netlify/plugin-a11y": "^1.0.0-beta.1",
     "@netlify/plugin-lighthouse": "^4.1.1",
