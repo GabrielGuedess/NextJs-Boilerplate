@@ -1,6 +1,6 @@
 [build]
   publish = "storybook-static"
-  command = "yarn build-storybook"
+  command = "pnpm build-storybook"
 
 [[plugins]]
   package = "@netlify/plugin-lighthouse"

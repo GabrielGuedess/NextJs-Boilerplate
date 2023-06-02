@@ -33,7 +33,7 @@ export const Wrapper = styled.table`
     tr {
       border: none !important;
 
-      :nth-child(even) {
+      &:nth-child(even) {
         background-color: ${rgba('#292c2e', 0.1)};
       }
     }
@@ -43,7 +43,7 @@ export const Wrapper = styled.table`
       color: ${darken(0.3, '#cccccc')};
       border: none !important;
 
-      &:first-child {
+      :first-child {
         border-top-left-radius: 8px;
         border-bottom-left-radius: 8px;
       }

@@ -4,9 +4,10 @@
   <br>
   <a href="https://github.com/GabrielGuedess/NextJs-Boilerplate"><img src="./public/img/icon-512.png" width="200"></a>
   <br>
- 
-  NextJs Boilerplate
-  <br>
+
+NextJs Boilerplate
+<br>
+
 </h1>
 
 <h4 align="center">A Better template with <a href="https://nextjs.org" target="_blank"><em>NextJs</em></a> with technologies to improve development.</h4>
@@ -116,6 +117,9 @@ npm run storybook
 
 # With yarn
 yarn storybook
+
+# With pnpm
+pnpm storybook
 ```
 
 ⬇️ Build Storybook
@@ -126,6 +130,9 @@ npm run build-storybook
 
 # With yarn
 yarn build-storybook
+
+# With pnpm
+pnpm build-storybook
 ```
 
 <br />
@@ -208,6 +215,9 @@ npm i
 
 # With yarn
 yarn
+
+# With pnpm
+pnpm i
 ```
 
 4. Start project.
@@ -218,6 +228,9 @@ npm run dev
 
 # With yarn
 yarn dev
+
+# With pnpm
+pnpm dev
 ```
 
 > **Note**
@@ -237,7 +250,7 @@ yarn dev
 - [ ] Lighthouse
   - [ ] Add `LIGHTHOUSE_BADGER_TOKEN` to Github.
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/GabrielGuedess/NextJs-Boilerplate/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

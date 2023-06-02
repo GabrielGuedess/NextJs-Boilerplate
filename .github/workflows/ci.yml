@@ -13,37 +13,33 @@ jobs:
         with:
           node-version: 18.x
 
-      - uses: actions/cache@v3
-        id: yarn-cache
+      - uses: pnpm/action-setup@v2.2.4
+        name: Install pnpm
+        id: pnpm-install
         with:
-          path: |
-            ~/cache
-            !~/cache/exclude
-            **/node_modules
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
+          version: 8.6.0
+          run_install: false
 
       - name: Install dependencies
-        run: yarn
+        run: pnpm i
 
       - name: Typecheck
-        run: yarn typecheck
+        run: pnpm typecheck
 
       - name: Find unused exports
-        run: yarn find-deadcode
+        run: pnpm find-deadcode
 
       - name: Linting
-        run: yarn lint
+        run: pnpm lint
 
       - name: Linting Styles
-        run: yarn lint:css
+        run: pnpm lint:css
 
       - name: Test
-        run: yarn test:ci
+        run: pnpm test:ci
 
       - name: Storybook
-        run: yarn build-storybook
+        run: pnpm build-storybook
 
       - name: Build
-        run: yarn build
+        run: pnpm build

@@ -13,25 +13,21 @@ jobs:
         with:
           node-version: 18.x
 
-      - uses: actions/cache@v3
-        id: yarn-cache
+      - uses: pnpm/action-setup@v2.2.4
+        name: Install pnpm
+        id: pnpm-install
         with:
-          path: |
-            ~/cache
-            !~/cache/exclude
-            **/node_modules
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
+          version: 8.6.0
+          run_install: false
 
       - name: Install dependencies
-        run: yarn
+        run: pnpm i
 
       - name: Cypress run
         uses: cypress-io/github-action@v5.6.1
         with:
-          build: yarn build
-          start: yarn start
+          build: pnpm build
+          start: pnpm start
           wait-on: 'http://localhost:3000'
           wait-on-timeout: 120
           record: true

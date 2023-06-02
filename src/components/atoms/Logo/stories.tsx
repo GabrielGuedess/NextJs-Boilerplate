@@ -1,6 +1,7 @@
 import { type StoryFn, type Meta } from '@storybook/react';
 
 import { Logo } from '.';
+
 import { type LogoProps } from './types';
 
 export default {

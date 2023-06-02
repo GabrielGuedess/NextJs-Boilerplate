@@ -10,16 +10,13 @@ exports[`<Main /> should render the main correctly 1`] = `
   position: absolute;
   top: 115%;
   left: 0;
-  -webkit-transform: scale(1,0.8);
-  -ms-transform: scale(1,0.8);
-  transform: scale(1,0.8);
+  transform: scale(1, 0.8);
   display: block;
   width: 18rem;
   height: calc(18rem / 5);
-  background-image: radial-gradient( closest-side, rgba(153,248,255,0.2), rgba(153,248,255,0) );
+  background-image: radial-gradient(         closest-side,         rgb(153 248 255 / 0.2),         rgb(153 248 255 / 0)       );
   border-radius: 100%;
-  -webkit-animation: 8s fDuSjn infinite cubic-bezier(1,0.25,0,0.75);
-  animation: 8s fDuSjn infinite cubic-bezier(1,0.25,0,0.75);
+  animation: 8s fDuSjn infinite cubic-bezier(1, 0.25, 0, 0.75);
 }
 
 .c4 {
@@ -27,31 +24,28 @@ exports[`<Main /> should render the main correctly 1`] = `
   top: 50%;
   width: 100%;
   height: calc(18rem / 2.5);
-  margin-top: calc((18rem / 2.5) / -2) !important;
-  border-top: solid rgba(0,216,255,0.5) 1px;
-  border-right: solid rgba(0,216,255,0.35) 2px;
-  border-bottom: solid rgba(0,216,255,0.2) 4px;
-  border-left: solid rgba(0,216,255,0) 2px;
+  margin-top: calc((18rem / 2.5) / -2)!important;
+  border-top: solid rgb(0 216 255 / 0.5) 1px;
+  border-right: solid rgb(0 216 255 / 0.35) 2px;
+  border-bottom: solid rgb(0 216 255 / 0.2) 4px;
+  border-left: solid rgb(0 216 255 / 0) 2px;
   border-radius: 100%;
-  -webkit-animation: 1.2s gOiwFb infinite linear;
   animation: 1.2s gOiwFb infinite linear;
 }
 
-.c4::after {
+.c4 ::after {
   content: '';
   position: absolute;
   top: 50%;
   left: calc((18rem / 25) / -1);
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
   transform: scale(1);
   display: block;
   width: calc(18rem / 25);
   height: calc(18rem / 25);
-  margin-top: calc((18rem / 25) / -2) !important;
+  margin-top: calc((18rem / 25) / -2)!important;
   background: #99f8ff;
+  border: 20px solid black;
   border-radius: 50%;
-  -webkit-animation: calc(1.2s * 2) dQPgac infinite ease-in-out;
   animation: calc(1.2s * 2) dQPgac infinite ease-in-out;
 }
 
@@ -59,11 +53,10 @@ exports[`<Main /> should render the main correctly 1`] = `
   position: relative;
   width: 18rem;
   height: 18rem;
-  -webkit-animation: 8s eWqkYC infinite cubic-bezier(1,0.25,0,0.75);
-  animation: 8s eWqkYC infinite cubic-bezier(1,0.25,0,0.75);
+  animation: 8s eWqkYC infinite cubic-bezier(1, 0.25, 0, 0.75);
 }
 
-.c2::before {
+.c2 ::before {
   content: '';
   position: absolute;
   top: 50%;
@@ -71,57 +64,37 @@ exports[`<Main /> should render the main correctly 1`] = `
   display: block;
   width: calc(18rem / 5);
   height: calc(18rem / 5);
-  margin-top: calc((18rem / 5) / -2) !important;
+  margin-top: calc((18rem / 5) / -2)!important;
   margin-left: calc((18rem / 5) / -2);
   background: #99f8ff;
   border-radius: 100%;
   box-shadow: 0 0 3px 0 #00d8ff;
-  -webkit-animation: 2s kxVzFA infinite cubic-bezier(0.65,0,0.35,1);
-  animation: 2s kxVzFA infinite cubic-bezier(0.65,0,0.35,1);
+  animation: 2s kxVzFA infinite cubic-bezier(0.65, 0, 0.35, 1);
 }
 
 .c2 .c3:nth-child(2) {
-  -webkit-transform: rotate(60deg);
-  -ms-transform: rotate(60deg);
   transform: rotate(60deg);
-  -webkit-animation: 1s gOiwFb infinite linear;
   animation: 1s gOiwFb infinite linear;
 }
 
-.c2 .c3:nth-child(2)::after {
-  -webkit-animation: calc(1s * 2) dQPgac infinite ease-in-out;
+.c2 .c3:nth-child(2) ::after {
   animation: calc(1s * 2) dQPgac infinite ease-in-out;
 }
 
 .c2 .c3:nth-child(3) {
-  -webkit-transform: rotate(-60deg);
-  -ms-transform: rotate(-60deg);
   transform: rotate(-60deg);
-  -webkit-animation: 0.8s gOiwFb infinite linear;
   animation: 0.8s gOiwFb infinite linear;
 }
 
-.c2 .c3:nth-child(3)::after {
-  -webkit-animation: calc(0.8s * 2) dQPgac infinite ease-in-out;
+.c2 .c3:nth-child(3) ::after {
   animation: calc(0.8s * 2) dQPgac infinite ease-in-out;
 }
 
 .c0 {
   position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
   justify-content: center;
   width: 100%;
   height: 100vh;

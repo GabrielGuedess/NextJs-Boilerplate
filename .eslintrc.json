@@ -75,6 +75,24 @@
       }
     },
     {
+      "files": ["src/lib/registry.tsx"],
+      "rules": {
+        "react/jsx-no-useless-fragment": "off"
+      }
+    },
+    {
+      "files": ["src/components/atoms/Analytics/*"],
+      "rules": {
+        "react/no-danger": "off"
+      }
+    },
+    {
+      "files": ["jest-styled-components.d.ts"],
+      "rules": {
+        "@typescript-eslint/no-explicit-any": "off"
+      }
+    },
+    {
       "files": ["**.js"],
       "rules": {
         "no-undef": "off",
@@ -274,7 +292,9 @@
           "/^constants/",
           "/^storage/",
           "/^styles/",
-          ["parent", "sibling", "index"]
+          ["parent", "sibling", "index"],
+          "/./types/",
+          "/./styles/"
         ],
         "alphabetize": { "order": "asc", "ignoreCase": true }
       }

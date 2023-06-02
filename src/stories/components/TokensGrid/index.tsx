@@ -1,5 +1,6 @@
-import * as S from './styles';
 import { type TokensGridProps } from './types';
+
+import * as S from './styles';
 
 export const TokensGrid = ({
   tokens,

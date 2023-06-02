@@ -1,3 +1,5 @@
+'use client';
+
 import styled, { keyframes, css } from 'styled-components';
 
 import { type LogoProps } from './types';
@@ -135,8 +137,8 @@ export const Wrapper = styled.div<Pick<LogoProps, 'hasShadow'>>`
 
       background-image: radial-gradient(
         closest-side,
-        rgba(153, 248, 255, 0.2),
-        rgba(153, 248, 255, 0)
+        rgb(153 248 255 / 0.2),
+        rgb(153 248 255 / 0)
       );
       border-radius: 100%;
 
@@ -153,10 +155,10 @@ export const Electron = styled.div`
   height: calc(18rem / 2.5);
   margin-top: calc((18rem / 2.5) / -2) !important;
 
-  border-top: solid rgba(0, 216, 255, 0.5) 1px;
-  border-right: solid rgba(0, 216, 255, 0.35) 2px;
-  border-bottom: solid rgba(0, 216, 255, 0.2) 4px;
-  border-left: solid rgba(0, 216, 255, 0) 2px;
+  border-top: solid rgb(0 216 255 / 0.5) 1px;
+  border-right: solid rgb(0 216 255 / 0.35) 2px;
+  border-bottom: solid rgb(0 216 255 / 0.2) 4px;
+  border-left: solid rgb(0 216 255 / 0) 2px;
   border-radius: 100%;
 
   animation: 1.2s ${electronOrbit} infinite linear;
@@ -176,6 +178,7 @@ export const Electron = styled.div`
     margin-top: calc((18rem / 25) / -2) !important;
 
     background: #99f8ff;
+    border: 20px solid black;
     border-radius: 50%;
 
     animation: calc(1.2s * 2) ${electron} infinite ease-in-out;

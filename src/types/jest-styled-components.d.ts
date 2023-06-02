@@ -1,14 +1,12 @@
-/* eslint-disable node/no-extraneous-import */
-/* eslint-disable import/no-extraneous-dependencies */
-/* eslint-disable @typescript-eslint/no-explicit-any */
-/* eslint-disable @typescript-eslint/ban-types */
 import { type NewPlugin, type Plugin } from 'pretty-format';
+
+type FunctionProps = () => void;
 
 declare global {
   namespace jest {
     interface AsymmetricMatcher {
       $$typeof: symbol;
-      sample?: string | RegExp | object | Array<any> | Function;
+      sample?: string | RegExp | object | Array<any> | FunctionProps;
     }
 
     type Value = string | number | RegExp | AsymmetricMatcher | undefined;
@@ -19,9 +17,7 @@ declare global {
       supports?: string;
     }
 
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars, no-unused-vars
-    interface Matchers<R, T> {
-      // eslint-disable-next-line no-unused-vars
+    interface Matchers<R> {
       toHaveStyleRule(property: string, value?: Value, options?: Options): R;
     }
   }

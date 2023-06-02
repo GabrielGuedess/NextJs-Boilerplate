@@ -1,21 +1,12 @@
 import { type ThemeVars } from '@storybook/theming';
 
-import {
-  type GlobalStyleComponent,
-  type DefaultTheme,
-  createGlobalStyle,
-  css,
-} from 'styled-components';
+import { createGlobalStyle, css } from 'styled-components';
 
 type GlobalStylesProps = {
-  theme: DefaultTheme;
   storyBackground?: ThemeVars;
 };
 
-export const GlobalStyles: GlobalStyleComponent<
-  GlobalStylesProps,
-  DefaultTheme
-> = createGlobalStyle`
+export const GlobalStyles = createGlobalStyle<GlobalStylesProps>`
   * {
     box-sizing: border-box;
     margin: 0;

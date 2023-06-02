@@ -1,5 +1,6 @@
-import * as S from './styles';
 import { type LogoProps } from './types';
+
+import * as S from './styles';
 
 export const Logo = ({ hasShadow = true }: LogoProps) => (
   <S.Wrapper hasShadow={hasShadow} data-testid="Logo React">
