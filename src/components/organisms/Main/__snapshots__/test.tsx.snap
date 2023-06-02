@@ -30,10 +30,10 @@ exports[`<Main /> should render the main correctly 1`] = `
   border-bottom: solid rgb(0 216 255 / 0.2) 4px;
   border-left: solid rgb(0 216 255 / 0) 2px;
   border-radius: 100%;
-  animation: 1.2s gOiwFb infinite linear;
+  animation: 1.2s fhZMf infinite linear;
 }
 
-.c4 ::after {
+.c4::after {
   content: '';
   position: absolute;
   top: 50%;
@@ -44,7 +44,6 @@ exports[`<Main /> should render the main correctly 1`] = `
   height: calc(18rem / 25);
   margin-top: calc((18rem / 25) / -2)!important;
   background: #99f8ff;
-  border: 20px solid black;
   border-radius: 50%;
   animation: calc(1.2s * 2) dQPgac infinite ease-in-out;
 }
@@ -56,7 +55,7 @@ exports[`<Main /> should render the main correctly 1`] = `
   animation: 8s eWqkYC infinite cubic-bezier(1, 0.25, 0, 0.75);
 }
 
-.c2 ::before {
+.c2::before {
   content: '';
   position: absolute;
   top: 50%;
@@ -74,19 +73,19 @@ exports[`<Main /> should render the main correctly 1`] = `
 
 .c2 .c3:nth-child(2) {
   transform: rotate(60deg);
-  animation: 1s gOiwFb infinite linear;
+  animation: 1s fhZMf infinite linear;
 }
 
-.c2 .c3:nth-child(2) ::after {
+.c2 .c3:nth-child(2)::after {
   animation: calc(1s * 2) dQPgac infinite ease-in-out;
 }
 
 .c2 .c3:nth-child(3) {
   transform: rotate(-60deg);
-  animation: 0.8s gOiwFb infinite linear;
+  animation: 0.8s fhZMf infinite linear;
 }
 
-.c2 .c3:nth-child(3) ::after {
+.c2 .c3:nth-child(3)::after {
   animation: calc(0.8s * 2) dQPgac infinite ease-in-out;
 }
 

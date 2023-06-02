@@ -58,31 +58,31 @@ const nucleus = keyframes`
 
 const electronOrbit = keyframes`
   0%, 100% {
-      border-top: solid rgba(0, 216, 255, 0.5) 1px;
-      border-right: solid rgba(0, 216, 255, 0.35) 2px;
-      border-bottom: solid rgba(0, 216, 255, 0.2) 4px;
-      border-left: solid rgba(0, 216, 255, 0) 2px;
+      border-top: solid rgb(0 216 255 / 0.5) 1px;
+      border-right: solid rgb(0 216 255 / 0.35) 2px;
+      border-bottom: solid rgb(0 216 255 / 0.2) 4px;
+      border-left: solid rgb(0 216 255 / 0) 2px;
     }
 
     25% {
-      border-top: solid rgba(0, 216, 255, 0.35) 1px;
-      border-right: solid rgba(0, 216, 255, 0.2) 2px;
-      border-bottom: solid rgba(0, 216, 255, 0) 4px;
-      border-left: solid rgba(0, 216, 255, 0.5) 2px;
+      border-top: solid rgb(0 216 255 / 0.35) 1px;
+      border-right: solid rgb(0 216 255 / 0.2) 2px;
+      border-bottom: solid rgb(0 216 255 / 0) 4px;
+      border-left: solid rgb(0 216 255 / 0.5) 2px;
     }
 
     50% {
-      border-top: solid rgba(0, 216, 255, 0.2) 1px;
-      border-right: solid rgba(0, 216, 255, 0) 2px;
-      border-bottom: solid rgba(0, 216, 255, 0.5) 4px;
-      border-left: solid rgba(0, 216, 255, 0.35) 2px;
+      border-top: solid rgb(0 216 255 / 0.2) 1px;
+      border-right: solid rgb(0 216 255 / 0) 2px;
+      border-bottom: solid rgb(0 216 255 / 0.5) 4px;
+      border-left: solid rgb(0 216 255 / 0.35) 2px;
     }
 
     75% {
-      border-top: solid rgba(0, 216, 255, 0) 1px;
-      border-right: solid rgba(0, 216, 255, 0.5) 2px;
-      border-bottom: solid rgba(0, 216, 255, 0.35) 4px;
-      border-left: solid rgba(0, 216, 255, 0.2) 2px;
+      border-top: solid rgb(0 216 255 / 0) 1px;
+      border-right: solid rgb(0 216 255 / 0.5) 2px;
+      border-bottom: solid rgb(0 216 255 / 0.35) 4px;
+      border-left: solid rgb(0 216 255 / 0.2) 2px;
     }
 `;
 
@@ -163,7 +163,7 @@ export const Electron = styled.div`
 
   animation: 1.2s ${electronOrbit} infinite linear;
 
-  ::after {
+  &::after {
     content: '';
 
     position: absolute;
@@ -178,7 +178,6 @@ export const Electron = styled.div`
     margin-top: calc((18rem / 25) / -2) !important;
 
     background: #99f8ff;
-    border: 20px solid black;
     border-radius: 50%;
 
     animation: calc(1.2s * 2) ${electron} infinite ease-in-out;
@@ -191,7 +190,7 @@ export const Atom = styled.div`
   height: 18rem;
   animation: 8s ${atom} infinite cubic-bezier(1, 0.25, 0, 0.75);
 
-  ::before {
+  &::before {
     content: '';
 
     position: absolute;
@@ -216,7 +215,7 @@ export const Atom = styled.div`
     transform: rotate(60deg);
     animation: 1s ${electronOrbit} infinite linear;
 
-    ::after {
+    &::after {
       animation: calc(1s * 2) ${electron} infinite ease-in-out;
     }
   }
@@ -225,7 +224,7 @@ export const Atom = styled.div`
     transform: rotate(-60deg);
     animation: 0.8s ${electronOrbit} infinite linear;
 
-    ::after {
+    &::after {
       animation: calc(0.8s * 2) ${electron} infinite ease-in-out;
     }
   }
