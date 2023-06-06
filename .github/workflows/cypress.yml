@@ -21,7 +21,7 @@ jobs:
           run_install: false
 
       - name: Install dependencies
-        run: pnpm i
+        run: pnpm i --no-frozen-lockfile
 
       - name: Cypress run
         uses: cypress-io/github-action@v5.6.1
