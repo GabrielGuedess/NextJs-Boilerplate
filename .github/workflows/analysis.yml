@@ -30,7 +30,7 @@ jobs:
           run_install: false
 
       - name: Install dependencies
-        run: pnpm i
+        run: pnpm i --frozen-lockfile
 
       - name: Restore next build
         uses: actions/cache@v2
