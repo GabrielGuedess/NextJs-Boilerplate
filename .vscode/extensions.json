@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "andrejunges.handlebars",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "styled-components.vscode-styled-components",
+    "stylelint.vscode-stylelint",
+    "EditorConfig.EditorConfig",
+    "webhint.vscode-webhint"
+  ]
+}

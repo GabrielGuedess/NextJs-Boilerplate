@@ -19,7 +19,7 @@ const config: Config = {
     '!src/styles/**/*.ts',
     '!src/utils/tests/*.ts(x)?',
   ],
-  setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
+  setupFilesAfterEnv: ['<rootDir>/.jest/jest.setup.ts'],
   modulePaths: ['<rootDir>/src/', '<rootDir>/.jest'],
 };
 
