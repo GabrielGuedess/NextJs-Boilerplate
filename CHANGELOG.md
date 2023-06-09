@@ -1,3 +1,11 @@
+## [1.2.4](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.2.3...v1.2.4) (2023-06-09)
+
+
+### Bug Fixes
+
+* change devDependencie to dependencie ([762d38c](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/762d38c02ed96b2ea7b017b1aaf07ea3706fff40))
+* eslint errors ([d689e3c](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/d689e3c76a060b402665d6c13a3e36ce90dff180))
+
 ## [1.2.3](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.2.2...v1.2.3) (2023-06-09)
 
 
