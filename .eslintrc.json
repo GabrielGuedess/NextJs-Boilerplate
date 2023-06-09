@@ -119,7 +119,7 @@
       }
     },
     {
-      "files": ["**/utils/tests/**", "next.config.mjs"],
+      "files": ["**/utils/tests/**", "next.config.mjs", "jest.config.ts"],
       "rules": {
         "@typescript-eslint/naming-convention": [
           "error",

@@ -24,6 +24,7 @@
     ".next/types/**/*.ts",
     ".storybook/**/*.tsx",
     ".storybook/**/*.ts",
+    ".jest/jest.setup.ts",
     "**/*.ts",
     "**/*.tsx"
   ]
