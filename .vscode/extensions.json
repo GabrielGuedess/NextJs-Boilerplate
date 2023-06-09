@@ -1,12 +1,11 @@
 {
   "recommendations": [
-    "andrejunges.handlebars",
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
-    "styled-components.vscode-styled-components",
-    "stylelint.vscode-stylelint",
+    "andrejunges.handlebars",
+    "yoavbls.pretty-ts-errors",
     "EditorConfig.EditorConfig",
-    "Orta.vscode-jest",
-    "yoavbls.pretty-ts-errors"
+    "stylelint.vscode-stylelint",
+    "styled-components.vscode-styled-components"
   ]
 }
