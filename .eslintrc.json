@@ -75,6 +75,84 @@
       }
     },
     {
+      "files": ["**/index.tsx"],
+      "rules": {
+        "@typescript-eslint/naming-convention": [
+          "error",
+          {
+            "selector": ["variable", "function", "objectLiteralProperty", "objectLiteralMethod"],
+            "types": ["function"],
+            "format": ["StrictPascalCase"]
+          },
+          {
+            "selector": "variable",
+            "format": ["camelCase", "UPPER_CASE"]
+          },
+          {
+            "selector": "typeAlias",
+            "format": ["PascalCase"],
+            "custom": {
+              "regex": "[A-Z]*Props$",
+              "match": true
+            }
+          },
+          {
+            "selector": "interface",
+            "format": ["PascalCase"],
+            "custom": {
+              "regex": "^I[A-Z]",
+              "match": true
+            }
+          },
+          {
+            "selector": "variable",
+            "types": ["boolean"],
+            "format": ["PascalCase"],
+            "prefix": ["is", "should", "has", "can", "did", "will"]
+          }
+        ]
+      }
+    },
+    {
+      "files": ["**/utils/tests/**"],
+      "rules": {
+        "@typescript-eslint/naming-convention": [
+          "error",
+          {
+            "selector": "variable",
+            "format": ["camelCase", "UPPER_CASE"]
+          },
+          {
+            "selector": "variable",
+            "types": ["function"],
+            "format": ["PascalCase", "camelCase"]
+          },
+          {
+            "selector": "typeAlias",
+            "format": ["PascalCase"],
+            "custom": {
+              "regex": "[A-Z]*Props$",
+              "match": true
+            }
+          },
+          {
+            "selector": "interface",
+            "format": ["PascalCase"],
+            "custom": {
+              "regex": "^I[A-Z]",
+              "match": true
+            }
+          },
+          {
+            "selector": "variable",
+            "types": ["boolean"],
+            "format": ["PascalCase"],
+            "prefix": ["is", "should", "has", "can", "did", "will"]
+          }
+        ]
+      }
+    },
+    {
       "files": ["src/lib/registry.tsx"],
       "rules": {
         "react/jsx-no-useless-fragment": "off"
@@ -143,6 +221,7 @@
       "rules": {
         "@typescript-eslint/naming-convention": "off",
         "@typescript-eslint/no-empty-interface": "off",
+        "@typescript-eslint/consistent-type-definitions": "off",
         "unicorn/filename-case": ["error", { "case": "kebabCase" }]
       }
     },
@@ -193,6 +272,7 @@
     "arrow-body-style": ["error", "as-needed"],
     "import/no-duplicates": ["error", { "prefer-inline": true }],
     "import/consistent-type-specifier-style": ["error", "prefer-inline"],
+    "@typescript-eslint/consistent-type-definitions": ["error", "type"],
     "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
     "@typescript-eslint/consistent-type-imports": [
       "error",
@@ -226,8 +306,35 @@
         }
       }
     ],
+    "padding-line-between-statements": [
+      "error",
+      {"blankLine": "always", "prev": "*", "next": "return"},
+      {"blankLine": "always", "prev": "*", "next": "try"},
+      {"blankLine": "always", "prev": "try", "next": "*"},
+      {"blankLine": "always", "prev": "*", "next": "block-like"},
+      {"blankLine": "always", "prev": "block-like", "next": "*"},
+      {"blankLine": "always", "prev": "*", "next": "throw"},
+      {"blankLine": "always", "prev": "var", "next": "*"}
+    ],
     "@typescript-eslint/naming-convention": [
       "error",
+      {
+        "selector": "variable",
+        "format": ["camelCase", "UPPER_CASE"]
+      },
+      {
+        "selector": "variable",
+        "types": ["function"],
+        "format": ["PascalCase"]
+      },
+      {
+        "selector": "typeAlias",
+        "format": ["PascalCase"],
+        "custom": {
+          "regex": "[A-Z]*Props$",
+          "match": true
+        }
+      },
       {
         "selector": "interface",
         "format": ["PascalCase"],
@@ -237,12 +344,10 @@
         }
       },
       {
-        "selector": "typeAlias",
+        "selector": "variable",
+        "types": ["boolean"],
         "format": ["PascalCase"],
-        "custom": {
-          "regex": "[A-Z]*Props$",
-          "match": true
-        }
+        "prefix": ["is", "should", "has", "can", "did", "will"]
       }
     ],
     "react/function-component-definition": [
