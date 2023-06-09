@@ -1,3 +1,16 @@
+# [1.2.0](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.1.0...v1.2.0) (2023-06-09)
+
+
+### Bug Fixes
+
+* add new svg folder ([8dac4a9](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/8dac4a99739d933fefb7d3746f02c8178ca4b2d1))
+* exclude config folder jest ([ea0c5ab](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/ea0c5abd6f276c9b5bacd7fe0451d1811d67aebe))
+
+
+### Features
+
+* add next sitemap ([7a1ae33](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/7a1ae33b27d031877b1864774d50565396d6b079))
+
 # [1.1.0](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.0.0...v1.1.0) (2023-06-09)
 
 
