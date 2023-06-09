@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.2.0...v1.2.1) (2023-06-09)
+
+
+### Bug Fixes
+
+* change dependencies to devDependencies ([4faa2a1](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/4faa2a14b8a47116dd074d415653c300ad425b54))
+
 # [1.2.0](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.1.0...v1.2.0) (2023-06-09)
 
 
