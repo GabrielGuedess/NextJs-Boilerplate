@@ -2,3 +2,4 @@
 !.jest
 cypress.config.ts
 plopfile.mjs
+next-sitemap.config.js
