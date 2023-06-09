@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.2.1...v1.2.2) (2023-06-09)
+
+
+### Bug Fixes
+
+* chromatic not renovate ([91ac4ed](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/91ac4ed7d75fce9426b1f5e1e509bbbac0e40106))
+
 ## [1.2.1](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.2.0...v1.2.1) (2023-06-09)
 
 
