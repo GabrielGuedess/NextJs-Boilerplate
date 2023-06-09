@@ -80,7 +80,7 @@
     "@storybook/addon-viewport": "^7.0.17",
     "@storybook/blocks": "^7.0.18",
     "@storybook/manager-api": "^7.0.18",
-    "@storybook/nextjs": "7.0.18",
+    "@storybook/nextjs": "7.0.20",
     "@storybook/react": "7.0.20",
     "@storybook/theming": "^7.0.18",
     "@testing-library/cypress": "^9.0.0",
