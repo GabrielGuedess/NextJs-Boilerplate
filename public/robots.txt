@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://nextjs-boilerplate-gabrielguedess.vercel.app/
+
+# Sitemaps
+Sitemap: https://nextjs-boilerplate-gabrielguedess.vercel.app/sitemap.xml
