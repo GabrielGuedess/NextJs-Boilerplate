@@ -26,7 +26,7 @@ jobs:
           run_install: false
 
       - name: Install dependencies
-        run: pnpm i
+        run: pnpm i --no-frozen-lockfile
 
       - name: Typecheck
         run: pnpm typecheck

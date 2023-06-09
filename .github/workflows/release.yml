@@ -30,7 +30,7 @@ jobs:
           run_install: false
 
       - name: Install dependencies
-        run: HUSKY=0 pnpm i
+        run: HUSKY=0 pnpm i --no-frozen-lockfile
 
       - name: Release
         env:
