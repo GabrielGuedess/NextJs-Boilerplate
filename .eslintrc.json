@@ -80,7 +80,12 @@
         "@typescript-eslint/naming-convention": [
           "error",
           {
-            "selector": ["variable", "function", "objectLiteralProperty", "objectLiteralMethod"],
+            "selector": [
+              "variable",
+              "function",
+              "objectLiteralProperty",
+              "objectLiteralMethod"
+            ],
             "types": ["function"],
             "format": ["StrictPascalCase"]
           },
@@ -114,7 +119,7 @@
       }
     },
     {
-      "files": ["**/utils/tests/**"],
+      "files": ["**/utils/tests/**", "next.config.mjs"],
       "rules": {
         "@typescript-eslint/naming-convention": [
           "error",
@@ -308,13 +313,13 @@
     ],
     "padding-line-between-statements": [
       "error",
-      {"blankLine": "always", "prev": "*", "next": "return"},
-      {"blankLine": "always", "prev": "*", "next": "try"},
-      {"blankLine": "always", "prev": "try", "next": "*"},
-      {"blankLine": "always", "prev": "*", "next": "block-like"},
-      {"blankLine": "always", "prev": "block-like", "next": "*"},
-      {"blankLine": "always", "prev": "*", "next": "throw"},
-      {"blankLine": "always", "prev": "var", "next": "*"}
+      { "blankLine": "always", "prev": "*", "next": "return" },
+      { "blankLine": "always", "prev": "*", "next": "try" },
+      { "blankLine": "always", "prev": "try", "next": "*" },
+      { "blankLine": "always", "prev": "*", "next": "block-like" },
+      { "blankLine": "always", "prev": "block-like", "next": "*" },
+      { "blankLine": "always", "prev": "*", "next": "throw" },
+      { "blankLine": "always", "prev": "var", "next": "*" }
     ],
     "@typescript-eslint/naming-convention": [
       "error",

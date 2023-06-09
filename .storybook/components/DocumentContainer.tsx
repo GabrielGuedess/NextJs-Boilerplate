@@ -14,10 +14,10 @@ export const DocumentContainer = ({
   children,
   ...rest
 }: DocumentContainerProps) => {
-  const dark = useDarkMode();
+  const isDark = useDarkMode();
 
   return (
-    <DocsContainer {...rest} theme={dark ? themes.dark : themes.light}>
+    <DocsContainer {...rest} theme={isDark ? themes.dark : themes.light}>
       {children}
     </DocsContainer>
   );

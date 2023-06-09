@@ -40,12 +40,12 @@ const preview: Preview = {
   },
   decorators: [
     Story => {
-      const dark = useDarkMode();
+      const isDark = useDarkMode();
 
       return (
         <ThemeProvider theme={theme}>
           <Story />
-          <GlobalStyles storyBackground={dark ? themes.dark : themes.light} />
+          <GlobalStyles storyBackground={isDark ? themes.dark : themes.light} />
         </ThemeProvider>
       );
     },
