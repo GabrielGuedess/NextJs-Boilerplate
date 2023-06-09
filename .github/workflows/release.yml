@@ -30,9 +30,9 @@ jobs:
           run_install: false
 
       - name: Install dependencies
-        run: pnpm i
+        run: HUSKY=0 pnpm i
 
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: pnpm release
+        run: HUSKY=0 pnpm release
