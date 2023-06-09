@@ -5,6 +5,8 @@
     "esbenp.prettier-vscode",
     "styled-components.vscode-styled-components",
     "stylelint.vscode-stylelint",
-    "EditorConfig.EditorConfig"
+    "EditorConfig.EditorConfig",
+    "Orta.vscode-jest",
+    "yoavbls.pretty-ts-errors"
   ]
 }
