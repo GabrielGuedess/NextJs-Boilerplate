@@ -1,3 +1,16 @@
+# [1.1.0](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.0.0...v1.1.0) (2023-06-09)
+
+
+### Bug Fixes
+
+* git conflict ([dcb00bc](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/dcb00bc5a2d59a6ea9505cbda7b7ea820a8442c2))
+* git conflict ([7032f19](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/7032f19ee7e37e2ca24e07c8a9de7ee404fcbd1d))
+
+
+### Features
+
+* change dependabot to renovate ([8bd3e39](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/8bd3e39988fc874aa2e4fc426c0393e55f0b4fb7))
+
 # 1.0.0 (2023-06-09)
 
 
