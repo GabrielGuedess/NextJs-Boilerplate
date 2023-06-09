@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.2.2...v1.2.3) (2023-06-09)
+
+
+### Bug Fixes
+
+* renovate automerge ([4050e1e](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/4050e1e2d01a32ce8fe3af5f58e131b273413b44))
+
 ## [1.2.2](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.2.1...v1.2.2) (2023-06-09)
 
 
