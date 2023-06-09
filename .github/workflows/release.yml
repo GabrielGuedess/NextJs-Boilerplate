@@ -29,6 +29,9 @@ jobs:
           version: 8.6.0
           run_install: false
 
+      - name: Install dependencies
+        run: pnpm i
+
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
