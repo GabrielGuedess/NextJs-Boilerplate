@@ -2,15 +2,14 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base",
-    "schedule:daily"
+    "schedule:daily",
+    ":automergePatch",
+    ":automergeMinor"
   ],
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true,
-      "major": {
-        "automerge": false
-      }
+      "automerge": true
     }
   ],
   "timezone": "America/Sao_Paulo"
