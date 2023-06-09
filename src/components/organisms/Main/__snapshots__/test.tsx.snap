@@ -133,7 +133,7 @@ exports[`<Main /> should render the main correctly 1`] = `
     decoding="async"
     fetchpriority="high"
     height="37"
-    src="/img/next.svg"
+    src="/svg/next.svg"
     style="color: transparent;"
     width="180"
   />

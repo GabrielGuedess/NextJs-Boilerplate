@@ -7,7 +7,7 @@ export const Main = () => (
     <Logo />
 
     <S.Next
-      src="/img/next.svg"
+      src="/svg/next.svg"
       alt="Next.js Logo"
       width={180}
       height={37}
