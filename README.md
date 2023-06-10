@@ -25,7 +25,7 @@ NextJs Boilerplate
     <img src="https://img.shields.io/github/actions/workflow/status/GabrielGuedess/NextJs-Boilerplate/ci.yml?label=CI">
   </a>
 
-  <a href="https://codeleap-network-gabrielguedess.netlify.app">
+  <a href="https://nextjs-boilerplate-storybook.netlify.app">
     <img src="https://api.netlify.com/api/v1/badges/afabfb49-db07-4e59-983d-48b7f4ea486e/deploy-status">
   </a>
 
@@ -33,7 +33,7 @@ NextJs Boilerplate
     <img src="https://img.shields.io/github/languages/top/GabrielGuedess/NextJs-Boilerplate">
   </a>
 
-  <a href="https://wakatime.com/badge/github/GabrielGuedess/CodeLeap">
+  <a href="https://wakatime.com/badge/github/GabrielGuedess/NextJs-Boilerplate">
     <img src="https://wakatime.com/badge/github/GabrielGuedess/NextJs-Boilerplate.svg" alt="Wakatime">
   </a>
 </p>
@@ -162,7 +162,7 @@ pnpm build-storybook
 <br />
 
 <div align="center">
-<a href="https://htmlpreview.github.io/?https://github.com/GabrielGuedess/CodeLeap/blob/main/.github/assets/lighthouse/desktop/code_leap_gabrielguedess_vercel_app.html">Lighthouse Details ▶️</a>
+  <a href="https://htmlpreview.github.io/?https://github.com/GabrielGuedess/NextJs-Boilerplate/blob/main/.github/desktop/nextjs_boilerplate_gabrielguedess_vercel_app.html">Lighthouse Details ▶️</a>
 </div>
 
 <br />
@@ -198,7 +198,7 @@ To clone and run this application, you'll need _Git_ and _NodeJs_ (which comes w
 1. Clone the repository.
 
 ```sh
-git clone https://github.com/GabrielGuedess/CodeLeap
+git clone https://github.com/GabrielGuedess/NextJs-Boilerplate
 ```
 
 2. Go into the repository
