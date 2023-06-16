@@ -100,7 +100,7 @@
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-next": "^13.4.4",
     "eslint-config-prettier": "^8.8.0",
-    "eslint-config-stylelint": "^18.0.0",
+    "eslint-config-stylelint": "^19.0.0",
     "eslint-import-resolver-typescript": "^3.5.5",
     "eslint-mdx": "^2.0.5",
     "eslint-plugin-chai-friendly": "^0.7.2",

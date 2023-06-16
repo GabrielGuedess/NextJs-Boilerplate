@@ -270,6 +270,7 @@
     "react-hooks/exhaustive-deps": "warn",
     "sort-imports": "off",
     "react/jsx-no-undef": "off",
+    "n/no-missing-import": "off",
     "node/no-missing-import": "off",
     "node/no-unpublished-import": "off",
     "react/jsx-props-no-spreading": "off",
