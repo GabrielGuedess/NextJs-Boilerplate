@@ -1,3 +1,10 @@
+## [1.2.7](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.2.6...v1.2.7) (2023-06-23)
+
+
+### Bug Fixes
+
+* **deps:** update nextjs monorepo to v13.4.7 ([dc6e667](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/dc6e6676e13d3a3f4ea3dbb8a08095a070dea231))
+
 ## [1.2.6](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.2.5...v1.2.6) (2023-06-16)
 
 
