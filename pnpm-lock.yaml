@@ -30,8 +30,8 @@ dependencies:
     specifier: ^0.32.1
     version: 0.32.1
   styled-components:
-    specifier: 6.0.0-rc.3
-    version: 6.0.0-rc.3(react-dom@18.2.0)(react@18.2.0)
+    specifier: 6.0.0-rc.5
+    version: 6.0.0-rc.5(react-dom@18.2.0)(react@18.2.0)
 
 devDependencies:
   '@commitlint/cli':
@@ -207,7 +207,7 @@ devDependencies:
     version: 29.5.0
   jest-styled-components:
     specifier: ^7.1.1
-    version: 7.1.1(styled-components@6.0.0-rc.3)
+    version: 7.1.1(styled-components@6.0.0-rc.5)
   lint-staged:
     specifier: ^13.2.2
     version: 13.2.2
@@ -2942,6 +2942,14 @@ packages:
     resolution: {integrity: sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==}
     engines: {node: '>=10.0.0'}
     dev: true
+
+  /@emotion/is-prop-valid@1.2.1:
+    resolution: {integrity: sha512-61Mf7Ufx4aDxx1xlDeOm8aFFigGHE4z+0sKCa+IHCeZKiyP9RLD0Mmx7m8b9/Cf37f7NAvQOOJAbQQGVr5uERw==}
+    dependencies:
+      '@emotion/memoize': 0.8.1
+
+  /@emotion/memoize@0.8.1:
+    resolution: {integrity: sha512-W2P2c/VRW1/1tLox0mVUalvnWXxavmv/Oum2aPsRcoDJuob75FC3Y8FbpfLwUegRcxINtGUMPq0tFCvYNTBXNA==}
 
   /@emotion/unitless@0.8.1:
     resolution: {integrity: sha512-KOEGMu6dmJZtpadb476IsZBclKvILjopjUii3V+7MnXIQCYh8W3NgNcgwo21n9LXZX6EDIKvqfjYxXebDwxKmQ==}
@@ -12577,14 +12585,14 @@ packages:
       - supports-color
     dev: true
 
-  /jest-styled-components@7.1.1(styled-components@6.0.0-rc.3):
+  /jest-styled-components@7.1.1(styled-components@6.0.0-rc.5):
     resolution: {integrity: sha512-OUq31R5CivBF8oy81dnegNQrRW13TugMol/Dz6ZnFfEyo03exLASod7YGwyHGuayYlKmCstPtz0RQ1+NrAbIIA==}
     engines: {node: '>= 12'}
     peerDependencies:
       styled-components: '>= 5'
     dependencies:
       '@adobe/css-tools': 4.2.0
-      styled-components: 6.0.0-rc.3(react-dom@18.2.0)(react@18.2.0)
+      styled-components: 6.0.0-rc.5(react-dom@18.2.0)(react@18.2.0)
     dev: true
 
   /jest-util@29.5.0:
@@ -17548,8 +17556,8 @@ packages:
     resolution: {integrity: sha512-Dj1Okke1C3uKKwQcetra4jSuk0DqbzbYtXipzFlFMZtowbF1x7BKJwB9AayVMyFARvU8EDrZdcax4At/452cAg==}
     dev: true
 
-  /styled-components@6.0.0-rc.3(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-5FbCTxynopck99GRwM5Ey0+VRp8pkQq69TwGOJJeYtR7gPvwGjNx8yBPLN7/dfxwwvn9ymOZYB19eQkv2k70wQ==}
+  /styled-components@6.0.0-rc.5(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-RfYVbn7zC8/Zy2YCXmPoZ/+kkXZaPjUuT0bC9WEPRukh4HYrd0l0CzeLyi2qGYkkULOJOf0JnHPEySHX9wXpWA==}
     engines: {node: '>= 16'}
     peerDependencies:
       babel-plugin-styled-components: '>= 2'
@@ -17569,6 +17577,7 @@ packages:
       '@babel/preset-react': 7.22.3(@babel/core@7.22.1)
       '@babel/preset-typescript': 7.21.5(@babel/core@7.22.1)
       '@babel/traverse': 7.22.4
+      '@emotion/is-prop-valid': 1.2.1
       '@emotion/unitless': 0.8.1
       css-to-react-native: 3.2.0
       postcss: 8.4.24
