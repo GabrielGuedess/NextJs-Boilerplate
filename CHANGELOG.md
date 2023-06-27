@@ -1,3 +1,10 @@
+## [1.2.9](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.2.8...v1.2.9) (2023-06-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency styled-components to v6.0.0-rc.6 ([2503338](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/25033389ac482636370e4a0d8c14828579530136))
+
 ## [1.2.8](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.2.7...v1.2.8) (2023-06-23)
 
 
