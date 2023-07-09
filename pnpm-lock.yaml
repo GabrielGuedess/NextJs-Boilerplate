@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -30,8 +30,8 @@ dependencies:
     specifier: ^0.32.1
     version: 0.32.1
   styled-components:
-    specifier: 6.0.0
-    version: 6.0.0(react-dom@18.2.0)(react@18.2.0)
+    specifier: 6.0.3
+    version: 6.0.3(react-dom@18.2.0)(react@18.2.0)
 
 devDependencies:
   '@commitlint/cli':
@@ -207,7 +207,7 @@ devDependencies:
     version: 29.5.0
   jest-styled-components:
     specifier: ^7.1.1
-    version: 7.1.1(styled-components@6.0.0)
+    version: 7.1.1(styled-components@6.0.3)
   lint-staged:
     specifier: ^13.2.2
     version: 13.2.2
@@ -12587,14 +12587,14 @@ packages:
       - supports-color
     dev: true
 
-  /jest-styled-components@7.1.1(styled-components@6.0.0):
+  /jest-styled-components@7.1.1(styled-components@6.0.3):
     resolution: {integrity: sha512-OUq31R5CivBF8oy81dnegNQrRW13TugMol/Dz6ZnFfEyo03exLASod7YGwyHGuayYlKmCstPtz0RQ1+NrAbIIA==}
     engines: {node: '>= 12'}
     peerDependencies:
       styled-components: '>= 5'
     dependencies:
       '@adobe/css-tools': 4.2.0
-      styled-components: 6.0.0(react-dom@18.2.0)(react@18.2.0)
+      styled-components: 6.0.3(react-dom@18.2.0)(react@18.2.0)
     dev: true
 
   /jest-util@29.5.0:
@@ -17558,8 +17558,8 @@ packages:
     resolution: {integrity: sha512-Dj1Okke1C3uKKwQcetra4jSuk0DqbzbYtXipzFlFMZtowbF1x7BKJwB9AayVMyFARvU8EDrZdcax4At/452cAg==}
     dev: true
 
-  /styled-components@6.0.0(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-OPraU50BgQ+cqiXmO9JnJiDP8N7gTB7Pzx9Yk6M+koZuzOvFf+Fd8ff6Qp57OnE65KAYO058IIWj+RWng3Cmiw==}
+  /styled-components@6.0.3(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-qEyWvDK4CYCyDckNIruRJIcQSvcUR3dVEw/fwxu1v0LFzUMPr2uf5PhXHp17FkGK+S4TkglOS+XIealo1MssQA==}
     engines: {node: '>= 16'}
     peerDependencies:
       babel-plugin-styled-components: '>= 2'
