@@ -1,3 +1,10 @@
+## [1.2.16](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.2.15...v1.2.16) (2023-10-29)
+
+
+### Bug Fixes
+
+* remove alert styled components ([466b1d1](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/466b1d149924197d1547061fb195194ea1573ffd))
+
 ## [1.2.15](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.2.14...v1.2.15) (2023-07-23)
 
 
