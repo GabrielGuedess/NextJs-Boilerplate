@@ -2,6 +2,8 @@
 
 import styled, { keyframes, css } from 'styled-components';
 
+import { type StyledProps } from 'helpers/StyledProps';
+
 import { type LogoProps } from './types';
 
 const atom = keyframes`
@@ -118,8 +120,8 @@ const shadow = keyframes`
   }
 `;
 
-export const Wrapper = styled.div<Pick<LogoProps, 'hasShadow'>>`
-  ${({ hasShadow }) => css`
+export const Wrapper = styled.div<StyledProps<LogoProps>>`
+  ${({ $hasShadow }) => css`
     position: relative;
 
     &::after {
@@ -130,7 +132,7 @@ export const Wrapper = styled.div<Pick<LogoProps, 'hasShadow'>>`
       left: 0;
       transform: scale(1, 0.8);
 
-      display: ${hasShadow ? 'block' : 'none'};
+      display: ${$hasShadow ? 'block' : 'none'};
 
       width: 18rem;
       height: calc(18rem / 5);

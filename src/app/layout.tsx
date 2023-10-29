@@ -1,10 +1,16 @@
-import { type Metadata } from 'next';
+import { type Viewport, type Metadata } from 'next';
 
 import { Analytics } from 'components/atoms/Analytics';
 
 import { StyledComponentsRegistry } from 'lib/registry';
 
 import { Providers } from './providers';
+
+export const viewport: Viewport = {
+  themeColor: '#06092B',
+  colorScheme: 'dark',
+  initialScale: 1,
+};
 
 export const metadata: Metadata = {
   title: 'Boilerplate',
@@ -15,7 +21,6 @@ export const metadata: Metadata = {
     apple: [{ url: '/img/icon-512.png' }],
   },
   manifest: '/manifest.json',
-  themeColor: '#06092B',
 };
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => (

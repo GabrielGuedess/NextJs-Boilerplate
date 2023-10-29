@@ -272,6 +272,7 @@
     "react/jsx-no-undef": "off",
     "n/no-missing-import": "off",
     "node/no-missing-import": "off",
+    "n/prefer-global/process": "off",
     "node/no-unpublished-import": "off",
     "react/jsx-props-no-spreading": "off",
     "import/prefer-default-export": "off",

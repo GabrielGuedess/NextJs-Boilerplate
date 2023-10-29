@@ -6,6 +6,8 @@ import React, { useState } from 'react';
 
 import { ServerStyleSheet, StyleSheetManager } from 'styled-components';
 
+import isPropValid from '@emotion/is-prop-valid';
+
 export const StyledComponentsRegistry = ({
   children,
 }: {
@@ -24,7 +26,10 @@ export const StyledComponentsRegistry = ({
   if (typeof window !== 'undefined') return <>{children}</>;
 
   return (
-    <StyleSheetManager sheet={styledComponentsStyleSheet.instance}>
+    <StyleSheetManager
+      shouldForwardProp={isPropValid}
+      sheet={styledComponentsStyleSheet.instance}
+    >
       {children}
     </StyleSheetManager>
   );
