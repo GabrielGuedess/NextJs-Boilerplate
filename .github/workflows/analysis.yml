@@ -15,17 +15,18 @@ jobs:
   analyze:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v4.2.2
 
-      - uses: pnpm/action-setup@v2.2.4
+      - uses: pnpm/action-setup@v4.0.0
         name: Install pnpm
         id: pnpm-install
         with:
-          version: 8.6.0
+          version: 9.13.2
           run_install: false
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v4.1.0
         with:
           cache: 'pnpm'
           node-version: 20.x
