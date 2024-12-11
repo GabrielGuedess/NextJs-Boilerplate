@@ -1,3 +1,0 @@
-{
-  "ignore": "app|pages|stories|.storybook|types|.d.ts|stories.tsx|jest.config.ts|commitlint.config.ts|next.config.mjs|plopfile.mjs"
-}

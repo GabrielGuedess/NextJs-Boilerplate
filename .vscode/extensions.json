@@ -1,11 +1,13 @@
 {
   "recommendations": [
+    "unifiedjs.vscode-mdx",
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
     "andrejunges.handlebars",
+    "mylesmurphy.prettify-ts",
     "yoavbls.pretty-ts-errors",
     "EditorConfig.EditorConfig",
-    "stylelint.vscode-stylelint",
-    "styled-components.vscode-styled-components"
+    "bradlc.vscode-tailwindcss",
+    "apollographql.vscode-apollo"
   ]
 }

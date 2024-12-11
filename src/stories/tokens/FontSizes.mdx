@@ -1,0 +1,49 @@
+import { Meta } from '@storybook/blocks';
+import { Typeset } from '@storybook/addon-docs/blocks';
+
+export const typography = {
+  type: {
+    primary: '"Inter", "Helvetica Neue", Helvetica, Arial, sans-serif',
+  },
+  weight: {
+    bold: '700',
+    extrabold: '800',
+    black: '900',
+  },
+  size: {
+    s12: 12,
+    s14: 14,
+    s16: 16,
+    s18: 18,
+    s20: 20,
+    s24: 24,
+    s32: 32,
+    s48: 48,
+    s56: 56,
+    s64: 64,
+  },
+};
+
+export const SampleText = 'I like potatoes and I like chocolate milk';
+
+<Meta title="Tokens/Font Sizes" />
+
+<h1>Font Sizes</h1>
+
+<Typeset
+  fontSizes={[
+    Number(typography.size.s12),
+    Number(typography.size.s14),
+    Number(typography.size.s16),
+    Number(typography.size.s18),
+    Number(typography.size.s20),
+    Number(typography.size.s24),
+    Number(typography.size.s32),
+    Number(typography.size.s48),
+    Number(typography.size.s56),
+    Number(typography.size.s64),
+  ]}
+  fontWeight={typography.weight.black}
+  sampleText={SampleText}
+  fontFamily={typography.type.primary}
+/>

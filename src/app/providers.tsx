@@ -1,18 +1,22 @@
 'use client';
 
-import { DefaultSeo } from 'next-seo';
+import { ThemeProvider } from 'next-themes';
+import { SessionProvider } from 'next-auth/react';
 
-import { ThemeProvider } from 'styled-components';
+import { type ReactNode } from 'react';
 
-import { GlobalStyles } from 'styles/global';
-import { theme } from 'styles/theme';
+import { ApolloProvider } from 'apollo/provider';
 
-import SEO from '../../next-seo.config';
+import { ToastProvider } from 'providers/ToastProvider';
 
-export const Providers = ({ children }: { children: React.ReactNode }) => (
-  <ThemeProvider theme={theme}>
-    {children}
-    <GlobalStyles />
-    <DefaultSeo {...SEO} />
-  </ThemeProvider>
+export const Providers = ({ children }: { children: ReactNode }) => (
+  <SessionProvider>
+    <ApolloProvider>
+      <ThemeProvider attribute="class" enableSystem>
+        {children}
+
+        <ToastProvider />
+      </ThemeProvider>
+    </ApolloProvider>
+  </SessionProvider>
 );

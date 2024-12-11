@@ -1,17 +1,19 @@
 name: Cypress
-on: [pull_request]
+on:
+  workflow_run:
+    workflows: [CI]
+    types:
+      - completed
+    branches:
+      - main
 
 jobs:
   build:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3.5.3
-
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18.x
 
       - uses: pnpm/action-setup@v2.2.4
         name: Install pnpm
@@ -20,11 +22,17 @@ jobs:
           version: 8.6.0
           run_install: false
 
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          cache: 'pnpm'
+          node-version: 20.x
+
       - name: Install dependencies
         run: pnpm i --no-frozen-lockfile
 
       - name: Cypress run
-        uses: cypress-io/github-action@v5.8.3
+        uses: cypress-io/github-action@v6.6.1
         with:
           build: pnpm build
           start: pnpm start

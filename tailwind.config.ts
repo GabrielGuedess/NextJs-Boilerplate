@@ -1,0 +1,61 @@
+import { type Config } from 'tailwindcss';
+
+export default {
+  darkMode: 'class',
+  plugins: [require('tailwindcss-animate')],
+  content: ['./src/**/*.tsx', './src/stories/**/*.tsx'],
+  theme: {
+    extend: {
+      colors: {
+        danger: {
+          100: '#FBDDDD',
+          200: '#F7BBBB',
+          300: '#F29899',
+          400: '#EE7677',
+          500: '#EA5455',
+          600: '#D34C4D',
+          700: '#C74748',
+          800: '#BB4344',
+          900: '#AF3F40',
+        },
+        warning: {
+          100: '#FFECD9',
+          200: '#FFD9B4',
+          300: '#FFC58E',
+          400: '#FFB269',
+          500: '#FF9F43',
+          600: '#E68F3C',
+          700: '#D98739',
+          800: '#CC7F36',
+          900: '#BF7732',
+        },
+        primary: {
+          '50': '#f5f0ff',
+          '100': '#ede4ff',
+          '200': '#dccdff',
+          '300': '#c5a6ff',
+          '400': '#aa73ff',
+          '500': '#933bff',
+          '600': '#8b14ff',
+          '700': '#7f00ff',
+          '800': '#6b01d6',
+          '900': '#5903af',
+          '950': '#360077',
+        },
+        success: {
+          '50': '#ecfdf7',
+          '100': '#d1faec',
+          '200': '#a7f3da',
+          '300': '#6ee7bf',
+          '400': '#34d39e',
+          '500': '#10b981',
+          '600': '#059666',
+          '700': '#047852',
+          '800': '#065f42',
+          '900': '#064e36',
+          '950': '#022c1e',
+        },
+      },
+    },
+  },
+} satisfies Config;

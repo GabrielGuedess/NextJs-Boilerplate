@@ -1,25 +1,19 @@
-import { type StoryFn, type Meta } from '@storybook/react';
+import { type Meta, type StoryObj } from '@storybook/react';
 
 import { Logo } from '.';
 
-import { type LogoProps } from './types';
-
-export default {
-  title: 'Atoms/Logo',
+const meta = {
   component: Logo,
-  args: {
-    hasShadow: true,
+  title: 'Atoms/Logo',
+  parameters: {
+    layout: 'centered',
   },
-} as Meta<LogoProps>;
+} satisfies Meta<typeof Logo>;
 
-export const Default: StoryFn = args => (
-  <div
-    style={{
-      width: '100%',
-      display: 'flex',
-      justifyContent: 'center',
-    }}
-  >
-    <Logo {...args} />
-  </div>
-);
+export default meta;
+
+type StoryProps = StoryObj<typeof meta>;
+
+export const Default: StoryProps = {
+  args: {},
+};

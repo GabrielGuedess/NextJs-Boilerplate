@@ -1,109 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Logo /> should render the logo correctly 1`] = `
-.c0 {
-  position: relative;
-}
-
-.c0::after {
-  content: '';
-  position: absolute;
-  top: 115%;
-  left: 0;
-  transform: scale(1, 0.8);
-  display: block;
-  width: 18rem;
-  height: calc(18rem / 5);
-  background-image: radial-gradient(         closest-side,         rgb(153 248 255 / 0.2),         rgb(153 248 255 / 0)       );
-  border-radius: 100%;
-  animation: 8s fDuSjn infinite cubic-bezier(1, 0.25, 0, 0.75);
-}
-
-.c3 {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  height: calc(18rem / 2.5);
-  margin-top: calc((18rem / 2.5) / -2)!important;
-  border-top: solid rgb(0 216 255 / 0.5) 1px;
-  border-right: solid rgb(0 216 255 / 0.35) 2px;
-  border-bottom: solid rgb(0 216 255 / 0.2) 4px;
-  border-left: solid rgb(0 216 255 / 0) 2px;
-  border-radius: 100%;
-  animation: 1.2s fhZMf infinite linear;
-}
-
-.c3::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: calc((18rem / 25) / -1);
-  transform: scale(1);
-  display: block;
-  width: calc(18rem / 25);
-  height: calc(18rem / 25);
-  margin-top: calc((18rem / 25) / -2)!important;
-  background: #99f8ff;
-  border-radius: 50%;
-  animation: calc(1.2s * 2) dQPgac infinite ease-in-out;
-}
-
-.c1 {
-  position: relative;
-  width: 18rem;
-  height: 18rem;
-  animation: 8s eWqkYC infinite cubic-bezier(1, 0.25, 0, 0.75);
-}
-
-.c1::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  display: block;
-  width: calc(18rem / 5);
-  height: calc(18rem / 5);
-  margin-top: calc((18rem / 5) / -2)!important;
-  margin-left: calc((18rem / 5) / -2);
-  background: #99f8ff;
-  border-radius: 100%;
-  box-shadow: 0 0 3px 0 #00d8ff;
-  animation: 2s kxVzFA infinite cubic-bezier(0.65, 0, 0.35, 1);
-}
-
-.c1 .c2:nth-child(2) {
-  transform: rotate(60deg);
-  animation: 1s fhZMf infinite linear;
-}
-
-.c1 .c2:nth-child(2)::after {
-  animation: calc(1s * 2) dQPgac infinite ease-in-out;
-}
-
-.c1 .c2:nth-child(3) {
-  transform: rotate(-60deg);
-  animation: 0.8s fhZMf infinite linear;
-}
-
-.c1 .c2:nth-child(3)::after {
-  animation: calc(0.8s * 2) dQPgac infinite ease-in-out;
-}
-
+exports[`<Logo /> should render the react logo 1`] = `
 <div
-  class="c0"
-  data-testid="Logo React"
+  class="relative with-shadow"
 >
   <div
-    class="c1"
+    class="atom"
   >
     <div
-      class="c2 c3"
+      class="electron"
     />
     <div
-      class="c2 c3"
+      class="electron second"
     />
     <div
-      class="c2 c3"
+      class="electron third"
     />
   </div>
 </div>

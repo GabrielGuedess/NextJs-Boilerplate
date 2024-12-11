@@ -1,3 +1,3 @@
-export type LogoProps = {
-  hasShadow?: boolean;
-};
+import { type ComponentProps } from 'react';
+
+export type LogoProps = ComponentProps<'div'>;

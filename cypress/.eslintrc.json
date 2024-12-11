@@ -13,13 +13,7 @@
     "project": ["./tsconfig.json"]
   },
   "extends": ["plugin:cypress/recommended", "plugin:chai-friendly/recommended"],
-  "plugins": [
-    "cypress",
-    "import",
-    "prettier",
-    "import-helpers",
-    "@typescript-eslint"
-  ],
+  "plugins": ["cypress", "import", "prettier", "@typescript-eslint"],
   "rules": {
     "cypress/no-pause": "error",
     "prettier/prettier": "error",
@@ -36,19 +30,6 @@
     "arrow-body-style": ["error", "as-needed"],
     "import/no-duplicates": ["error", { "prefer-inline": true }],
     "import/consistent-type-specifier-style": ["error", "prefer-inline"],
-    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
-    "import-helpers/order-imports": [
-      "warn",
-      {
-        "newlinesBetween": "always",
-        "groups": [
-          "/^cypress/",
-          "/^@support/",
-          "/^fixtures/",
-          ["parent", "sibling", "index"]
-        ],
-        "alphabetize": { "order": "asc", "ignoreCase": true }
-      }
-    ]
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }]
   }
 }

@@ -9,23 +9,34 @@
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
+    "sourceMap": true,
     "module": "esnext",
-    "moduleResolution": "node",
+    "moduleResolution": "Bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "plugins": [{ "name": "next" }]
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
   "exclude": ["node_modules", "**/**.mdx", "cypress", "cypress.config.ts"],
   "include": [
-    "next.config.mjs",
+    "next.config.ts",
+    "postcss.config.js",
+    "apollo.config.js",
     "next-env.d.ts",
     ".next/types/**/*.ts",
     ".storybook/**/*.tsx",
     ".storybook/**/*.ts",
     ".jest/jest.setup.ts",
     "**/*.ts",
+    "**/*.mjs",
     "**/*.tsx"
-  ]
+  ],
+  "paths": {
+    "@root/*": ["./"]
+  }
 }

@@ -7,9 +7,11 @@ const createJestConfig = nextJest({
 });
 
 const config: Config = {
-  testEnvironment: 'jsdom',
-  testPathIgnorePatterns: ['/node_modules/', '/.next/'],
   collectCoverage: true,
+  testEnvironment: 'jsdom',
+  modulePaths: ['<rootDir>/src/', '<rootDir>/.jest'],
+  testPathIgnorePatterns: ['/node_modules/', '/.next/'],
+  setupFilesAfterEnv: ['<rootDir>/.jest/jest.setup.ts'],
   collectCoverageFrom: [
     'src/**/*.ts(x)?',
     '!src/app/**/*.tsx',
@@ -18,11 +20,21 @@ const config: Config = {
     '!src/**/stories.tsx',
     '!src/styles/**/*.ts',
     '!src/lib/**',
+    '!src/apollo/**',
+    '!src/hooks/**',
+    '!src/functions/**',
+    '!src/**/mock.ts',
+    '!src/**/schema.ts',
+    '!src/graphql/**/*.ts',
     '!src/utils/tests/*.ts(x)?',
+    '!src/app/api/**/*.ts(x)?',
+    '!src/middleware.ts',
+    '!src/providers/**',
+    '!src/actions/**',
     '!src/components/atoms/Analytics/**',
+    '!src/env.ts',
+    '!src/instrumentation.ts',
   ],
-  setupFilesAfterEnv: ['<rootDir>/.jest/jest.setup.ts'],
-  modulePaths: ['<rootDir>/src/', '<rootDir>/.jest'],
 };
 
 export default createJestConfig(config);

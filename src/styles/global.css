@@ -1,0 +1,294 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    @apply hidden;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .unstyled::-webkit-inner-spin-button,
+  .unstyled::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+  }
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #09090b;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Not Found Page */
+
+.not-found {
+  --glitter: url("/img/not-found.png");
+  --ratio-x: 0.87;
+  --ratio-y: 0.64;
+  --from-center: 0.8;
+
+  --bgOffsetX: calc(2.9px * var(--ratio-x));
+  --bgOffsetY: calc(4.3px * var(--ratio-y));
+  --pointerX: calc(100% * var(--ratio-x));
+  --pointerY: calc(100% * var(--ratio-y));
+  --h: calc(360deg * var(--from-center));
+  --s: calc(90% * var(--from-center));
+
+  height: 100vh;
+
+  background: linear-gradient(
+      135deg,
+      hsl(28deg var(--s) 15%),
+      hsl(198deg var(--s) 15%)
+    ),
+    var(--glitter), var(--glitter),
+    radial-gradient(
+      farthest-corner circle at var(--pointerX) var(--pointerY),
+      hsla(0, 30%, 100%, 1) 20px,
+      hsla(0, 30%, 90%, 0.38) 150px,
+      hsla(0, 30%, 0%, 1) 65%
+    );
+
+  background-position: calc(70% + var(--bgOffsetX)) calc(70% + var(--bgOffsetY)),
+    calc(30% - var(--bgOffsetX)) calc(30% - var(--bgOffsetY));
+
+  background-size: cover, 560px auto, 400px auto, cover;
+
+  background-blend-mode: overlay, multiply, color, overlay;
+
+  transition: opacity 4s ease-out;
+}
+
+.not-found header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.not-found svg {
+  opacity: 1;
+  fill: #908190;
+  mix-blend-mode: color-dodge;
+  filter: drop-shadow(0 0 30px black) drop-shadow(0 0 10px black)
+    brightness(1.5);
+  pointer-events: none;
+  text-anchor: middle;
+}
+
+.not-found svg text {
+  font-size: 1.25rem;
+}
+
+/* Style React Logo */
+
+@keyframes atom {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  12.5% {
+    transform: rotate(-45deg) scale(0.9);
+  }
+  25% {
+    transform: rotate(-90deg) scale(1);
+  }
+  37.5% {
+    transform: rotate(-135deg) scale(0.9);
+  }
+  50% {
+    transform: rotate(-180deg) scale(1);
+  }
+  62.5% {
+    transform: rotate(-225deg) scale(0.9);
+  }
+  75% {
+    transform: rotate(-270deg) scale(1);
+  }
+  87.5% {
+    transform: rotate(-315deg) scale(0.9);
+  }
+  100% {
+    transform: rotate(-360deg) scale(1);
+  }
+}
+
+@keyframes electron-orbit {
+  0%,
+  100% {
+    border-top: solid rgb(147 59 255 / 0.5) 1px;
+    border-right: solid rgb(147 59 255 / 0.35) 2px;
+    border-bottom: solid rgb(147 59 255 / 0.2) 4px;
+    border-left: solid rgb(147 59 255 / 0) 2px;
+  }
+  25% {
+    border-top: solid rgb(147 59 255 / 0.35) 1px;
+    border-right: solid rgb(147 59 255 / 0.2) 2px;
+    border-bottom: solid rgb(147 59 255 / 0) 4px;
+    border-left: solid rgb(147 59 255 / 0.5) 2px;
+  }
+  50% {
+    border-top: solid rgb(147 59 255 / 0.2) 1px;
+    border-right: solid rgb(147 59 255 / 0) 2px;
+    border-bottom: solid rgb(147 59 255 / 0.5) 4px;
+    border-left: solid rgb(147 59 255 / 0.35) 2px;
+  }
+  75% {
+    border-top: solid rgb(147 59 255 / 0) 1px;
+    border-right: solid rgb(147 59 255 / 0.5) 2px;
+    border-bottom: solid rgb(147 59 255 / 0.35) 4px;
+    border-left: solid rgb(147 59 255 / 0.2) 2px;
+  }
+}
+
+@keyframes nucleus {
+  0%,
+  50%,
+  100% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(0.9);
+  }
+  75% {
+    transform: scale(0.85);
+  }
+}
+
+@keyframes electron {
+  0%,
+  50%,
+  100% {
+    left: calc((18rem / 25) / -1);
+    transform: scale(1);
+  }
+  12.5%,
+  62.5% {
+    top: 100%;
+    transform: scale(1.5);
+  }
+  25%,
+  75% {
+    left: 100%;
+    transform: scale(1);
+  }
+  37.5%,
+  87.5% {
+    top: 0%;
+    transform: scale(0.25);
+  }
+}
+
+@keyframes shadow {
+  0%,
+  25%,
+  50%,
+  75%,
+  100% {
+    transform: scale(1, 0.8) translateY(0);
+  }
+  12.5%,
+  37.5%,
+  62.5%,
+  87.5% {
+    transform: scale(0.7, 0.7) translateY(-20px);
+  }
+}
+
+.with-shadow::after {
+  content: '';
+  position: absolute;
+  top: 115%;
+  left: 0;
+  transform: scale(1, 0.8);
+
+  width: 18rem;
+  height: calc(18rem / 5);
+  background-image: radial-gradient(
+    closest-side,
+    rgb(147 59 255 / 0.2),
+    rgb(147 59 255 / 0)
+  );
+  border-radius: 100%;
+  animation: 8s shadow infinite cubic-bezier(1, 0.25, 0, 0.75);
+}
+
+.atom {
+  position: relative;
+  width: 18rem;
+  height: 18rem;
+  animation: 8s atom infinite cubic-bezier(1, 0.25, 0, 0.75);
+}
+
+.atom::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: calc(18rem / 5);
+  height: calc(18rem / 5);
+  background: #933bff;
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 3px 0 #933bff;
+}
+
+.electron {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: calc(18rem / 2.5);
+  margin-top: calc((18rem / 2.5) / -2);
+  border-radius: 100%;
+  animation: 1.2s electron-orbit infinite linear;
+}
+
+.electron::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: calc((18rem / 25) / -1);
+  width: calc(18rem / 25);
+  height: calc(18rem / 25);
+  background: #933bff;
+  border-radius: 50%;
+  animation: calc(1.2s * 2) electron infinite ease-in-out;
+}
+
+.electron.second {
+  transform: rotate(60deg);
+  animation: 1s electron-orbit infinite linear;
+}
+
+.electron.second::after {
+  animation: calc(1s * 2) electron infinite ease-in-out;
+}
+
+.electron.third {
+  transform: rotate(-60deg);
+  animation: 0.8s electron-orbit infinite linear;
+}
+
+.electron.third::after {
+  animation: calc(0.8s * 2) electron infinite ease-in-out;
+}
