@@ -1,9 +1,9 @@
-/* eslint-disable no-relative-import-paths/no-relative-import-paths */
-import '../src/styles/global.css';
+import { MockedProvider } from '@apollo/client/testing';
 
 import { themes } from '@storybook/theming';
 import { type Preview } from '@storybook/react';
-import { MockedProvider } from '@apollo/client/testing';
+
+import '../src/styles/global.css';
 
 const preview: Preview = {
   tags: ['autodocs'],

@@ -1,9 +1,9 @@
 import './src/env';
 
 import nextPWA from 'next-pwa';
+import WithBundleAnalyzer from '@next/bundle-analyzer';
 
 import { withSentryConfig } from '@sentry/nextjs';
-import WithBundleAnalyzer from '@next/bundle-analyzer';
 
 const withBundleAnalyzer = WithBundleAnalyzer({
   enabled: process.env.ANALYZE === 'true',

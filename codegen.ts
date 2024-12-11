@@ -1,3 +1,4 @@
+import { type CodegenConfig } from '@graphql-codegen/cli';
 import {
   URLResolver,
   JWTResolver,
@@ -6,8 +7,6 @@ import {
   DateTimeISOResolver,
   EmailAddressResolver,
 } from 'graphql-scalars';
-
-import { type CodegenConfig } from '@graphql-codegen/cli';
 
 const config: CodegenConfig = {
   documents: ['./src/graphql/**/*.ts'],
