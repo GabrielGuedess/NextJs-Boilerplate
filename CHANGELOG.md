@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.2.16...v1.3.0) (2024-12-11)
+
+
+### Bug Fixes
+
+* optional NEXTAUTH_URL ([af1097e](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/af1097eed30d05d06ddf8cbabf6a84d37da91c05))
+
+
+### Features
+
+* update to next 15 ([f9f54d6](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/f9f54d680249f7897e3bb8ca3b2a1c58fa37d2b0))
+
 ## [1.2.16](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.2.15...v1.2.16) (2023-10-29)
 
 
