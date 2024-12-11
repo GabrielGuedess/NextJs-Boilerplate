@@ -4,7 +4,7 @@ import { createEnv } from '@t3-oss/env-nextjs';
 export const env = createEnv({
   server: {
     NEXTAUTH_SECRET: z.string().min(1),
-    NEXTAUTH_URL: z.string().url().min(1),
+    NEXTAUTH_URL: z.string().url().optional(),
   },
   client: {
     NEXT_PUBLIC_API_URL: z.string().url().min(1),
