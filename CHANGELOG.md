@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.3.0...v1.3.1) (2024-12-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency zod to v3.24.1 ([#891](https://github.com/GabrielGuedess/NextJs-Boilerplate/issues/891)) ([90291f5](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/90291f53998655a4d4e9bd80b66d38c961f2a745))
+
 # [1.3.0](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.2.16...v1.3.0) (2024-12-11)
 
 
