@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.3.2...v1.3.3) (2024-12-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-hook-form to v7.54.1 ([#898](https://github.com/GabrielGuedess/NextJs-Boilerplate/issues/898)) ([887110e](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/887110e2650899a2f6495565b1c432d804b552a2))
+
 ## [1.3.2](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.3.1...v1.3.2) (2024-12-13)
 
 
