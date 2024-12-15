@@ -1,3 +1,10 @@
+## [1.3.5](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.3.4...v1.3.5) (2024-12-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency framer-motion to v11.14.4 ([#903](https://github.com/GabrielGuedess/NextJs-Boilerplate/issues/903)) ([0f79754](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/0f79754d5009d880c4dd23466cc002e1701fbafe))
+
 ## [1.3.4](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.3.3...v1.3.4) (2024-12-15)
 
 
