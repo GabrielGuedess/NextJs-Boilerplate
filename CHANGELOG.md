@@ -1,3 +1,10 @@
+## [1.3.6](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.3.5...v1.3.6) (2024-12-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency graphql to v16.10.0 ([#906](https://github.com/GabrielGuedess/NextJs-Boilerplate/issues/906)) ([5f85db9](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/5f85db90ef334eb012e719b53c45935ab063ce87))
+
 ## [1.3.5](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.3.4...v1.3.5) (2024-12-15)
 
 
