@@ -1,3 +1,10 @@
+## [1.3.11](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.3.10...v1.3.11) (2024-12-21)
+
+
+### Bug Fixes
+
+* **deps:** update nextjs monorepo to v15.1.2 ([#919](https://github.com/GabrielGuedess/NextJs-Boilerplate/issues/919)) ([b0f7fcb](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/b0f7fcb754982aa78552d2617446e8d592291b3c))
+
 ## [1.3.10](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.3.9...v1.3.10) (2024-12-21)
 
 
