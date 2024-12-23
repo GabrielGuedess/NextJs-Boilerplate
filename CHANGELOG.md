@@ -1,3 +1,10 @@
+## [1.3.14](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.3.13...v1.3.14) (2024-12-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency lucide-react to ^0.469.0 ([#926](https://github.com/GabrielGuedess/NextJs-Boilerplate/issues/926)) ([3664201](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/3664201457a1ed1fe9fc829cd7c3903d5bd70bae))
+
 ## [1.3.13](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.3.12...v1.3.13) (2024-12-23)
 
 
