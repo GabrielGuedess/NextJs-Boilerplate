@@ -1,38 +1,27 @@
 import './src/env';
 
-import nextPWA from 'next-pwa';
-import WithBundleAnalyzer from '@next/bundle-analyzer';
+import { type NextConfig } from 'next';
 
 import { withSentryConfig } from '@sentry/nextjs';
 
-const withBundleAnalyzer = WithBundleAnalyzer({
-  enabled: process.env.ANALYZE === 'true',
-});
-
-const nextConfig = withBundleAnalyzer(
-  nextPWA({
-    dest: 'public',
-    swcMinify: true,
-    reactStrictMode: true,
-    disable: !(process.env.NODE_ENV === 'production'),
-    experimental: {
-      typedRoutes: true,
-      serverComponentsExternalPackages: ['@sentry/nextjs', '@sentry/node'],
-    },
-    images: {
-      remotePatterns: [
-        {
-          protocol: 'https',
-          hostname: 'avatars.githubusercontent.com',
-        },
-        {
-          protocol: 'https',
-          hostname: 'images.unsplash.com',
-        },
-      ],
-    },
-  }),
-);
+const nextConfig: NextConfig = {
+  reactStrictMode: true,
+  experimental: {
+    typedRoutes: true,
+  },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'avatars.githubusercontent.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
+    ],
+  },
+};
 
 export default withSentryConfig(
   withSentryConfig(nextConfig, {

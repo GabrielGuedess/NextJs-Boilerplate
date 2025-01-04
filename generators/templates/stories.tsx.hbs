@@ -1,10 +1,19 @@
-import { type StoryFn, type Meta } from '@storybook/react';
+import { type Meta, type StoryObj } from '@storybook/react';
 
 import { {{pascalCase name}} } from '.';
 
-export default {
-  title: '{{pascalCase type}}/{{pascalCase name}}',
+const meta = {
   component: {{pascalCase name}},
-} as Meta;
+  title: '{{pascalCase type}}/{{pascalCase name}}',
+  parameters: {
+    layout: 'centered',
+  },
+} satisfies Meta<typeof {{pascalCase name}}>;
 
-export const Default: StoryFn = () => <{{pascalCase name}} />;
+export default meta;
+
+type StoryProps = StoryObj<typeof meta>;
+
+export const Default: StoryProps = {
+  args: {},
+};
