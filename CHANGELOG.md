@@ -1,3 +1,10 @@
+## [1.3.17](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.3.16...v1.3.17) (2025-01-04)
+
+
+### Bug Fixes
+
+* remove lib next pwa ([971646f](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/971646fdad38b17962846fb0f9e206fc475331db))
+
 ## [1.3.16](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.3.15...v1.3.16) (2024-12-27)
 
 
