@@ -1,3 +1,10 @@
+## [1.3.19](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.3.18...v1.3.19) (2025-01-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sonner to v1.7.2 ([#976](https://github.com/GabrielGuedess/NextJs-Boilerplate/issues/976)) ([172139d](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/172139d11ae1109b7e64b43f86954cfa542b1ff0))
+
 ## [1.3.18](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.3.17...v1.3.18) (2025-01-20)
 
 
