@@ -1,3 +1,10 @@
+## [1.3.18](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.3.17...v1.3.18) (2025-01-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @apollo/client to v3.12.6 ([#975](https://github.com/GabrielGuedess/NextJs-Boilerplate/issues/975)) ([25b4373](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/25b4373ce0e1ea855d1d33e57cc3f5b9f35c40bc))
+
 ## [1.3.17](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.3.16...v1.3.17) (2025-01-04)
 
 
