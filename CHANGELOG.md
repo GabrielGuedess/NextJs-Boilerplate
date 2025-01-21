@@ -1,3 +1,10 @@
+## [1.3.20](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.3.19...v1.3.20) (2025-01-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency tailwind-variants to v0.3.1 ([#977](https://github.com/GabrielGuedess/NextJs-Boilerplate/issues/977)) ([5afd0d4](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/5afd0d44b1948118d510469f2b03ce9dea6bf63e))
+
 ## [1.3.19](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.3.18...v1.3.19) (2025-01-20)
 
 
