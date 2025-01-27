@@ -32,7 +32,7 @@ jobs:
         run: pnpm i --no-frozen-lockfile
 
       - name: Cypress run
-        uses: cypress-io/github-action@v6.7.9
+        uses: cypress-io/github-action@v6.7.10
         with:
           build: pnpm build
           start: pnpm start
