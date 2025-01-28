@@ -1,3 +1,10 @@
+## [1.3.24](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.3.23...v1.3.24) (2025-01-28)
+
+
+### Bug Fixes
+
+* **deps:** update apollo graphql packages ([#986](https://github.com/GabrielGuedess/NextJs-Boilerplate/issues/986)) ([0408956](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/04089564e8bb35d2bf962b422dc3dff5500e935b))
+
 ## [1.3.23](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.3.22...v1.3.23) (2025-01-23)
 
 
