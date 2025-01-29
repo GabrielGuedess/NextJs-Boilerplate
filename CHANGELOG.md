@@ -1,3 +1,10 @@
+## [1.3.25](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.3.24...v1.3.25) (2025-01-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @sentry/nextjs to v8.49.0 [security] ([#987](https://github.com/GabrielGuedess/NextJs-Boilerplate/issues/987)) ([70466af](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/70466af5bfb12492efab09b46d8f41be5a412e33))
+
 ## [1.3.24](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.3.23...v1.3.24) (2025-01-28)
 
 
