@@ -1,3 +1,12 @@
+## [1.4.2](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.4.1...v1.4.2) (2025-05-10)
+
+### :repeat: CI
+
+* add dotenv actions ([c24979f](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/c24979f87f5680c79db2cf78c0ef39d63892eb26))
+* add next-env ci ([a5555c4](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/a5555c4a40ffba1966bb3ada5d44714809e41b85))
+* remove env static ([7e43e5c](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/7e43e5c0dde6ea8f11ff4eebb143e1efbea9f7be))
+* remove path next-env ([786886b](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/786886b74a417c86efeb611914a2997811ee80d6))
+
 ## [1.4.1](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.4.0...v1.4.1) (2025-05-10)
 
 ### :repeat: CI
