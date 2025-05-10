@@ -6,7 +6,7 @@ const createJestConfig = nextJest({
   dir: './',
 });
 
-const config: Config = {
+const jestConfig: Config = {
   collectCoverage: true,
   testEnvironment: 'jsdom',
   modulePaths: ['<rootDir>/src/', '<rootDir>/.jest'],
@@ -14,12 +14,16 @@ const config: Config = {
   setupFilesAfterEnv: ['<rootDir>/.jest/jest.setup.ts'],
   collectCoverageFrom: [
     'src/**/*.ts(x)?',
+
     '!src/app/**/*.tsx',
+    '!src/app/sw.ts',
+    '!src/app/manifest.ts',
     '!src/pages/**/*.tsx',
     '!src/stories/**/*.ts(x)?',
     '!src/**/stories.tsx',
     '!src/styles/**/*.ts',
     '!src/lib/**',
+    '!src/i18n/**',
     '!src/apollo/**',
     '!src/hooks/**',
     '!src/functions/**',
@@ -37,4 +41,6 @@ const config: Config = {
   ],
 };
 
-export default createJestConfig(config);
+const config = createJestConfig(jestConfig);
+
+export default config;

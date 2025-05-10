@@ -33,7 +33,7 @@ const NotFound = () => {
 
   return (
     <main
-      className="not-found min-h-screen"
+      className="not-found min-h-dvh"
       onPointerMove={event => hover3D(event)}
     >
       <header>

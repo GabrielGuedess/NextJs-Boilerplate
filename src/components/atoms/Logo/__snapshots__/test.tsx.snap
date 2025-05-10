@@ -2,7 +2,7 @@
 
 exports[`<Logo /> should render the react logo 1`] = `
 <div
-  class="relative with-shadow"
+  class="with-shadow relative"
 >
   <div
     class="atom"

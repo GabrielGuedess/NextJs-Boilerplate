@@ -10,10 +10,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      NEXT_PUBLIC_API_URL: ${{ secrets.NEXT_PUBLIC_API_URL }}
-      NEXT_PUBLIC_SENTRY_DNS: ${{ secrets.NEXT_PUBLIC_SENTRY_DNS }}
       NEXTAUTH_URL: ${{ secrets.NEXTAUTH_URL }}
       NEXTAUTH_SECRET: ${{ secrets.NEXTAUTH_SECRET }}
+      NEXT_PUBLIC_API_URL: ${{ secrets.NEXT_PUBLIC_API_URL }}
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4.2.2
@@ -22,14 +21,14 @@ jobs:
         name: Install pnpm
         id: pnpm-install
         with:
-          version: 9.13.2
+          version: 10.10.0
           run_install: false
 
       - name: Setup Node
         uses: actions/setup-node@v4.2.0
         with:
           cache: 'pnpm'
-          node-version: 20.x
+          node-version: 22.14.0
 
       - name: Install dependencies
         run: pnpm i --no-frozen-lockfile
@@ -40,14 +39,17 @@ jobs:
       - name: Typecheck
         run: pnpm typecheck
 
-      - name: Find unused exports
-        run: pnpm find-deadcode
+      - name: Deadcode
+        run: pnpm deadcode
 
       - name: Linting
         run: pnpm lint
 
       - name: Test
         run: pnpm test:ci
+
+      - name: Test E2E
+        run: pnpm test:e2e:ci
 
       - name: Storybook
         run: pnpm build-storybook

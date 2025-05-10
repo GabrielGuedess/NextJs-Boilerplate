@@ -1,8 +1,9 @@
 import { defineConfig } from 'cypress';
 
-export default defineConfig({
-  projectId: 'haqz14',
+const config = defineConfig({
   e2e: {
     baseUrl: 'http://localhost:3333',
   },
 });
+
+export default config;

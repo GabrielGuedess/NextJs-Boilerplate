@@ -1,0 +1,31 @@
+{
+  "home": {
+    "title": "Next Boilerplate",
+    "description": "Um boilerplate para Next.js com TypeScript, Tailwind CSS e i18n",
+    "welcome": "Bem-vindo ao Next Boilerplate"
+  },
+  "layout": {
+    "title": "Next Boilerplate",
+    "description": "Boilerplate moderno com TypeScript, React, Next.js e Tailwind CSS",
+    "application-name": "Next Boilerplate",
+    "icons": {
+      "shortcut": ["/image/icon-512.png"],
+      "apple": [{ "url": "/image/icon-512.png" }]
+    },
+    "apple-web-app": {
+      "title": "Next Boilerplate"
+    },
+    "open-graph": {
+      "site-name": "Next Boilerplate",
+      "title": {
+        "default": "Next Boilerplate",
+        "template": "%s | Next Boilerplate"
+      },
+      "description": "Boilerplate moderno com TypeScript, React, Next.js e Tailwind CSS"
+    },
+    "title-template": {
+      "default": "Next Boilerplate",
+      "template": "%s | Next Boilerplate"
+    }
+  }
+}

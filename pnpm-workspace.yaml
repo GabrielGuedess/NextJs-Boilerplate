@@ -1,0 +1,9 @@
+onlyBuiltDependencies:
+  - '@tailwindcss/oxide'
+  - core-js-pure
+  - cypress
+  - esbuild
+  - msw
+  - puppeteer
+  - sharp
+  - unrs-resolver

@@ -22,7 +22,11 @@
     "yarn.lock": true,
     "pnpm-lock.yaml": true
   },
+  "files.associations": {
+    "global.css": "tailwindcss"
+  },
   "prettier.ignorePath": ".gitignore",
   "typescript.tsdk": "node_modules/typescript/lib",
-  "typescript.enablePromptUseWorkspaceTsdk": true
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "i18n-ally.localesPaths": ["src/i18n", "src/locales"]
 }

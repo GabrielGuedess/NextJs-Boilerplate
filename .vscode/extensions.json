@@ -1,6 +1,7 @@
 {
   "recommendations": [
     "unifiedjs.vscode-mdx",
+    "usernamehw.errorlens",
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
     "andrejunges.handlebars",

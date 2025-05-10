@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "src",
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": ["dom", "dom.iterable", "esnext", "webworker"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -16,26 +16,21 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "types": ["jest", "node", "@serwist/next/typings"],
     "plugins": [
       {
         "name": "next"
       }
     ]
   },
-  "exclude": ["node_modules", "**/**.mdx", "cypress", "cypress.config.ts"],
-  "include": [
-    "next.config.ts",
-    "postcss.config.js",
-    "apollo.config.js",
-    "next-env.d.ts",
-    ".next/types/**/*.ts",
-    ".storybook/**/*.tsx",
-    ".storybook/**/*.ts",
-    ".jest/jest.setup.ts",
-    "**/*.ts",
-    "**/*.mjs",
-    "**/*.tsx"
+  "exclude": [
+    "cypress",
+    "**/**.mdx",
+    "node_modules",
+    "public/sw.js",
+    "cypress.config.ts"
   ],
+  "include": ["**/*.ts", "**/*.tsx", "next-env.d.ts", ".next/types/**/*.ts"],
   "paths": {
     "@root/*": ["./"]
   }

@@ -6,7 +6,7 @@ import createUploadLink from 'apollo-upload-client/createUploadLink.mjs';
 import {
   InMemoryCache,
   ApolloClient as NextSSRApolloClient,
-} from '@apollo/experimental-nextjs-app-support';
+} from '@apollo/client-integration-nextjs';
 
 import { authOptions } from 'lib/auth';
 

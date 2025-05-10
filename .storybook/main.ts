@@ -2,7 +2,7 @@ import { type StorybookConfig } from '@storybook/nextjs';
 
 export const title = 'NextJs Boilerplate';
 
-const storybookConfig: StorybookConfig = {
+const config: StorybookConfig = {
   staticDirs: ['../public'],
   framework: {
     options: {},
@@ -23,4 +23,4 @@ const storybookConfig: StorybookConfig = {
   ],
 };
 
-export default storybookConfig;
+export default config;

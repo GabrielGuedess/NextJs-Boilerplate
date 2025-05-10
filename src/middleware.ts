@@ -1,24 +1,38 @@
+import { type NextRequest } from 'next/server';
 import { withAuth } from 'next-auth/middleware';
+import createMiddleware from 'next-intl/middleware';
 
-import dayjs from 'dayjs';
+import { routing } from './i18n/routing';
 
-import { env } from 'env';
+const publicPages = ['/', '/offline'];
 
-export default withAuth({
-  secret: env.NEXTAUTH_SECRET,
+const intlMiddleware = createMiddleware(routing);
+
+const authMiddleware = withAuth(request => intlMiddleware(request), {
+  pages: {
+    signIn: '/',
+  },
   callbacks: {
-    authorized: ({ token }) => {
-      if (token?.refresh_token_expires) {
-        const isValidRefreshToken = dayjs(token.refresh_token_expires).isAfter(
-          new Date(),
-        );
-
-        return isValidRefreshToken;
-      }
-
-      return false;
-    },
+    authorized: ({ token }) => token != null,
   },
 });
 
-export const config = { matcher: ['/auth'] };
+export default function middleware(request: NextRequest) {
+  const publicPathnameRegex = RegExp(
+    `^(/(${routing.locales.join('|')}))?(${publicPages
+      .flatMap(p => (p === '/' ? ['', '/'] : p))
+      .join('|')})/?$`,
+    'i',
+  );
+  const isPublicPage = publicPathnameRegex.test(request.nextUrl.pathname);
+
+  if (isPublicPage) {
+    return intlMiddleware(request);
+  }
+
+  return (authMiddleware as any)(request);
+}
+
+export const config = {
+  matcher: ['/((?!api|trpc|_next|_vercel|.*\\..*).*)'],
+};

@@ -1,14 +1,20 @@
 import './src/env';
 
 import { type NextConfig } from 'next';
+import createNextIntlPlugin from 'next-intl/plugin';
 
-import { withSentryConfig } from '@sentry/nextjs';
+import withSerwistInit from '@serwist/next';
+
+const withNextIntl = createNextIntlPlugin();
+
+const withSerwist = withSerwistInit({
+  swSrc: 'src/app/sw.ts',
+  swDest: 'public/sw.js',
+  disable: process.env.NODE_ENV === 'development',
+});
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-  experimental: {
-    typedRoutes: true,
-  },
   images: {
     remotePatterns: [
       {
@@ -23,31 +29,6 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default withSentryConfig(
-  withSentryConfig(nextConfig, {
-    disableLogger: true,
-    hideSourceMaps: true,
-    org: 'osiris-tecnology',
-    silent: !process.env.CI,
-    tunnelRoute: '/monitoring',
-    widenClientFileUpload: true,
-    automaticVercelMonitors: true,
-    project: 'nextjs-boilerplate',
-    reactComponentAnnotation: {
-      enabled: true,
-    },
-  }),
-  {
-    disableLogger: true,
-    hideSourceMaps: true,
-    org: 'osiris-tecnology',
-    silent: !process.env.CI,
-    tunnelRoute: '/monitoring',
-    widenClientFileUpload: true,
-    project: 'nextjs-boilerplate',
-    automaticVercelMonitors: true,
-    reactComponentAnnotation: {
-      enabled: true,
-    },
-  },
-);
+const config = withSerwist(withNextIntl(nextConfig));
+
+export default config;

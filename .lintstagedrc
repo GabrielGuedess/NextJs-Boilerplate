@@ -1,0 +1,8 @@
+{
+  "package.json": "pnpm sort:package",
+  "*": [
+    "bash -c tsc --noEmit",
+    "pnpm eslint --max-warnings=0 -f mo --no-warn-ignored",
+    "pnpm jest --findRelatedTests --bail --passWithNoTests"
+  ]
+}

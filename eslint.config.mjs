@@ -2,7 +2,6 @@ import next from '@next/eslint-plugin-next';
 
 import js from '@eslint/js';
 import globals from 'globals';
-import parser from 'eslint-mdx';
 import zod from 'eslint-plugin-zod';
 import jest from 'eslint-plugin-jest';
 import react from 'eslint-plugin-react';
@@ -16,7 +15,6 @@ import importPlugin from 'eslint-plugin-import';
 import noSecrets from 'eslint-plugin-no-secrets';
 import tsParser from '@typescript-eslint/parser';
 import reactHooks from 'eslint-plugin-react-hooks';
-import tailwindcss from 'eslint-plugin-tailwindcss';
 import perfectionist from 'eslint-plugin-perfectionist';
 import reactCompiler from 'eslint-plugin-react-compiler';
 import jestFormatting from 'eslint-plugin-jest-formatting';
@@ -40,12 +38,15 @@ const config = [
   ...storybook.configs['flat/recommended'],
   ...compat.extends('next/core-web-vitals'),
   ...compat.extends('@kesills/airbnb-typescript'),
-  ...compat.extends('@kesills/airbnb-typescript'),
 
   {
     ignores: [
+      '.next/**',
+      '**/sw.js',
       '**/*.mdx',
+      '**/cypress',
       '**/coverage',
+      '**/generated/**',
       '**/plopfile.mjs',
       '**/storybook-static',
       '**/cypress.config.ts',
@@ -54,15 +55,36 @@ const config = [
 
   {
     files: ['**/*.{js,mjs,ts,tsx}'],
+
+    settings: {
+      jest: {
+        version: 'detect',
+      },
+
+      react: {
+        version: 'detect',
+      },
+
+      'readable-tailwind': {
+        entryPoint: 'src/styles/global.css',
+      },
+
+      'import/resolver': {
+        typescript: {},
+
+        node: {
+          extensions: ['.js', '.jsx', '.ts', '.tsx'],
+        },
+      },
+    },
+
     languageOptions: {
       parser: tsParser,
-
       ecmaVersion: 2024,
       sourceType: 'module',
+
       parserOptions: {
-        projectService: true,
-        project: ['./tsconfig.json'],
-        tsconfigRootDir: import.meta.dirname,
+        project: ['tsconfig.eslint.json'],
         ecmaFeatures: {
           jsx: true,
         },
@@ -78,35 +100,6 @@ const config = [
       },
     },
 
-    settings: {
-      jest: {
-        version: 'detect',
-      },
-
-      react: {
-        version: 'detect',
-      },
-
-      'import/resolver': {
-        typescript: {},
-
-        node: {
-          extensions: ['.js', '.jsx', '.ts', '.tsx'],
-        },
-      },
-
-      tailwindcss: {
-        whitelist: [],
-        removeDuplicates: true,
-        skipClassAttribute: false,
-        tags: ['tw', 'cn', 'clsx'],
-        cssFilesRefreshRate: 5_000,
-        config: 'tailwind.config.ts',
-        classRegex: '^class(Name)?$',
-        callees: ['tw', 'cn', 'clsx'],
-      },
-    },
-
     plugins: {
       zod,
       jest,
@@ -114,7 +107,6 @@ const config = [
       promise,
       unicorn,
       prettier,
-      tailwindcss,
       perfectionist,
       '@next/next': next,
       'jsx-a11y': jsxA11y,
@@ -188,23 +180,16 @@ const config = [
       'promise/no-callback-in-promise': 'warn',
       'react-compiler/react-compiler': 'error',
       'readable-tailwind/sort-classes': 'error',
-      'tailwindcss/enforces-shorthand': 'error',
-      'tailwindcss/no-arbitrary-value': 'error',
       '@typescript-eslint/require-await': 'off',
-      'tailwindcss/no-custom-classname': 'error',
       '@typescript-eslint/no-unsafe-call': 'off',
       'arrow-body-style': ['error', 'as-needed'],
       '@typescript-eslint/no-misused-promises': 'off',
-      'tailwindcss/migration-from-tailwind-2': 'error',
       '@typescript-eslint/no-floating-promises': 'off',
       'react/jsx-no-constructed-context-values': 'off',
       'quote-props': ['error', 'consistent-as-needed'],
-      'tailwindcss/no-contradicting-classname': 'error',
       'react-hooks-extra/no-redundant-custom-hook': 'warn',
-      'tailwindcss/no-unnecessary-arbitrary-value': 'error',
       'jest-formatting/padding-around-test-blocks': 'error',
       'readable-tailwind/no-unnecessary-whitespace': 'error',
-      'tailwindcss/enforces-negative-arbitrary-values': 'error',
       'jest-formatting/padding-around-describe-blocks': 'error',
       'react-hooks-extra/no-direct-set-state-in-use-effect': 'warn',
       '@typescript-eslint/consistent-indexed-object-style': 'error',
@@ -387,29 +372,6 @@ const config = [
         },
       ],
 
-      'unicorn/prevent-abbreviations': [
-        'error',
-        {
-          replacements: {
-            ref: {
-              reference: false,
-            },
-
-            args: {
-              arguments: false,
-            },
-
-            env: {
-              environment: false,
-            },
-
-            props: {
-              properties: false,
-            },
-          },
-        },
-      ],
-
       'perfectionist/sort-classes': [
         'error',
         {
@@ -428,6 +390,33 @@ const config = [
             'method',
             'unknown',
           ],
+        },
+      ],
+
+      'unicorn/prevent-abbreviations': [
+        'error',
+        {
+          allowList: {
+            generateStaticParams: true,
+          },
+
+          replacements: {
+            ref: {
+              reference: false,
+            },
+
+            args: {
+              arguments: false,
+            },
+
+            env: {
+              environment: false,
+            },
+
+            props: {
+              properties: false,
+            },
+          },
         },
       ],
 
@@ -712,22 +701,19 @@ const config = [
       'plopfile.mjs',
       'jest.config.ts',
       '**/stories.tsx',
+      'knip.config.ts',
+      'apollo.config.ts',
+      'src/app/**/*.ts',
       'src/app/**/*.tsx',
+      '**/next.config.ts',
       'cypress.config.ts',
       'postcss.config.mjs',
-      'tailwind.config.ts',
+      'release.config.mjs',
+      'src/i18n/request.ts',
       'commitlint.config.ts',
     ],
   },
-  {
-    files: ['**/tailwind.config.ts'],
 
-    rules: {
-      'quote-props': 'off',
-      'global-require': 'off',
-      'unicorn/prefer-module': 'off',
-    },
-  },
   {
     files: ['**/ModeSwitcher/index.tsx'],
 
@@ -735,12 +721,14 @@ const config = [
       'jsx-a11y/role-supports-aria-props': 'off',
     },
   },
+
   {
-    files: ['**/next.config.ts'],
+    files: ['**/sw.ts'],
     rules: {
-      'import/no-default-export': 'off',
+      'no-underscore-dangle': 'off',
     },
   },
+
   {
     files: ['**/utils/tests/**', '**/next.config.ts', '**/jest.config.ts'],
 
@@ -813,6 +801,7 @@ const config = [
       '@typescript-eslint/no-explicit-any': 'off',
     },
   },
+
   {
     rules: {
       'unicorn/filename-case': 'off',
@@ -820,6 +809,7 @@ const config = [
 
     files: ['src/app/not-found.tsx', 'src/app/global-error.tsx'],
   },
+
   {
     files: ['**/**.js'],
 
@@ -829,6 +819,7 @@ const config = [
       '@typescript-eslint/no-var-requires': 'off',
     },
   },
+
   {
     files: ['.storybook/**'],
 
@@ -840,6 +831,7 @@ const config = [
       '@typescript-eslint/no-non-null-assertion': 'off',
     },
   },
+
   {
     files: ['**/spec.ts', '**/spec.tsx', '**/test.ts', '**/test.tsx'],
 
@@ -848,39 +840,7 @@ const config = [
       '@typescript-eslint/no-var-requires': 'off',
     },
   },
-  {
-    files: ['**/**.mdx'],
 
-    settings: {
-      'mdx/code-blocks': true,
-    },
-
-    languageOptions: {
-      parser,
-      ecmaVersion: 5,
-      sourceType: 'script',
-    },
-
-    rules: {
-      'react/self-closing-comp': 'off',
-      'react/jsx-no-target-blank': 'off',
-      'jsx-a11y/heading-has-content': 'off',
-      '@typescript-eslint/naming-convention': 'off',
-    },
-  },
-  {
-    files: ['**/generated/**'],
-
-    rules: {
-      'no-shadow': 'off',
-      'no-use-before-define': 'off',
-      'no-secrets/no-secrets': 'off',
-      'unicorn/prevent-abbreviations': 'off',
-      '@typescript-eslint/no-explicit-any': 'off',
-      '@typescript-eslint/naming-convention': 'off',
-      '@typescript-eslint/no-redundant-type-constituents': 'off',
-    },
-  },
   {
     files: ['**/middleware.ts'],
 
@@ -889,6 +849,46 @@ const config = [
       'import/no-default-export': 'off',
     },
   },
+
+  {
+    files: ['src/app/**/*.tsx', 'src/graphql/**/*.ts'],
+
+    rules: {
+      'unicorn/filename-case': [
+        'error',
+        {
+          case: 'kebabCase',
+        },
+      ],
+      'unicorn/prevent-abbreviations': [
+        'error',
+        {
+          allowList: {
+            generateStaticParams: true,
+          },
+
+          replacements: {
+            ctx: {
+              context: false,
+            },
+
+            ref: {
+              reference: false,
+            },
+
+            env: {
+              environment: false,
+            },
+
+            props: {
+              properties: false,
+            },
+          },
+        },
+      ],
+    },
+  },
+
   {
     files: ['**/**.d.ts'],
 
@@ -907,6 +907,15 @@ const config = [
       ],
     },
   },
+
+  {
+    files: ['release.config.mjs'],
+
+    rules: {
+      'no-template-curly-in-string': 'off',
+    },
+  },
+
   {
     files: ['src/dtos/*'],
 
