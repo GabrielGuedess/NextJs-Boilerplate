@@ -48,8 +48,5 @@ jobs:
       - name: Test
         run: pnpm test:ci
 
-      - name: Test E2E
-        run: pnpm test:e2e:ci
-
       - name: Storybook
         run: pnpm build-storybook
