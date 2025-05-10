@@ -1,3 +1,9 @@
+## [1.4.1](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.4.0...v1.4.1) (2025-05-10)
+
+### :repeat: CI
+
+* add cypress install ([6a110f2](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/6a110f20e968e62723d2d2805e576459ab46f18d))
+
 ## [1.4.0](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.3.25...v1.4.0) (2025-05-10)
 
 ### :sparkles: Features
