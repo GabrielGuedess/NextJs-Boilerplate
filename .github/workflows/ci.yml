@@ -17,10 +17,10 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4.2.2
 
-      - name: Next Env
-        uses: natterstefan/action-next-env@v1.3.0
+      - name: Env
+        uses: xom9ikk/dotenv@v2.3.0
         with:
-          environment: test
+          mode: test
 
       - uses: pnpm/action-setup@v4.0.0
         name: Install pnpm
