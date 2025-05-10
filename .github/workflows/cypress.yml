@@ -19,7 +19,6 @@ jobs:
       - name: Next Env
         uses: natterstefan/action-next-env@v1.3.0
         with:
-          path: .env.test
           environment: test
 
       - uses: pnpm/action-setup@v4.0.0
