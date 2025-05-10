@@ -18,8 +18,14 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4.2.2
 
+      - name: Next Env
+        uses: natterstefan/action-next-env@v1.3.0
+        with:
+          path: .env.test
+          environment: test
+
       - uses: pnpm/action-setup@v4.0.0
-        name: Install pnpm
+        name: Install Pnpm
         id: pnpm-install
         with:
           version: 10.10.0
@@ -31,7 +37,7 @@ jobs:
           cache: 'pnpm'
           node-version: 22.14.0
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: HUSKY=0 pnpm i --no-frozen-lockfile
 
       - name: Release

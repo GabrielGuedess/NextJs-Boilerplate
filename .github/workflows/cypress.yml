@@ -1,4 +1,5 @@
 name: Cypress
+
 on:
   workflow_run:
     workflows: [CI]
@@ -15,6 +16,12 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4.2.2
 
+      - name: Next Env
+        uses: natterstefan/action-next-env@v1.3.0
+        with:
+          path: .env.test
+          environment: test
+
       - uses: pnpm/action-setup@v4.0.0
         name: Install pnpm
         id: pnpm-install
@@ -28,13 +35,13 @@ jobs:
           cache: 'pnpm'
           node-version: 22.14.0
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: pnpm i --no-frozen-lockfile
 
-      - name: Install cypress
+      - name: Install Cypress
         run: pnpm cypress install
 
-      - name: Cypress run
+      - name: Cypress Run
         uses: cypress-io/github-action@v6.7.10
         with:
           build: pnpm build
