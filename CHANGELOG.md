@@ -1,3 +1,9 @@
+## [1.4.0](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.3.25...v1.4.0) (2025-05-10)
+
+### :sparkles: Features
+
+* add knip ([f144e6c](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/f144e6c3bd9bdaf0b151ca99fa430b5ed36d9b0a))
+
 ## [1.3.25](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.3.24...v1.3.25) (2025-01-29)
 
 
