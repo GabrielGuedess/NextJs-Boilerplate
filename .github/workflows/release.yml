@@ -23,7 +23,7 @@ jobs:
         with:
           mode: test
 
-      - uses: pnpm/action-setup@v4.0.0
+      - uses: pnpm/action-setup@v4.1.0
         name: Install Pnpm
         id: pnpm-install
         with:
