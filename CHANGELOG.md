@@ -1,3 +1,9 @@
+## [1.4.4](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.4.3...v1.4.4) (2025-05-11)
+
+### :bug: Bug Fixes
+
+* add lang to storybook ([bcdb97d](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/bcdb97ddf31073d34921ffd12948aa17156a9d19))
+
 ## [1.4.3](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.4.2...v1.4.3) (2025-05-11)
 
 ### :white_check_mark: Tests
