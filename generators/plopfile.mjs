@@ -3,10 +3,10 @@ const config = (/** @type {import('plop').NodePlopAPI} */ plop) => {
     description: 'Create a component',
     prompts: [
       {
-        type: 'input',
+        type: 'list',
         name: 'type',
-        message:
-          'What is the type of your component (atoms, molecules or organisms)?',
+        message: 'What is your module name?',
+        choices: ['atoms', 'molecules', 'organisms', 'templates'],
       },
       {
         type: 'input',
@@ -14,28 +14,33 @@ const config = (/** @type {import('plop').NodePlopAPI} */ plop) => {
         message: 'What is your component name?',
       },
     ],
-    actions: [
-      {
-        type: 'add',
-        path: '../src/components/{{type}}/{{pascalCase name}}/index.tsx',
-        templateFile: 'templates/Component.tsx.hbs',
-      },
-      {
-        type: 'add',
-        path: '../src/components/{{type}}/{{pascalCase name}}/stories.tsx',
-        templateFile: 'templates/stories.tsx.hbs',
-      },
-      {
-        type: 'add',
-        path: '../src/components/{{type}}/{{pascalCase name}}/types.ts',
-        templateFile: 'templates/types.ts.hbs',
-      },
-      {
-        type: 'add',
-        path: '../src/components/{{type}}/{{pascalCase name}}/test.tsx',
-        templateFile: 'templates/test.tsx.hbs',
-      },
-    ],
+    actions: data => {
+      const choice =
+        data.type === 'templates' ? 'templates' : 'components/{{type}}';
+
+      return [
+        {
+          type: 'add',
+          path: `../src/${choice}/{{pascalCase name}}/index.tsx`,
+          templateFile: 'templates/component.tsx.hbs',
+        },
+        {
+          type: 'add',
+          path: `../src/${choice}/{{pascalCase name}}/stories.tsx`,
+          templateFile: 'templates/stories.tsx.hbs',
+        },
+        {
+          type: 'add',
+          path: `../src/${choice}/{{pascalCase name}}/types.ts`,
+          templateFile: 'templates/types.ts.hbs',
+        },
+        {
+          type: 'add',
+          path: `../src/${choice}/{{pascalCase name}}/test.tsx`,
+          templateFile: 'templates/test.tsx.hbs',
+        },
+      ];
+    },
   });
 };
 
