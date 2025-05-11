@@ -33,6 +33,7 @@ const config: KnipConfig = {
     'tailwindcss-animate',
     'eslint-formatter-mo',
     'eslint-config-airbnb',
+    '@stylistic/eslint-plugin',
     'eslint-import-resolver-typescript',
     '@apollo/client-integration-nextjs',
     '@kesills/eslint-config-airbnb-typescript',
