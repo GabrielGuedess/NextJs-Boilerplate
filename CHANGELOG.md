@@ -1,3 +1,9 @@
+## [1.4.3](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.4.2...v1.4.3) (2025-05-11)
+
+### :white_check_mark: Tests
+
+* change port cypress ([5fa87ac](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/5fa87aca4726c1f4e3b5f0eddea2f3910b72ccca))
+
 ## [1.4.2](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.4.1...v1.4.2) (2025-05-10)
 
 ### :repeat: CI
