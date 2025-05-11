@@ -1,3 +1,9 @@
+## [1.4.5](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.4.4...v1.4.5) (2025-05-11)
+
+### :bug: Bug Fixes
+
+* rename release ([5a4d405](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/5a4d40531f1e4583cb1d5b7234ac544b91c3664c))
+
 ## [1.4.4](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.4.3...v1.4.4) (2025-05-11)
 
 ### :bug: Bug Fixes
