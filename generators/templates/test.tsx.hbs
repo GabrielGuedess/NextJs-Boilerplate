@@ -8,7 +8,7 @@ describe('<{{pascalCase name}} />', () => {
 
     expect(
       screen.getByRole('heading', { name: /{{pascalCase name}}/i }),
-    ).toBeInTheDocument();
+    ).toBeDefined();
 
     expect(container.firstChild).toMatchSnapshot();
   });
