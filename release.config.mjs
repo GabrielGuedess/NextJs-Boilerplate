@@ -10,9 +10,9 @@ const config = {
       {
         assets: [
           {
-            path: 'expo-boilerplate.zip',
-            name: 'expo-boilerplate-${nextRelease.gitTag}.zip',
-            label: 'Expo Boilerplate - Build: ${nextRelease.gitTag}',
+            path: 'nextjs-boilerplate.zip',
+            name: 'nextjs-boilerplate-${nextRelease.gitTag}.zip',
+            label: 'Next Boilerplate - Build: ${nextRelease.gitTag}',
           },
         ],
       },
