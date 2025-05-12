@@ -1,3 +1,9 @@
+## [1.4.6](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.4.5...v1.4.6) (2025-05-12)
+
+### :bug: Bug Fixes
+
+* **deps:** update dependency tailwind-merge to v3.3.0 ([#1001](https://github.com/GabrielGuedess/NextJs-Boilerplate/issues/1001)) ([6090fe0](https://github.com/GabrielGuedess/NextJs-Boilerplate/commit/6090fe03018f981741e0bb3ff928f2c22abb544a))
+
 ## [1.4.5](https://github.com/GabrielGuedess/NextJs-Boilerplate/compare/v1.4.4...v1.4.5) (2025-05-11)
 
 ### :bug: Bug Fixes
