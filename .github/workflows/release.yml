@@ -34,7 +34,7 @@ jobs:
         uses: actions/setup-node@v4.4.0
         with:
           cache: 'pnpm'
-          node-version: 22.14.0
+          node-version: 22.15.1
 
       - name: Install Dependencies
         run: HUSKY=0 pnpm i --no-frozen-lockfile
