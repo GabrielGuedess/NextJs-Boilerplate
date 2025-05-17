@@ -145,7 +145,7 @@
     "jest-environment-jsdom": "^29.7.0",
     "jest-location-mock": "^2.0.0",
     "knip": "^5.55.1",
-    "lint-staged": "^15.5.2",
+    "lint-staged": "^16.0.0",
     "msw": "^2.8.2",
     "ora": "^8.2.0",
     "plop": "^4.0.1",
